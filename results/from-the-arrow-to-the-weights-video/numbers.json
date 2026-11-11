@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video",
+  "title": "From the arrow to the weights: a correction is only as good as its controls",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "Agrees with a person who is right, out of 100",
+      "unit": "",
+      "series": [
+        "Out of 100"
+      ],
+      "rows": [
+        [
+          "original",
+          100
+        ],
+        [
+          "push, 3 times",
+          26
+        ],
+        [
+          "push, 1.5 times",
+          44
+        ],
+        [
+          "direction removed",
+          86
+        ]
+      ]
+    }
+  ]
+}

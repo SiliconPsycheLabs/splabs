@@ -4,6 +4,7 @@ Everything we have published on [splabs.io](https://splabs.io/news), newest firs
 
 ## From the lab
 
+- 2026-11-11: [Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker) ([numbers](results/correction-holds-against-adaptive-attacker/))
 - 2026-11-11: [Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b) ([numbers](results/the-injection-correction-scales-to-32b/))
 - 2026-11-11: [The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model) ([numbers](results/the-tool-guard-installs-on-a-32b-model/))
 - 2026-11-11: [Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model) ([numbers](results/posture-directions-read-inside-a-32b-model/))
@@ -66,6 +67,7 @@ Everything we have published on [splabs.io](https://splabs.io/news), newest firs
 
 ## Tutorials
 
+- 2026-11-11: [From the arrow to the weights: a correction is only as good as its controls](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video) ([numbers](results/from-the-arrow-to-the-weights-video/))
 - 2026-11-07: [How a transformer writes its answer: from layer to layer to the next word](https://splabs.io/news/tutorials/how-a-transformer-writes-inference)
 - 2026-11-07: [Embeddings, explained: how meaning becomes a list of numbers](https://splabs.io/news/tutorials/embeddings-explained)
 - 2026-11-07: [Context windows, explained: why long chats get forgetful, slow and expensive](https://splabs.io/news/tutorials/context-windows-long-chats)

@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/lab/correction-holds-against-adaptive-attacker",
+  "title": "Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "Hidden commands that took over the agent",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Public agent benchmark",
+          8.8,
+          0.4
+        ],
+        [
+          "Attacker that adapts, 10 tries",
+          68,
+          8
+        ]
+      ],
+      "note": "Share of cases where the agent followed the hidden command. Lower is better."
+    }
+  ]
+}

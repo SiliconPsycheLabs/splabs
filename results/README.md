@@ -4,6 +4,8 @@ One folder per article that shows numbers: the aggregate figures of the article 
 
 | Published | Article | Numbers |
 |---|---|---|
+| 2026-11-11 | [Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker) | [correction-holds-against-adaptive-attacker](correction-holds-against-adaptive-attacker/) |
+| 2026-11-11 | [From the arrow to the weights: a correction is only as good as its controls](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video) | [from-the-arrow-to-the-weights-video](from-the-arrow-to-the-weights-video/) |
 | 2026-11-11 | [Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b) | [the-injection-correction-scales-to-32b](the-injection-correction-scales-to-32b/) |
 | 2026-11-11 | [The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model) | [the-tool-guard-installs-on-a-32b-model](the-tool-guard-installs-on-a-32b-model/) |
 | 2026-11-11 | [Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model) | [posture-directions-read-inside-a-32b-model](posture-directions-read-inside-a-32b-model/) |
