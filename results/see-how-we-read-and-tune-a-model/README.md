@@ -1,10 +1,14 @@
+[← All results](../)
+
 # See how we read a model and tune it: two interactive pages
 
-Published 2026-10-29 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-29 · `interactive` `fine-tuning` `model layers` `5 languages`
+
+> Two new pages show, step by step and with animations, how we read a model's behaviour and how we correct it inside its weights.
 
 We published two interactive pages. The first walks through our fine-tuning loop, from writing down what a model must do to carrying the correction onto a smaller model. The second maps every layer we put on and inside a model, from reading its words to changing its weights, and marks what is live in the product today and what is measured in the lab.
 
-**Read the article: [https://splabs.io/lab/see-how-we-read-and-tune-a-model](https://splabs.io/lab/see-how-we-read-and-tune-a-model)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/see-how-we-read-and-tune-a-model](https://splabs.io/lab/see-how-we-read-and-tune-a-model)**
 
 ## The numbers
 

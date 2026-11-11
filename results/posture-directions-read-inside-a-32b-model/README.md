@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one
 
-Published 2026-11-11 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-11 · `whitebox` `reading` `posture` `research`
+
+> Deference, grandiosity and dissociation show up as a readable signal inside Qwen3-32B, in five languages.
 
 We looked inside Qwen3-32B, a model fifty times larger than the one we first studied, and found the same internal signal for three postures: caving to the user, grandiosity and dissociation. A simple reader separates them from neutral text almost every time, in English, Italian, French, Spanish and German.
 
-**Read the article: [https://splabs.io/lab/posture-directions-read-inside-a-32b-model](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/posture-directions-read-inside-a-32b-model](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**
 
 ## The numbers
 

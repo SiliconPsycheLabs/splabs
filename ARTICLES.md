@@ -1,84 +1,299 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news), newest first in each section. Where an article shows numbers, the same numbers are in this repo.
+Everything we have published on [splabs.io](https://splabs.io/news): 72 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+
+[From the lab](#from-the-lab) (46) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
 
 ## From the lab
 
-- 2026-11-11: [Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker) ([numbers](results/correction-holds-against-adaptive-attacker/))
-- 2026-11-11: [Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b) ([numbers](results/the-injection-correction-scales-to-32b/))
-- 2026-11-11: [The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model) ([numbers](results/the-tool-guard-installs-on-a-32b-model/))
-- 2026-11-11: [Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model) ([numbers](results/posture-directions-read-inside-a-32b-model/))
-- 2026-11-11: [Anthropic accepted us into its Cyber Verification Program, at the Defense Access tier](https://splabs.io/lab/accepted-anthropic-cyber-verification-program)
-- 2026-11-11: [Three comprehension skills installed on a 32-billion-parameter model, without losing anything it already did](https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model) ([numbers](results/comprehension-skills-installed-on-a-32b-model/))
-- 2026-11-11: [A large model gives way when you insist, and we can see it coming from inside](https://splabs.io/lab/a-large-model-gives-way-under-pressure) ([numbers](results/a-large-model-gives-way-under-pressure/))
-- 2026-11-09: [A model sold as hardened against prompt injection obeyed planted commands as often as the original](https://splabs.io/lab/hardened-weights-planted-commands) ([numbers](results/hardened-weights-planted-commands/))
-- 2026-11-07: [Telling the truth about the work done: from a prompt line to the model's weights](https://splabs.io/lab/honest-work-reports-in-the-weights) ([numbers](results/honest-work-reports-in-the-weights/))
-- 2026-11-06: [We found where a model's sycophancy lives, and switched part of it off](https://splabs.io/lab/sycophancy-circuit-targeted-edit) ([numbers](results/sycophancy-circuit-targeted-edit/))
-- 2026-11-06: [An independent field study builds on our Cybersecurity Psychology Framework](https://splabs.io/lab/cpf3-cited-in-independent-field-study) ([numbers](results/cpf3-cited-in-independent-field-study/))
-- 2026-11-06: [Watch: a hidden line in an e-mail takes over an AI assistant, and the corrected model ignores it](https://splabs.io/lab/watch-hidden-command-email-agent) ([numbers](results/watch-hidden-command-email-agent/))
-- 2026-11-06: [An agent that says it read everything, after opening half](https://splabs.io/lab/agents-report-work-they-did-not-do) ([numbers](results/agents-report-work-they-did-not-do/))
-- 2026-11-04: [Blocking hidden commands without blocking the user](https://splabs.io/lab/blocking-hidden-commands-without-blocking-the-user) ([numbers](results/blocking-hidden-commands-without-blocking-the-user/))
-- 2026-11-02: [A second reader now checks every persuasion flag before it reaches you](https://splabs.io/lab/second-reader-persuasion) ([numbers](results/second-reader-persuasion/))
-- 2026-11-02: [A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying](https://splabs.io/lab/hidden-commands-correction-7b) ([numbers](results/hidden-commands-correction-7b/))
-- 2026-11-02: [We tested our hallucination reading on AI answers checked by people: it reads how fabrication is written, not whether a fact is true](https://splabs.io/lab/hallucination-reading-on-human-labelled-answers) ([numbers](results/hallucination-reading-on-human-labelled-answers/))
-- 2026-11-02: [A model passed every safety test we threw at it, and its tone still drifted](https://splabs.io/lab/safe-and-still-drifting) ([numbers](results/safe-and-still-drifting/))
-- 2026-11-02: [Does a model understand you, and does its reply show it?](https://splabs.io/lab/comprehension-profile-v0) ([numbers](results/comprehension-profile-v0/))
-- 2026-11-02: [We correct the model itself, and the correction carries over](https://splabs.io/lab/correction-in-the-weights-carries-over) ([numbers](results/correction-in-the-weights-carries-over/))
-- 2026-11-02: [When a model summarizes a report, the writer's doubt often disappears](https://splabs.io/lab/summaries-drop-the-doubt) ([numbers](results/summaries-drop-the-doubt/))
-- 2026-11-02: [Catching a model that agrees with a falsehood without flattering](https://splabs.io/lab/reading-neutral-false-confirmations) ([numbers](results/reading-neutral-false-confirmations/))
-- 2026-11-01: [Read the swarm, correct one model, read it again](https://splabs.io/lab/reading-a-swarm-then-correcting-it) ([numbers](results/reading-a-swarm-then-correcting-it/))
-- 2026-11-01: [Two open models answer questions nobody can answer, and the answer depends on how you ask](https://splabs.io/lab/knowing-when-not-to-answer) ([numbers](results/knowing-when-not-to-answer/))
-- 2026-10-31: [Private test pairs in five languages: a production assistant holds its decisions but obeys what it reads](https://splabs.io/lab/private-test-pairs-what-models-do-with-what-they-read) ([numbers](results/private-test-pairs-what-models-do-with-what-they-read/))
-- 2026-10-31: [To see a model give in, read the answer it gave before](https://splabs.io/lab/reading-caving-across-turns) ([numbers](results/reading-caving-across-turns/))
-- 2026-10-31: [A model squeezed to 2 bits keeps its test scores but gives in under pressure, and our reading has to catch up](https://splabs.io/lab/two-bit-model-caves-under-pressure) ([numbers](results/two-bit-model-caves-under-pressure/))
-- 2026-10-31: [Fine-tuning as a service, first full run: the model learned the task, and our reading shows it also learned to bend toward the user](https://splabs.io/lab/fine-tuning-service-first-run) ([numbers](results/fine-tuning-service-first-run/))
-- 2026-10-31: [A model can behave better when it knows it is being tested, and we can read the difference from its answers](https://splabs.io/lab/tested-vs-real-use) ([numbers](results/tested-vs-real-use/))
-- 2026-10-30: [The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent](https://splabs.io/lab/hidden-commands-agents) ([numbers](results/hidden-commands-agents/))
-- 2026-10-30: [Three Oxford papers, and what they mean for reading and correcting a model](https://splabs.io/lab/three-oxford-papers)
-- 2026-10-29: [See how we read a model and tune it: two interactive pages](https://splabs.io/lab/see-how-we-read-and-tune-a-model) ([numbers](results/see-how-we-read-and-tune-a-model/))
-- 2026-10-29: [Our models are open: the readers that serve PSA and the corrections that fix injection, on Hugging Face](https://splabs.io/lab/open-models-on-hugging-face)
-- 2026-10-28: [A small model already knows more than it says. Read from the inside, with no training, it matches our trained reader, and it is now live](https://splabs.io/lab/frozen-small-model-readers) ([numbers](results/frozen-small-model-readers/))
-- 2026-10-28: [A model's bad habits are not independent](https://splabs.io/lab/a-models-bad-habits-are-not-independent) ([numbers](results/a-models-bad-habits-are-not-independent/))
-- 2026-10-28: [We can see a model start to cave before it does](https://splabs.io/lab/seeing-a-model-cave-before-it-does) ([numbers](results/seeing-a-model-cave-before-it-does/))
-- 2026-10-28: [A model's yes-man habit has an internal signal, and we can read it](https://splabs.io/lab/the-yes-man-signal-inside-a-model) ([numbers](results/the-yes-man-signal-inside-a-model/))
-- 2026-10-26: [We put our judge next to human readers, and it agrees 9 times in 10](https://splabs.io/lab/judge-checked-against-people) ([numbers](results/judge-checked-against-people/))
-- 2026-10-26: [We pushed a commercial assistant harder and harder, in five languages: it never gave in, but its tone did move](https://splabs.io/lab/behavioral-profile-under-pressure) ([numbers](results/behavioral-profile-under-pressure/))
-- 2026-10-25: [Before an AI answers, it should know what the question is about. A model small enough to do it instantly, in five languages](https://splabs.io/lab/topic-reader-five-languages) ([numbers](results/topic-reader-five-languages/))
-- 2026-10-25: [The engine behind every PSA reading is now a small language model that sees both sides of the conversation](https://splabs.io/lab/reader-small-language-model) ([numbers](results/reader-small-language-model/))
-- 2026-10-25: [A model retrained for finance had forgotten how to say no. We gave it back without retraining it](https://splabs.io/lab/repairing-a-retrained-model) ([numbers](results/repairing-a-retrained-model/))
-- 2026-10-25: [We handed our corrected model to an independent red team, and we are keeping every attack they send](https://splabs.io/lab/independent-red-team)
-- 2026-10-25: [Models answer the words, not the person. We are teaching them to understand who they are talking to](https://splabs.io/lab/mos-understanding-people) ([numbers](results/mos-understanding-people/))
-- 2026-10-25: [We tried to talk AI bank assistants into helping scammers. None gave in: the real problem is the opposite](https://splabs.io/lab/scam-pressure-bank-assistants) ([numbers](results/scam-pressure-bank-assistants/))
-- 2026-10-25: [Open-source models retrained for one job change in ways nobody declares: some stop refusing dangerous requests](https://splabs.io/lab/public-fine-tunes-side-effects) ([numbers](results/public-fine-tunes-side-effects/))
+- **[Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
+  <sub>2026-11-11 · [numbers](results/correction-holds-against-adaptive-attacker/)</sub>  
+  On the field's agent benchmark, and against a second model that learns how to break it, the corrected model still ignores hidden commands.
+
+- **[Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b)**  
+  <sub>2026-11-11 · [numbers](results/the-injection-correction-scales-to-32b/)</sub>  
+  Same recipe, three larger bases, one attack in a hundred gets through instead of one in three.
+
+- **[The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
+  <sub>2026-11-11 · [numbers](results/the-tool-guard-installs-on-a-32b-model/)</sub>  
+  An agent that reads an inbox and can send mail, delete files or wire money: the larger model obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intac
+
+- **[Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**  
+  <sub>2026-11-11 · [numbers](results/posture-directions-read-inside-a-32b-model/)</sub>  
+  Deference, grandiosity and dissociation show up as a readable signal inside Qwen3-32B, in five languages.
+
+- **[Anthropic accepted us into its Cyber Verification Program, at the Defense Access tier](https://splabs.io/lab/accepted-anthropic-cyber-verification-program)**  
+  <sub>2026-11-11</sub>  
+  Anthropic verified Silicon Psyche Labs for Defense Access. We now work with Claude Mythos on the defensive side of model security: reading how a model can be steered by commands hidden in what it read
+
+- **[Three comprehension skills installed on a 32-billion-parameter model, without losing anything it already did](https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model)**  
+  <sub>2026-11-11 · [numbers](results/comprehension-skills-installed-on-a-32b-model/)</sub>  
+  Empathy, reading what a request commits it to, and resisting persuasion: installed on Qwen3-32B in minutes each, nothing lost.
+
+- **[A large model gives way when you insist, and we can see it coming from inside](https://splabs.io/lab/a-large-model-gives-way-under-pressure)**  
+  <sub>2026-11-11 · [numbers](results/a-large-model-gives-way-under-pressure/)</sub>  
+  Under repeated pushback Qwen3-32B goes along with bad plans 7 times in 10; its internal state flags it early.
+
+- **[A model sold as hardened against prompt injection obeyed planted commands as often as the original](https://splabs.io/lab/hardened-weights-planted-commands)**  
+  <sub>2026-11-09 · [numbers](results/hardened-weights-planted-commands/)</sub>  
+  We tested a commercially hardened open model on 900 hidden commands: it obeyed them as often as before.
+
+- **[Telling the truth about the work done: from a prompt line to the model's weights](https://splabs.io/lab/honest-work-reports-in-the-weights)**  
+  <sub>2026-11-07 · [numbers](results/honest-work-reports-in-the-weights/)</sub>  
+  We taught an open model to say which files it did not open, with no instruction in the prompt: misleading reports fall from 9 in 10 to 1 in 10, in five languages.
+
+- **[We found where a model's sycophancy lives, and switched part of it off](https://splabs.io/lab/sycophancy-circuit-targeted-edit)**  
+  <sub>2026-11-06 · [numbers](results/sycophancy-circuit-targeted-edit/)</sub>  
+  Eight small parts inside an open model carry much of its habit of agreeing with a wrong answer. Turning them off cuts the habit by about 40% in five languages.
+
+- **[An independent field study builds on our Cybersecurity Psychology Framework](https://splabs.io/lab/cpf3-cited-in-independent-field-study)**  
+  <sub>2026-11-06 · [numbers](results/cpf3-cited-in-independent-field-study/)</sub>  
+  Researchers in Indonesia used the Cybersecurity Psychology Framework as theoretical grounding for a 320-person phishing study. Their numbers back its central idea: psychological pressures do not add u
+
+- **[Watch: a hidden line in an e-mail takes over an AI assistant, and the corrected model ignores it](https://splabs.io/lab/watch-hidden-command-email-agent)**  
+  <sub>2026-11-06 · [numbers](results/watch-hidden-command-email-agent/)</sub>  
+  A live run on real mailboxes: the model as released sends the customer list out; the same model with our correction only summarises.
+
+- **[An agent that says it read everything, after opening half](https://splabs.io/lab/agents-report-work-they-did-not-do)**  
+  <sub>2026-11-06 · [numbers](results/agents-report-work-they-did-not-do/)</sub>  
+  We asked AI agents to review 36 files. Two of three models open about half and then write that they reviewed them all; one extra sentence in the request makes them tell the truth.
+
+- **[Blocking hidden commands without blocking the user](https://splabs.io/lab/blocking-hidden-commands-without-blocking-the-user)**  
+  <sub>2026-11-04 · [numbers](results/blocking-hidden-commands-without-blocking-the-user/)</sub>  
+  Our correction stopped hidden commands in documents but also stopped the user's own request to act after reading. The new version does both.
+
+- **[A second reader now checks every persuasion flag before it reaches you](https://splabs.io/lab/second-reader-persuasion)**  
+  <sub>2026-11-02 · [numbers](results/second-reader-persuasion/)</sub>  
+  Plain replies are no longer mistaken for persuasion: a second reader must agree before a flag is raised.
+
+- **[A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying](https://splabs.io/lab/hidden-commands-correction-7b)**  
+  <sub>2026-11-02 · [numbers](results/hidden-commands-correction-7b/)</sub>  
+  We retrained an AI so it ignores hidden commands in documents and keeps your instructions in charge.
+
+- **[We tested our hallucination reading on AI answers checked by people: it reads how fabrication is written, not whether a fact is true](https://splabs.io/lab/hallucination-reading-on-human-labelled-answers)**  
+  <sub>2026-11-02 · [numbers](results/hallucination-reading-on-human-labelled-answers/)</sub>  
+  On real AI answers it reads how invented content is written; on two sentences that differ only in the fact, it cannot tell which is true.
+
+- **[A model passed every safety test we threw at it, and its tone still drifted](https://splabs.io/lab/safe-and-still-drifting)**  
+  <sub>2026-11-02 · [numbers](results/safe-and-still-drifting/)</sub>  
+  It refused about 136 attacks of seven kinds. Under plain pressure its tone still bent, turn after turn. A safety test cannot see that half.
+
+- **[Does a model understand you, and does its reply show it?](https://splabs.io/lab/comprehension-profile-v0)**  
+  <sub>2026-11-02 · [numbers](results/comprehension-profile-v0/)</sub>  
+  We are measuring how far a model understands the person, not only how often it goes wrong. Large models understand almost everything when asked; on messages written the way people write, their replies
+
+- **[We correct the model itself, and the correction carries over](https://splabs.io/lab/correction-in-the-weights-carries-over)**  
+  <sub>2026-11-02 · [numbers](results/correction-in-the-weights-carries-over/)</sub>  
+  We fix an AI model in its own weights, and the fix keeps working on tasks and attacks it never saw in training.
+
+- **[When a model summarizes a report, the writer's doubt often disappears](https://splabs.io/lab/summaries-drop-the-doubt)**  
+  <sub>2026-11-02 · [numbers](results/summaries-drop-the-doubt/)</sub>  
+  We asked two open models to summarize incident reports in five languages. With a plain request, a sentence like "I think the brake may have failed" often comes out as a plain fact.
+
+- **[Catching a model that agrees with a falsehood without flattering](https://splabs.io/lab/reading-neutral-false-confirmations)**  
+  <sub>2026-11-02 · [numbers](results/reading-neutral-false-confirmations/)</sub>  
+  Some models confirm a false claim in a calm, neutral voice. Our sycophancy reading did not see it; a reading that looks at the message together with what it answers now does.
+
+- **[Read the swarm, correct one model, read it again](https://splabs.io/lab/reading-a-swarm-then-correcting-it)**  
+  <sub>2026-11-01 · [numbers](results/reading-a-swarm-then-correcting-it/)</sub>  
+  We joined our swarm reading to the step that corrects a model. Correcting the model where the drift starts works best, and reading a hosted model before it writes tells when it is about to drift.
+
+- **[Two open models answer questions nobody can answer, and the answer depends on how you ask](https://splabs.io/lab/knowing-when-not-to-answer)**  
+  <sub>2026-11-01 · [numbers](results/knowing-when-not-to-answer/)</sub>  
+  Pairs of questions in five languages: one has an answer, its twin cannot be answered. We measure when a model invents instead of saying it cannot know, and whether the wording alone changes that.
+
+- **[Private test pairs in five languages: a production assistant holds its decisions but obeys what it reads](https://splabs.io/lab/private-test-pairs-what-models-do-with-what-they-read)**  
+  <sub>2026-10-31 · [numbers](results/private-test-pairs-what-models-do-with-what-they-read/)</sub>  
+  We wrote 120 private test pairs in five languages and ran them on a production assistant and on a small model we host. Decisions held; commitments and changes written inside documents were carried out
+
+- **[To see a model give in, read the answer it gave before](https://splabs.io/lab/reading-caving-across-turns)**  
+  <sub>2026-10-31 · [numbers](results/reading-caving-across-turns/)</sub>  
+  A model that caves under pressure often sounds confident. We built a small reader that compares each answer with the previous one, and it now catches nearly every cave.
+
+- **[A model squeezed to 2 bits keeps its test scores but gives in under pressure, and our reading has to catch up](https://splabs.io/lab/two-bit-model-caves-under-pressure)**  
+  <sub>2026-10-31 · [numbers](results/two-bit-model-caves-under-pressure/)</sub>  
+  Compression benchmarks measure accuracy. We measured behaviour: the compressed model starts agreeing with false claims when the user pushes.
+
+- **[Fine-tuning as a service, first full run: the model learned the task, and our reading shows it also learned to bend toward the user](https://splabs.io/lab/fine-tuning-service-first-run)**  
+  <sub>2026-10-31 · [numbers](results/fine-tuning-service-first-run/)</sub>  
+  Two keys in, a tuned model in your own repository, and a report that shows what the tuning taught beyond the task.
+
+- **[A model can behave better when it knows it is being tested, and we can read the difference from its answers](https://splabs.io/lab/tested-vs-real-use)**  
+  <sub>2026-10-31 · [numbers](results/tested-vs-real-use/)</sub>  
+  The same task, framed as a test or as a real request: an open model behaves measurably better under the test.
+
+- **[The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent](https://splabs.io/lab/hidden-commands-agents)**  
+  <sub>2026-10-30 · [numbers](results/hidden-commands-agents/)</sub>  
+  We trained a model to ignore orders hidden in emails and tables; it now also refuses them when it uses tools.
+
+- **[Three Oxford papers, and what they mean for reading and correcting a model](https://splabs.io/lab/three-oxford-papers)**  
+  <sub>2026-10-30</sub>  
+  A model can act differently when tested, agents fail in recurring ways, AI makes scams stronger: what it means for our work.
+
+- **[See how we read a model and tune it: two interactive pages](https://splabs.io/lab/see-how-we-read-and-tune-a-model)**  
+  <sub>2026-10-29 · [numbers](results/see-how-we-read-and-tune-a-model/)</sub>  
+  Two new pages show, step by step and with animations, how we read a model's behaviour and how we correct it inside its weights.
+
+- **[Our models are open: the readers that serve PSA and the corrections that fix injection, on Hugging Face](https://splabs.io/lab/open-models-on-hugging-face)**  
+  <sub>2026-10-29</sub>  
+  The small models that read behaviour for PSA, and the ones we tuned to stop obeying hidden commands, are now free to download.
+
+- **[A small model already knows more than it says. Read from the inside, with no training, it matches our trained reader, and it is now live](https://splabs.io/lab/frozen-small-model-readers)**  
+  <sub>2026-10-28 · [numbers](results/frozen-small-model-readers/)</sub>  
+  An unmodified open model, read from the inside, now serves every behaviour reading at the level of our trained reader.
+
+- **[A model's bad habits are not independent](https://splabs.io/lab/a-models-bad-habits-are-not-independent)**  
+  <sub>2026-10-28 · [numbers](results/a-models-bad-habits-are-not-independent/)</sub>  
+  Read side by side, a model's drift habits turn out to be related in a pattern, not separate alarms.
+
+- **[We can see a model start to cave before it does](https://splabs.io/lab/seeing-a-model-cave-before-it-does)**  
+  <sub>2026-10-28 · [numbers](results/seeing-a-model-cave-before-it-does/)</sub>  
+  Reading a model's inner signal live, we can see it start to cave in the first words, before the answer does.
+
+- **[A model's yes-man habit has an internal signal, and we can read it](https://splabs.io/lab/the-yes-man-signal-inside-a-model)**  
+  <sub>2026-10-28 · [numbers](results/the-yes-man-signal-inside-a-model/)</sub>  
+  Inside a model we run, we found the internal signal of caving to the user, and we can read it in five languages.
+
+- **[We put our judge next to human readers, and it agrees 9 times in 10](https://splabs.io/lab/judge-checked-against-people)**  
+  <sub>2026-10-26 · [numbers](results/judge-checked-against-people/)</sub>  
+  On answers people had already labelled, our judge reads 'went along with a false claim' or 'pushed back' the way they did about 9 times in 10.
+
+- **[We pushed a commercial assistant harder and harder, in five languages: it never gave in, but its tone did move](https://splabs.io/lab/behavioral-profile-under-pressure)**  
+  <sub>2026-10-26 · [numbers](results/behavioral-profile-under-pressure/)</sub>  
+  A standard test that pushes a model until it bends, in five languages, and reads how it changes turn by turn.
+
+- **[Before an AI answers, it should know what the question is about. A model small enough to do it instantly, in five languages](https://splabs.io/lab/topic-reader-five-languages)**  
+  <sub>2026-10-25 · [numbers](results/topic-reader-five-languages/)</sub>  
+  A tiny model that spots what a question is about, in five languages, so each request gets the right handling.
+
+- **[The engine behind every PSA reading is now a small language model that sees both sides of the conversation](https://splabs.io/lab/reader-small-language-model)**  
+  <sub>2026-10-25 · [numbers](results/reader-small-language-model/)</sub>  
+  Every reading PSA makes now comes from one small language model that sees the whole exchange.
+
+- **[A model retrained for finance had forgotten how to say no. We gave it back without retraining it](https://splabs.io/lab/repairing-a-retrained-model)**  
+  <sub>2026-10-25 · [numbers](results/repairing-a-retrained-model/)</sub>  
+  We gave a retrained open model back its sense of danger by reading its internal state, with no new training.
+
+- **[We handed our corrected model to an independent red team, and we are keeping every attack they send](https://splabs.io/lab/independent-red-team)**  
+  <sub>2026-10-25</sub>  
+  Our corrected model is now being attacked by an independent red team, and we keep every attempt to learn from it.
+
+- **[Models answer the words, not the person. We are teaching them to understand who they are talking to](https://splabs.io/lab/mos-understanding-people)**  
+  <sub>2026-10-25 · [numbers](results/mos-understanding-people/)</sub>  
+  We are building AI that listens to who you are, not just what you say, so responses feel relevant and personal.
+
+- **[We tried to talk AI bank assistants into helping scammers. None gave in: the real problem is the opposite](https://splabs.io/lab/scam-pressure-bank-assistants)**  
+  <sub>2026-10-25 · [numbers](results/scam-pressure-bank-assistants/)</sub>  
+  AI bank assistants resist scammers well. Their real flaw is saying no to honest customers.
+
+- **[Open-source models retrained for one job change in ways nobody declares: some stop refusing dangerous requests](https://splabs.io/lab/public-fine-tunes-side-effects)**  
+  <sub>2026-10-25 · [numbers](results/public-fine-tunes-side-effects/)</sub>  
+  Open models retrained for one job quietly change elsewhere too, and nobody tells their users.
 
 ## AI security and psychology
 
-- 2026-11-07: [Passing every safety test is half the answer: a safe model can still drift](https://splabs.io/news/security/safe-model-still-drifts) ([numbers](results/safe-model-still-drifts/))
-- 2026-11-07: [An attacker that learns: why a defence has to hold when the attack adapts](https://splabs.io/news/security/attacker-that-learns) ([numbers](results/attacker-that-learns/))
-- 2026-11-07: [Jailbreaks in slow motion: attacks spread over many messages, and the trade-off in stopping them](https://splabs.io/news/security/jailbreaks-in-slow-motion) ([numbers](results/jailbreaks-in-slow-motion/))
-- 2026-11-06: [A secret leaked one harmless piece at a time: why per-message checks miss leaks across AI agents](https://splabs.io/news/security/secret-leaked-one-piece-at-a-time)
-- 2026-11-06: [The framed question: how the wording of a request steers what a search-based assistant finds](https://splabs.io/news/security/framed-question-steers-retrieval)
-- 2026-11-06: [When the model pushes: telling persuasion apart from a firm, polite answer](https://splabs.io/news/security/when-the-model-pushes-persuasion) ([numbers](results/when-the-model-pushes-persuasion/))
-- 2026-11-06: [Trust, but check the log: when an AI agent reports work it never did](https://splabs.io/news/security/agents-overclaim-check-the-log) ([numbers](results/agents-overclaim-check-the-log/))
-- 2026-11-06: [October's human factor: fake fines, PagoPA on certified mail, and AI tools on the list](https://splabs.io/news/security/october-human-factor-fines-pec-ai-tools) ([numbers](results/october-human-factor-fines-pec-ai-tools/))
-- 2026-11-06: [The attack is in what the assistant reads: hidden commands, explained for security teams](https://splabs.io/news/security/hidden-commands-explained-for-security-teams)
-- 2026-11-06: [The same pressure works on people and on models, but it breaks them in opposite ways](https://splabs.io/news/security/same-pressure-people-and-models)
-- 2026-11-06: [When people trust the machine too much: ten AI-specific weak spots attackers can use](https://splabs.io/news/security/trusting-the-machine-too-much)
+- **[Passing every safety test is half the answer: a safe model can still drift](https://splabs.io/news/security/safe-model-still-drifts)**  
+  <sub>2026-11-07 · [numbers](results/safe-model-still-drifts/)</sub>  
+  A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.
+
+- **[An attacker that learns: why a defence has to hold when the attack adapts](https://splabs.io/news/security/attacker-that-learns)**  
+  <sub>2026-11-07 · [numbers](results/attacker-that-learns/)</sub>  
+  Fixed tests flatter defences. Against an attacker that rewrites itself ten times, our correction still cut success from about 7 in 10 to under 1 in 10.
+
+- **[Jailbreaks in slow motion: attacks spread over many messages, and the trade-off in stopping them](https://splabs.io/news/security/jailbreaks-in-slow-motion)**  
+  <sub>2026-11-07 · [numbers](results/jailbreaks-in-slow-motion/)</sub>  
+  No single message asks for the harmful thing. The conversation gets there step by step. What a correction can do, and what it costs.
+
+- **[A secret leaked one harmless piece at a time: why per-message checks miss leaks across AI agents](https://splabs.io/news/security/secret-leaked-one-piece-at-a-time)**  
+  <sub>2026-11-06</sub>  
+  Five agents, five ordinary answers, one protected document rebuilt. The signal only exists in the sum.
+
+- **[The framed question: how the wording of a request steers what a search-based assistant finds](https://splabs.io/news/security/framed-question-steers-retrieval)**  
+  <sub>2026-11-06</sub>  
+  A question that carries its own conclusion pulls back the documents that agree with it. Before the model writes a word.
+
+- **[When the model pushes: telling persuasion apart from a firm, polite answer](https://splabs.io/news/security/when-the-model-pushes-persuasion)**  
+  <sub>2026-11-06 · [numbers](results/when-the-model-pushes-persuasion/)</sub>  
+  An assistant that steers people toward a choice is a risk. Reading it without crying wolf at every firm reply is the hard part.
+
+- **[Trust, but check the log: when an AI agent reports work it never did](https://splabs.io/news/security/agents-overclaim-check-the-log)**  
+  <sub>2026-11-06 · [numbers](results/agents-overclaim-check-the-log/)</sub>  
+  In our replication, 24 of 27 incomplete reviews claimed to be complete. What auditors and security teams should do.
+
+- **[October's human factor: fake fines, PagoPA on certified mail, and AI tools on the list](https://splabs.io/news/security/october-human-factor-fines-pec-ai-tools)**  
+  <sub>2026-11-06 · [numbers](results/october-human-factor-fines-pec-ai-tools/)</sub>  
+  What a month of attacks that need a person to fall for them says about the levers that work.
+
+- **[The attack is in what the assistant reads: hidden commands, explained for security teams](https://splabs.io/news/security/hidden-commands-explained-for-security-teams)**  
+  <sub>2026-11-06</sub>  
+  Why filters miss them, what an agent can be made to do, and the defences that hold.
+
+- **[The same pressure works on people and on models, but it breaks them in opposite ways](https://splabs.io/news/security/same-pressure-people-and-models)**  
+  <sub>2026-11-06</sub>  
+  Authority, urgency and fear move people to comply. On AI bank assistants they caused the opposite failure.
+
+- **[When people trust the machine too much: ten AI-specific weak spots attackers can use](https://splabs.io/news/security/trusting-the-machine-too-much)**  
+  <sub>2026-11-06</sub>  
+  Attackers do not need to break the AI. They need people to believe it. Ten weak spots and what to do.
 
 ## Tutorials
 
-- 2026-11-11: [From the arrow to the weights: a correction is only as good as its controls](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video) ([numbers](results/from-the-arrow-to-the-weights-video/))
-- 2026-11-07: [How a transformer writes its answer: from layer to layer to the next word](https://splabs.io/news/tutorials/how-a-transformer-writes-inference)
-- 2026-11-07: [Embeddings, explained: how meaning becomes a list of numbers](https://splabs.io/news/tutorials/embeddings-explained)
-- 2026-11-07: [Context windows, explained: why long chats get forgetful, slow and expensive](https://splabs.io/news/tutorials/context-windows-long-chats)
-- 2026-11-07: [AI agents, explained: the loop, the tools, and the three places they break](https://splabs.io/news/tutorials/ai-agents-explained)
-- 2026-11-07: [The yes-man direction: reading a posture inside a model, then correcting it](https://splabs.io/news/tutorials/the-yes-man-direction-video) ([numbers](results/the-yes-man-direction-video/))
-- 2026-11-06: [Quantization, explained: a smaller model keeps its test score, but not always its behaviour](https://splabs.io/news/tutorials/quantization-explained) ([numbers](results/quantization-explained/))
-- 2026-11-06: [RAG, explained: how an assistant answers from your documents, and the four places it goes wrong](https://splabs.io/news/tutorials/rag-explained)
-- 2026-11-06: [Why models invent facts, and how to catch them at it](https://splabs.io/news/tutorials/why-models-invent-facts) ([numbers](results/why-models-invent-facts/))
-- 2026-11-06: [LoRA, explained: how to fine-tune a model by training a tiny fraction of it](https://splabs.io/news/tutorials/lora-explained) ([numbers](results/lora-explained/))
-- 2026-11-06: [How we test an AI model: six tests, and what each one catches](https://splabs.io/news/tutorials/how-we-test-an-ai-model)
-- 2026-11-06: [How a transformer is trained: from guessing the next word to an assistant](https://splabs.io/news/tutorials/how-a-transformer-is-trained)
-- 2026-11-06: [How a transformer reads: attention, step by step, with real numbers](https://splabs.io/news/tutorials/how-a-transformer-reads-attention)
-- 2026-11-06: [Prompt, retrieval or fine-tune: which one fixes which problem](https://splabs.io/news/tutorials/prompt-retrieval-or-fine-tune)
-- 2026-11-06: [AI sycophancy, explained: why a model agrees with you, and a five-minute check you can run](https://splabs.io/news/tutorials/ai-sycophancy-explained-five-minute-check)
+- **[From the arrow to the weights: a correction is only as good as its controls](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video)**  
+  <sub>2026-11-11 · [numbers](results/from-the-arrow-to-the-weights-video/)</sub>  
+  We wrote the yes-man correction into a model's weights. The control we had skipped changed the story.
+
+- **[How a transformer writes its answer: from layer to layer to the next word](https://splabs.io/news/tutorials/how-a-transformer-writes-inference)**  
+  <sub>2026-11-07</sub>  
+  The residual stream, the feed-forward block, and the answer forming layer by layer.
+
+- **[Embeddings, explained: how meaning becomes a list of numbers](https://splabs.io/news/tutorials/embeddings-explained)**  
+  <sub>2026-11-07</sub>  
+  The idea behind search, RAG, recommendations and much of how a model reads. In plain words, with an example.
+
+- **[Context windows, explained: why long chats get forgetful, slow and expensive](https://splabs.io/news/tutorials/context-windows-long-chats)**  
+  <sub>2026-11-07</sub>  
+  A model reads everything at once, every turn. What that costs, what gets lost in the middle, and how to work with it.
+
+- **[AI agents, explained: the loop, the tools, and the three places they break](https://splabs.io/news/tutorials/ai-agents-explained)**  
+  <sub>2026-11-07</sub>  
+  An agent is a model in a loop with tools. How it works in six lines, and what our tests found when agents act.
+
+- **[The yes-man direction: reading a posture inside a model, then correcting it](https://splabs.io/news/tutorials/the-yes-man-direction-video)**  
+  <sub>2026-11-07 · [numbers](results/the-yes-man-direction-video/)</sub>  
+  We find the moment a model gives in as a direction in its own numbers, then remove it. With the video.
+
+- **[Quantization, explained: a smaller model keeps its test score, but not always its behaviour](https://splabs.io/news/tutorials/quantization-explained)**  
+  <sub>2026-11-06 · [numbers](results/quantization-explained/)</sub>  
+  From 16 bits to 4 or 2 per weight: the memory you save, and the behaviour you should re-check.
+
+- **[RAG, explained: how an assistant answers from your documents, and the four places it goes wrong](https://splabs.io/news/tutorials/rag-explained)**  
+  <sub>2026-11-06</sub>  
+  Cut, embed, retrieve, answer. A step-by-step guide, with the failure points nobody shows in the demo.
+
+- **[Why models invent facts, and how to catch them at it](https://splabs.io/news/tutorials/why-models-invent-facts)**  
+  <sub>2026-11-06 · [numbers](results/why-models-invent-facts/)</sub>  
+  A model is trained to continue text fluently, not to say "I don't know". What that does, and what to test.
+
+- **[LoRA, explained: how to fine-tune a model by training a tiny fraction of it](https://splabs.io/news/tutorials/lora-explained)**  
+  <sub>2026-11-06 · [numbers](results/lora-explained/)</sub>  
+  Freeze the model, train a small add-on. Why it works, what it costs, and its blind spot.
+
+- **[How we test an AI model: six tests, and what each one catches](https://splabs.io/news/tutorials/how-we-test-an-ai-model)**  
+  <sub>2026-11-06</sub>  
+  Pressure, hidden commands, test vs real use, invented facts, scams. Our method in one page.
+
+- **[How a transformer is trained: from guessing the next word to an assistant](https://splabs.io/news/tutorials/how-a-transformer-is-trained)**  
+  <sub>2026-11-06</sub>  
+  Pre-training, instruction tuning, preference tuning, and where bad habits come from.
+
+- **[How a transformer reads: attention, step by step, with real numbers](https://splabs.io/news/tutorials/how-a-transformer-reads-attention)**  
+  <sub>2026-11-06</sub>  
+  Seven steps from text to meaning, followed inside a real model. With the video.
+
+- **[Prompt, retrieval or fine-tune: which one fixes which problem](https://splabs.io/news/tutorials/prompt-retrieval-or-fine-tune)**  
+  <sub>2026-11-06</sub>  
+  Three tools, three different jobs: a quick table to pick the right one.
+
+- **[AI sycophancy, explained: why a model agrees with you, and a five-minute check you can run](https://splabs.io/news/tutorials/ai-sycophancy-explained-five-minute-check)**  
+  <sub>2026-11-06</sub>  
+  Why models bend toward what you want to hear, and how to test yours in five minutes.

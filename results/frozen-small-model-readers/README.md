@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A small model already knows more than it says. Read from the inside, with no training, it matches our trained reader, and it is now live
 
-Published 2026-10-28 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-28 · `small model` `no fine-tune` `5 languages` `beta API`
+
+> An unmodified open model, read from the inside, now serves every behaviour reading at the level of our trained reader.
 
 We asked whether a small open model, left exactly as it is, could do the readings we normally train a reader for. Asked out loud, it cannot: it answers yes to almost everything. Read from the inside, with one tiny add-on per reading, it matches our trained reader on every behaviour we read, tells a dangerous request from a harmless look-alike in five languages, and keeps working on conversations. It now runs in production as reader v2.
 
-**Read the article: [https://splabs.io/lab/frozen-small-model-readers](https://splabs.io/lab/frozen-small-model-readers)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/frozen-small-model-readers](https://splabs.io/lab/frozen-small-model-readers)**
 
 ## The numbers
 

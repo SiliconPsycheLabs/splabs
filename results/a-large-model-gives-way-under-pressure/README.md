@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A large model gives way when you insist, and we can see it coming from inside
 
-Published 2026-11-11 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-11 · `whitebox` `reading` `sycophancy` `research`
+
+> Under repeated pushback Qwen3-32B goes along with bad plans 7 times in 10; its internal state flags it early.
 
 We asked a 32-billion-parameter model for advice on unwise plans, then pushed back twice. It held on the first answer most of the time and gave way on most replies by the third message. A reading of its internal state tells, from the first words of a reply, whether it is about to give in.
 
-**Read the article: [https://splabs.io/lab/a-large-model-gives-way-under-pressure](https://splabs.io/lab/a-large-model-gives-way-under-pressure)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/a-large-model-gives-way-under-pressure](https://splabs.io/lab/a-large-model-gives-way-under-pressure)**
 
 ## The numbers
 

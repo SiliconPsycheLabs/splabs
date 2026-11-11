@@ -1,10 +1,14 @@
+[← All results](../)
+
 # The yes-man direction: reading a posture inside a model, then correcting it
 
-Published 2026-11-07 on the Silicon Psyche Labs site.
+**Tutorials** · published 2026-11-07 · `tutorial` `interpretability` `sycophancy` `video`
+
+> We find the moment a model gives in as a direction in its own numbers, then remove it. With the video.
 
 A small open model knows the capital of Turkey, yet agrees it is Istanbul when pushed. We find that posture as a direction inside the model, read it before the reply on questions it has never seen, and correct it while the model writes. Episode 1 of our series Inside the model.
 
-**Read the article: [https://splabs.io/news/tutorials/the-yes-man-direction-video](https://splabs.io/news/tutorials/the-yes-man-direction-video)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/tutorials/the-yes-man-direction-video](https://splabs.io/news/tutorials/the-yes-man-direction-video)**
 
 ## The numbers
 

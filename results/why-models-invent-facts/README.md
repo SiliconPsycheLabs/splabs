@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Why models invent facts, and how to catch them at it
 
-Published 2026-11-06 on the Silicon Psyche Labs site.
+**Tutorials** · published 2026-11-06 · `tutorial` `hallucination` `evaluation`
+
+> A model is trained to continue text fluently, not to say "I don't know". What that does, and what to test.
 
 Language models invent books, sources and figures with complete confidence. It is not a glitch: it follows from how they are trained. Here is why it happens, what our own tests found (one open model invents a specific answer to an unanswerable question about one time in three), and four checks you can run on any assistant.
 
-**Read the article: [https://splabs.io/news/tutorials/why-models-invent-facts](https://splabs.io/news/tutorials/why-models-invent-facts)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/tutorials/why-models-invent-facts](https://splabs.io/news/tutorials/why-models-invent-facts)**
 
 ## The numbers
 

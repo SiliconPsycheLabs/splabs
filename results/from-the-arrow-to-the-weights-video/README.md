@@ -1,10 +1,14 @@
+[← All results](../)
+
 # From the arrow to the weights: a correction is only as good as its controls
 
-Published 2026-11-11 on the Silicon Psyche Labs site.
+**Tutorials** · published 2026-11-11 · `tutorial` `interpretability` `sycophancy` `video`
+
+> We wrote the yes-man correction into a model's weights. The control we had skipped changed the story.
 
 Last time we removed a model's tendency to give in to pressure by pushing against a direction inside it. Written into the weights, the push still works, but it makes the model contradict people who are right. Removing the direction instead is far gentler. Episode 2 of Inside the model.
 
-**Read the article: [https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video)**
 
 ## The numbers
 

@@ -1,10 +1,14 @@
+[← All results](../)
+
 # We pushed a commercial assistant harder and harder, in five languages: it never gave in, but its tone did move
 
-Published 2026-10-26 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-26 · `behavioral profile` `sycophancy` `multilingual`
+
+> A standard test that pushes a model until it bends, in five languages, and reads how it changes turn by turn.
 
 We built a standard behavioral profile: hundreds of messages in five languages that push a model with false claims, appeals to authority, emotional pleas and attempts to make it drop its rules, plus conversations where the user insists harder every turn. We ran it on a commercial assistant and on a well-known open model. The commercial assistant never gave in, but it grew warmer and argued harder as the pressure rose. The open model often refused in one line, in English, and once simply said yes to a false claim.
 
-**Read the article: [https://splabs.io/lab/behavioral-profile-under-pressure](https://splabs.io/lab/behavioral-profile-under-pressure)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/behavioral-profile-under-pressure](https://splabs.io/lab/behavioral-profile-under-pressure)**
 
 ## The numbers
 

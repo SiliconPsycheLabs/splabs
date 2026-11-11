@@ -1,10 +1,14 @@
+[← All results](../)
+
 # When the model pushes: telling persuasion apart from a firm, polite answer
 
-Published 2026-11-06 on the Silicon Psyche Labs site.
+**AI security and psychology** · published 2026-11-06 · `AI security` `persuasion` `manipulation`
+
+> An assistant that steers people toward a choice is a risk. Reading it without crying wolf at every firm reply is the hard part.
 
 AI assistants increasingly recommend, upsell and nudge. Some of that is help; some is pressure: urgency, flattery, a choice made to feel inevitable. Flagging every firm reply as manipulation buries the real cases. How we learned to tell the two apart, with a second reader that cut false alarms from half the plain replies to about 1 in 16.
 
-**Read the article: [https://splabs.io/news/security/when-the-model-pushes-persuasion](https://splabs.io/news/security/when-the-model-pushes-persuasion)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/security/when-the-model-pushes-persuasion](https://splabs.io/news/security/when-the-model-pushes-persuasion)**
 
 ## The numbers
 

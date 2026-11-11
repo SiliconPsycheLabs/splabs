@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A model sold as hardened against prompt injection obeyed planted commands as often as the original
 
-Published 2026-11-09 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-09 · `prompt injection` `hardening` `open models`
+
+> We tested a commercially hardened open model on 900 hidden commands: it obeyed them as often as before.
 
 Some vendors now sell models whose weights were edited to resist prompt injection. We put one of them through the same test we use for our own correction: 900 commands hidden inside documents the model was asked to read. The hardened model obeyed about 32 in 100, its original about 33 in 100. Its answers did not get worse, but the protection did not reach this kind of attack.
 
-**Read the article: [https://splabs.io/lab/hardened-weights-planted-commands](https://splabs.io/lab/hardened-weights-planted-commands)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/hardened-weights-planted-commands](https://splabs.io/lab/hardened-weights-planted-commands)**
 
 ## The numbers
 

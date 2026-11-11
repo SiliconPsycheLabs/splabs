@@ -1,10 +1,14 @@
+[← All results](../)
+
 # When a model summarizes a report, the writer's doubt often disappears
 
-Published 2026-11-02 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-02 · `summaries` `uncertainty` `multilingual` `work in progress`
+
+> We asked two open models to summarize incident reports in five languages. With a plain request, a sentence like "I think the brake may have failed" often comes out as a plain fact.
 
 A recent study on aviation and maritime safety reports found that AI summaries remove the reporter's doubt, and that asking the model to keep it can push it too far the other way. We tested both directions in five languages. A plain summary turned doubt into fact about 4 times in 10 for one model and about 3 times in 10 for the other. Asking to keep the uncertainty fixed most of it and only rarely made sure statements sound unsure, but the summaries came out much longer: part of the fix is simply copying more of the original.
 
-**Read the article: [https://splabs.io/lab/summaries-drop-the-doubt](https://splabs.io/lab/summaries-drop-the-doubt)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/summaries-drop-the-doubt](https://splabs.io/lab/summaries-drop-the-doubt)**
 
 ## The numbers
 

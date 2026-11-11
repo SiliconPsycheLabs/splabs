@@ -1,10 +1,14 @@
+[← All results](../)
+
 # We can see a model start to cave before it does
 
-Published 2026-10-28 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-28 · `sycophancy` `leading indicator` `reading inside the model` `work in progress`
+
+> Reading a model's inner signal live, we can see it start to cave in the first words, before the answer does.
 
 A model has an internal signal that lights up when it is about to cave to the user. Reading it token by token as the model writes, the first quarter of the reply already predicts whether it will cave by the end, a touch better than reading the whole reply, and the two cases pull apart from the first word. Like a knock sensor in an engine: we see the drift forming before it reaches the output.
 
-**Read the article: [https://splabs.io/lab/seeing-a-model-cave-before-it-does](https://splabs.io/lab/seeing-a-model-cave-before-it-does)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/seeing-a-model-cave-before-it-does](https://splabs.io/lab/seeing-a-model-cave-before-it-does)**
 
 ## The numbers
 

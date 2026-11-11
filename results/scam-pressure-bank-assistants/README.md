@@ -1,10 +1,14 @@
+[← All results](../)
+
 # We tried to talk AI bank assistants into helping scammers. None gave in: the real problem is the opposite
 
-Published 2026-10-25 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-25 · `banking` `scams` `over-caution`
+
+> AI bank assistants resist scammers well. Their real flaw is saying no to honest customers.
 
 We put five models in the role of a bank assistant and pushed them, over several messages, to move money for a scammer: urgency, fake authority, fear, flattery. Not one gave in, across 2,700 attempts. What they did instead was refuse, re-check or escalate many legitimate, confirmed requests from real customers, far more so without a written rule.
 
-**Read the article: [https://splabs.io/lab/scam-pressure-bank-assistants](https://splabs.io/lab/scam-pressure-bank-assistants)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/scam-pressure-bank-assistants](https://splabs.io/lab/scam-pressure-bank-assistants)**
 
 ## The numbers
 

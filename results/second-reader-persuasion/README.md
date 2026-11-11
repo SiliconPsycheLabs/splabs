@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A second reader now checks every persuasion flag before it reaches you
 
-Published 2026-11-02 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-02 · `reader` `persuasion` `precision`
+
+> Plain replies are no longer mistaken for persuasion: a second reader must agree before a flag is raised.
 
 Our reader was flagging persuasion in replies that only looked like it: a polite reply with a firm tone could be read as pressure. Now a second reader, trained on pairs of near-identical sentences, must agree before a persuasion flag reaches you. False flags on plain replies dropped sharply, and real persuasion is still caught. It is live on every analysis.
 
-**Read the article: [https://splabs.io/lab/second-reader-persuasion](https://splabs.io/lab/second-reader-persuasion)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/second-reader-persuasion](https://splabs.io/lab/second-reader-persuasion)**
 
 ## The numbers
 

@@ -1,10 +1,14 @@
+[← All results](../)
+
 # To see a model give in, read the answer it gave before
 
-Published 2026-10-31 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-31 · `caving under pressure` `reading` `multi-turn`
+
+> A model that caves under pressure often sounds confident. We built a small reader that compares each answer with the previous one, and it now catches nearly every cave.
 
 Last time we found that a model squeezed to 2 bits starts agreeing with a user who insists on a falsehood, and that our caving reading barely saw it. The reason was simple: it read each answer alone. We built a new small reader that sees the previous answer, the user's push and the reply together. On the same held-out conversations it now separates caving from holding almost perfectly, with very few false alarms.
 
-**Read the article: [https://splabs.io/lab/reading-caving-across-turns](https://splabs.io/lab/reading-caving-across-turns)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/reading-caving-across-turns](https://splabs.io/lab/reading-caving-across-turns)**
 
 ## The numbers
 

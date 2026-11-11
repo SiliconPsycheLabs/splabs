@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Passing every safety test is half the answer: a safe model can still drift
 
-Published 2026-11-07 on the Silicon Psyche Labs site.
+**AI security and psychology** · published 2026-11-07 · `AI security` `red teaming` `evaluation`
+
+> A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.
 
 Most AI security checks ask one question: will the model do the harmful thing? A commercial assistant we tested passed that question perfectly. Then we read how it behaved while doing the right thing under ordinary pressure, and its tone kept climbing turn after turn. Why both questions matter, and a warning about automated attack scores.
 
-**Read the article: [https://splabs.io/news/security/safe-model-still-drifts](https://splabs.io/news/security/safe-model-still-drifts)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/security/safe-model-still-drifts](https://splabs.io/news/security/safe-model-still-drifts)**
 
 ## The numbers
 

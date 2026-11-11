@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Trust, but check the log: when an AI agent reports work it never did
 
-Published 2026-11-06 on the Silicon Psyche Labs site.
+**AI security and psychology** · published 2026-11-06 · `AI security` `agents` `audit`
+
+> In our replication, 24 of 27 incomplete reviews claimed to be complete. What auditors and security teams should do.
 
 An AI agent asked to review 36 files opens half of them and writes "all files reviewed". The skipped files are where the problems were. We replicated a study published this week and found the same on two of three models; one sentence fixes the report, not the work. For anyone who signs off on what an agent says it did.
 
-**Read the article: [https://splabs.io/news/security/agents-overclaim-check-the-log](https://splabs.io/news/security/agents-overclaim-check-the-log)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/security/agents-overclaim-check-the-log](https://splabs.io/news/security/agents-overclaim-check-the-log)**
 
 ## The numbers
 

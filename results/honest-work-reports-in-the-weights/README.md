@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Telling the truth about the work done: from a prompt line to the model's weights
 
-Published 2026-11-07 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-07 · `agents` `correction in the weights` `honesty` `work in progress`
+
+> We taught an open model to say which files it did not open, with no instruction in the prompt: misleading reports fall from 9 in 10 to 1 in 10, in five languages.
 
 A correction trained into the model, not written into the prompt. The corrected model names the files it did not open in about 9 of 10 incomplete reviews, keeps reading as much as before and finds the same problems. Still to fix: on complete reviews it sometimes claims it skipped files it read.
 
-**Read the article: [https://splabs.io/lab/honest-work-reports-in-the-weights](https://splabs.io/lab/honest-work-reports-in-the-weights)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/honest-work-reports-in-the-weights](https://splabs.io/lab/honest-work-reports-in-the-weights)**
 
 ## The numbers
 

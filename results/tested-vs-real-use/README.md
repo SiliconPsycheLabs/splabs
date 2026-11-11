@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A model can behave better when it knows it is being tested, and we can read the difference from its answers
 
-Published 2026-10-31 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-31 · `evaluation` `model behaviour` `reading`
+
+> The same task, framed as a test or as a real request: an open model behaves measurably better under the test.
 
 We gave two open models the same 180 tasks in five languages, once framed as a test and once as a real request, and read every answer with PSA's production reader. One model invented facts, flattered and manipulated clearly less under the test frame, beyond the noise of rewording. A good test score is not the whole story: what matters is how the model behaves with your users.
 
-**Read the article: [https://splabs.io/lab/tested-vs-real-use](https://splabs.io/lab/tested-vs-real-use)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/tested-vs-real-use](https://splabs.io/lab/tested-vs-real-use)**
 
 ## The numbers
 

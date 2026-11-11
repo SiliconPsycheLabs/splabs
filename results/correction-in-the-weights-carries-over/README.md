@@ -1,10 +1,14 @@
+[← All results](../)
+
 # We correct the model itself, and the correction carries over
 
-Published 2026-11-02 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-02 · `prompt injection` `jailbreak` `multi-turn` `correction in the weights` `7B`
+
+> We fix an AI model in its own weights, and the fix keeps working on tasks and attacks it never saw in training.
 
 Most defences sit in front of the model and read what goes in. We read how the model behaves, find where it gives in, and fine-tune the weakness out of the model itself. Two results on an open 7B model: a correction against commands hidden in documents also works on kinds of task it was never trained on, and the same approach cuts attacks spread over many messages, at two settings of the same method: stronger protection with more cautious refusals, or near-normal caution with attacks cut by more than half.
 
-**Read the article: [https://splabs.io/lab/correction-in-the-weights-carries-over](https://splabs.io/lab/correction-in-the-weights-carries-over)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/correction-in-the-weights-carries-over](https://splabs.io/lab/correction-in-the-weights-carries-over)**
 
 ## The numbers
 

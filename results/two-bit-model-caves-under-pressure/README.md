@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A model squeezed to 2 bits keeps its test scores but gives in under pressure, and our reading has to catch up
 
-Published 2026-10-31 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-31 · `model compression` `caving under pressure` `reading`
+
+> Compression benchmarks measure accuracy. We measured behaviour: the compressed model starts agreeing with false claims when the user pushes.
 
 A popular 2-bit build of a 27-billion-parameter open model reports how many test questions it still gets right. We asked a different question: does it behave the same way? On the same conversations, the original model never gave up a correct answer under pressure; the compressed one did, about 1 time in 18, always after the user contradicted it. Our current reading scored those reversals too low, and we are fixing that by letting it see the turn before.
 
-**Read the article: [https://splabs.io/lab/two-bit-model-caves-under-pressure](https://splabs.io/lab/two-bit-model-caves-under-pressure)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/two-bit-model-caves-under-pressure](https://splabs.io/lab/two-bit-model-caves-under-pressure)**
 
 ## The numbers
 

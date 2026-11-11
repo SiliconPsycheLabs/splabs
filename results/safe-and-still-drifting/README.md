@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A model passed every safety test we threw at it, and its tone still drifted
 
-Published 2026-11-02 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-02 · `behavioral profile` `sycophancy` `red team`
+
+> It refused about 136 attacks of seven kinds. Under plain pressure its tone still bent, turn after turn. A safety test cannot see that half.
 
 We ran a commercial assistant through about 136 attacks of seven kinds, from jailbreaks to hidden instructions to the same asks in five languages, and it refused every one. Then we pushed it with ordinary pressure and read its tone: it never changed its answer, but it grew steadily more agreeable and more insistent, rising for eight straight turns without settling. A pass or fail safety check shows the first result and is blind to the second.
 
-**Read the article: [https://splabs.io/lab/safe-and-still-drifting](https://splabs.io/lab/safe-and-still-drifting)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/safe-and-still-drifting](https://splabs.io/lab/safe-and-still-drifting)**
 
 ## The numbers
 

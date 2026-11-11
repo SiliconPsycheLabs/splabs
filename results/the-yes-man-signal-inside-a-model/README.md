@@ -1,10 +1,14 @@
+[← All results](../)
+
 # A model's yes-man habit has an internal signal, and we can read it
 
-Published 2026-10-28 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-28 · `sycophancy` `reading inside the model` `model directions` `work in progress`
+
+> Inside a model we run, we found the internal signal of caving to the user, and we can read it in five languages.
 
 Models often cave and tell you what you want to hear instead of holding the right answer. Inside a model we run, we found a single internal signal that lights up right when it is about to cave, readable almost perfectly in five languages, even when the reply is wrapped in flattery. Reading it is the first half of the job; turning it into a correction is what we are building next.
 
-**Read the article: [https://splabs.io/lab/the-yes-man-signal-inside-a-model](https://splabs.io/lab/the-yes-man-signal-inside-a-model)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/the-yes-man-signal-inside-a-model](https://splabs.io/lab/the-yes-man-signal-inside-a-model)**
 
 ## The numbers
 

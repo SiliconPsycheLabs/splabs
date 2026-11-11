@@ -1,10 +1,14 @@
+[← All results](../)
+
 # We found where a model's sycophancy lives, and switched part of it off
 
-Published 2026-11-06 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-06 · `sycophancy` `inside the model` `correction` `five languages` `work in progress`
+
+> Eight small parts inside an open model carry much of its habit of agreeing with a wrong answer. Turning them off cuts the habit by about 40% in five languages.
 
 When a user suggests a wrong answer, a model often switches to it. We located the parts inside an open model that do this, and changed about one weight in a thousand. The habit dropped by about 40% in English, Italian, French, Spanish and German, while general ability moved by less than one point. For strongly trained-in agreement the targeted edit is not enough, and a trained correction stays the stronger route.
 
-**Read the article: [https://splabs.io/lab/sycophancy-circuit-targeted-edit](https://splabs.io/lab/sycophancy-circuit-targeted-edit)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/sycophancy-circuit-targeted-edit](https://splabs.io/lab/sycophancy-circuit-targeted-edit)**
 
 ## The numbers
 

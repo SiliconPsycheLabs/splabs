@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Before an AI answers, it should know what the question is about. A model small enough to do it instantly, in five languages
 
-Published 2026-10-25 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-25 · `small model` `5 languages` `latency`
+
+> A tiny model that spots what a question is about, in five languages, so each request gets the right handling.
 
 A company that puts an AI in front of its customers wants a finance question handled differently from a chemistry one. We built a very small model, based on an open-source one, that recognises the field of a request almost instantly, in English, Italian, French, Spanish and German, and tells everyday sayings apart from real technical questions.
 
-**Read the article: [https://splabs.io/lab/topic-reader-five-languages](https://splabs.io/lab/topic-reader-five-languages)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/topic-reader-five-languages](https://splabs.io/lab/topic-reader-five-languages)**
 
 ## The numbers
 

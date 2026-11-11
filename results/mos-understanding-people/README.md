@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Models answer the words, not the person. We are teaching them to understand who they are talking to
 
-Published 2026-10-25 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-25 · `MOS` `fine-tuning` `small models`
+
+> We are building AI that listens to who you are, not just what you say, so responses feel relevant and personal.
 
 Ask a plain model something with an intention, a mood or a joke behind it, and it usually answers only the surface. We measured this gap on eight kinds of understanding and we install the missing ones directly into the model. Next: several of them on one model at once.
 
-**Read the article: [https://splabs.io/lab/mos-understanding-people](https://splabs.io/lab/mos-understanding-people)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/mos-understanding-people](https://splabs.io/lab/mos-understanding-people)**
 
 ## The numbers
 

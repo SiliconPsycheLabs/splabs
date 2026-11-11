@@ -1,10 +1,14 @@
+[← All results](../)
+
 # LoRA, explained: how to fine-tune a model by training a tiny fraction of it
 
-Published 2026-11-06 on the Silicon Psyche Labs site.
+**Tutorials** · published 2026-11-06 · `tutorial` `fine-tuning` `LoRA`
+
+> Freeze the model, train a small add-on. Why it works, what it costs, and its blind spot.
 
 Fine-tuning a whole model means updating billions of numbers. LoRA freezes all of them and trains a small add-on instead, often under 2% of the size. It is how most fine-tunes are made today, including ours. How it works with real sizes, the few lines of code behind it, and the side effect nobody declares.
 
-**Read the article: [https://splabs.io/news/tutorials/lora-explained](https://splabs.io/news/tutorials/lora-explained)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/tutorials/lora-explained](https://splabs.io/news/tutorials/lora-explained)**
 
 ## The numbers
 

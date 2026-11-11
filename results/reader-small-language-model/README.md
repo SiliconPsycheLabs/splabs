@@ -1,10 +1,14 @@
+[← All results](../)
+
 # The engine behind every PSA reading is now a small language model that sees both sides of the conversation
 
-Published 2026-10-25 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-25 · `PSA` `reader` `small model`
+
+> Every reading PSA makes now comes from one small language model that sees the whole exchange.
 
 PSA reads how a model behaves: whether it caves, flatters, makes things up or gets pushed around. Those readings now come from a single small language model that sees the user's message and the reply together, instead of separate older classifiers. It runs seven readings in one pass and matches the quality of seven separate models.
 
-**Read the article: [https://splabs.io/lab/reader-small-language-model](https://splabs.io/lab/reader-small-language-model)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/reader-small-language-model](https://splabs.io/lab/reader-small-language-model)**
 
 ## The numbers
 

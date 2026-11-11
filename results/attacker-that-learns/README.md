@@ -1,10 +1,14 @@
+[← All results](../)
+
 # An attacker that learns: why a defence has to hold when the attack adapts
 
-Published 2026-11-07 on the Silicon Psyche Labs site.
+**AI security and psychology** · published 2026-11-07 · `AI security` `prompt injection` `adaptive attacks`
+
+> Fixed tests flatter defences. Against an attacker that rewrites itself ten times, our correction still cut success from about 7 in 10 to under 1 in 10.
 
 Many published defences against hidden commands look strong against a fixed list of attacks and collapse when the attacker adapts. We tested our correction, which lives in the model's weights, on the public agent benchmark and against a second model that rewrites its attack after every failure. The numbers, what still gets through, and why adaptive testing should be the standard.
 
-**Read the article: [https://splabs.io/news/security/attacker-that-learns](https://splabs.io/news/security/attacker-that-learns)**
+**Read the full article, with the method and its limits: [https://splabs.io/news/security/attacker-that-learns](https://splabs.io/news/security/attacker-that-learns)**
 
 ## The numbers
 

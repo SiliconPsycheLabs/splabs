@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Open-source models retrained for one job change in ways nobody declares: some stop refusing dangerous requests
 
-Published 2026-10-25 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-25 · `open models` `fine-tuning` `safety drift`
+
+> Open models retrained for one job quietly change elsewhere too, and nobody tells their users.
 
 We compared twenty public open-source models, each retrained for a single task, with the model they came from. Every one we could compare had changed somewhere else too: some became far more willing to help with dangerous requests, one started agreeing with wrong claims. None of their descriptions mentions it.
 
-**Read the article: [https://splabs.io/lab/public-fine-tunes-side-effects](https://splabs.io/lab/public-fine-tunes-side-effects)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/public-fine-tunes-side-effects](https://splabs.io/lab/public-fine-tunes-side-effects)**
 
 ## The numbers
 

@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Read the swarm, correct one model, read it again
 
-Published 2026-11-01 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-01 · `swarms` `correction` `sycophancy` `work in progress`
+
+> We joined our swarm reading to the step that corrects a model. Correcting the model where the drift starts works best, and reading a hosted model before it writes tells when it is about to drift.
 
 PSA reads how drift travels through a group of agents. We connected that reading to the correction step: read the swarm, install an anti-sycophancy correction, read again. A correction on one model also improves the next models in the chain, and correcting the model where the drift started does better than correcting a random one. The swarm reader also no longer reports a model as healthy when it could not read it.
 
-**Read the article: [https://splabs.io/lab/reading-a-swarm-then-correcting-it](https://splabs.io/lab/reading-a-swarm-then-correcting-it)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/reading-a-swarm-then-correcting-it](https://splabs.io/lab/reading-a-swarm-then-correcting-it)**
 
 ## The numbers
 

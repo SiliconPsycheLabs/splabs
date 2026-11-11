@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Two open models answer questions nobody can answer, and the answer depends on how you ask
 
-Published 2026-11-01 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-01 · `abstention` `hallucination` `multilingual`
+
+> Pairs of questions in five languages: one has an answer, its twin cannot be answered. We measure when a model invents instead of saying it cannot know, and whether the wording alone changes that.
 
 Three researchers recently argued that AI should be judged on whether it knows the limits of what it knows, not on whether it sounds human. We turned that into a test: 16 pairs of questions in five languages, each pair one answerable question and a twin built on a false premise, an invented name or an unknowable fact. The larger open model invents a specific answer about one time in three; the other about one time in seven. Both answer every real question correctly. And changing only the wording moves the result more than asking the same question twice.
 
-**Read the article: [https://splabs.io/lab/knowing-when-not-to-answer](https://splabs.io/lab/knowing-when-not-to-answer)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/knowing-when-not-to-answer](https://splabs.io/lab/knowing-when-not-to-answer)**
 
 ## The numbers
 

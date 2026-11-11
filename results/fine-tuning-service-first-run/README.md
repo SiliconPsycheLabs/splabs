@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Fine-tuning as a service, first full run: the model learned the task, and our reading shows it also learned to bend toward the user
 
-Published 2026-10-31 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-10-31 · `fine-tuning service` `correction in the weights` `before and after`
+
+> Two keys in, a tuned model in your own repository, and a report that shows what the tuning taught beyond the task.
 
 We ran our new fine-tuning service end to end the way a customer would use it: a key to the repository with the data, a key to the customer's own GPU account, and nothing else. The model learned the task and its weights landed in the customer's repository, ready to reload. Our reading of the replies before and after showed what a loss curve does not: the tuned model became much more accommodating and persuasive, a style it picked up from the training data and on one reading pushed further than the data itself.
 
-**Read the article: [https://splabs.io/lab/fine-tuning-service-first-run](https://splabs.io/lab/fine-tuning-service-first-run)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/fine-tuning-service-first-run](https://splabs.io/lab/fine-tuning-service-first-run)**
 
 ## The numbers
 

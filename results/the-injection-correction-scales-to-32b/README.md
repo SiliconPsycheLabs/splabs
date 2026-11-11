@@ -1,10 +1,14 @@
+[← All results](../)
+
 # Our injection correction carries over to models four times larger, at full precision
 
-Published 2026-11-11 on the Silicon Psyche Labs site.
+**From the lab** · published 2026-11-11 · `fine-tune` `prompt-injection` `correction` `research`
+
+> Same recipe, three larger bases, one attack in a hundred gets through instead of one in three.
 
 We moved our planted-instruction correction from 7B models to Gemma 4 E4B, Qwen3.6-27B and Qwen3-32B, at full precision on our own cards. On every base the original lets about one hidden instruction in three through; after the correction it is one or two in a hundred, two in a thousand on the 32B, with ordinary questions answered as well as before. The vendor hardening for the same models moves the number by one point (Hirundo) or halves it (SecOPD).
 
-**Read the article: [https://splabs.io/lab/the-injection-correction-scales-to-32b](https://splabs.io/lab/the-injection-correction-scales-to-32b)**
+**Read the full article, with the method and its limits: [https://splabs.io/lab/the-injection-correction-scales-to-32b](https://splabs.io/lab/the-injection-correction-scales-to-32b)**
 
 ## The numbers
 

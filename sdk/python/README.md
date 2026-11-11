@@ -23,7 +23,7 @@ When LangGraph releases a breaking change, you update the SDK adapter: not your 
 ## Python quickstart
 
 ```bash
-pip install psa-sdk
+pip install "git+https://github.com/SiliconPsycheLabs/splabs#subdirectory=sdk/python"
 ```
 
 ```python
@@ -158,7 +158,7 @@ adapter runs entirely in your process: your code holds the ElevenLabs API key
 and receives webhooks directly; PSA stores nothing.
 
 ```bash
-pip install "psa-sdk[elevenlabs]"
+pip install "psa-sdk[elevenlabs] @ git+https://github.com/SiliconPsycheLabs/splabs#subdirectory=sdk/python"
 ```
 
 **Post-call scoring** (recommended path):
@@ -238,7 +238,9 @@ server.mount(app)  # mounts /.well-known/agent.json + /a2a/tasks/*
 ## JavaScript / TypeScript quickstart
 
 ```bash
-npm install @psa/sdk
+git clone https://github.com/SiliconPsycheLabs/splabs
+cd splabs/sdk/js && npm install && npm run build
+npm install /path/to/splabs/sdk/js   # from your project
 ```
 
 ```typescript
