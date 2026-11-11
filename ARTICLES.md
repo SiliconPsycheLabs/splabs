@@ -1,10 +1,14 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 73 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 74 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (47) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (48) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
 
 ## From the lab
+
+- **[Our numbers are now on GitHub, next to every article](https://splabs.io/lab/our-numbers-on-github)**  
+  <sub>2026-11-11</sub>  
+  A new public repository holds the figures behind every article we publish, the PSA SDK and our open data. Every article with numbers links to its own folder.
 
 - **[Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
   <sub>2026-11-11 · [numbers](results/commands-and-data-marked-in-the-weights/)</sub>  
