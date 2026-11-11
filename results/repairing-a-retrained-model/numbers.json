@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/lab/repairing-a-retrained-model",
+  "title": "A model retrained for finance had forgotten how to say no. We gave it back without retraining it",
+  "published": "2026-10-25",
+  "charts": [
+    {
+      "title": "The retrained finance model, before and after the correction",
+      "unit": "",
+      "series": [
+        "Retrained model",
+        "With the correction"
+      ],
+      "rows": [
+        [
+          "Dangerous requests refused",
+          8,
+          76
+        ],
+        [
+          "Harmless requests refused",
+          4.5,
+          9.5
+        ]
+      ],
+      "note": "Out of 100 requests in each group, across five languages for the dangerous ones."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "article": "https://splabs.io/lab/a-models-bad-habits-are-not-independent",
+  "title": "A model's bad habits are not independent",
+  "published": "2026-10-28",
+  "charts": [
+    {
+      "title": "How related are the habits? (on ordinary text, no drift present)",
+      "unit": "",
+      "series": [
+        "Move together"
+      ],
+      "rows": [
+        [
+          "Grandiosity + detachment",
+          0.34
+        ],
+        [
+          "Caving + grandiosity",
+          0.22
+        ],
+        [
+          "Caving + detachment",
+          0.09
+        ]
+      ],
+      "note": "0 means unrelated, higher means the two signals rise and fall together."
+    }
+  ]
+}

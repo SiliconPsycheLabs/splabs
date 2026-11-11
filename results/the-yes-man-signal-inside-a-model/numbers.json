@@ -1,0 +1,37 @@
+{
+  "article": "https://splabs.io/lab/the-yes-man-signal-inside-a-model",
+  "title": "A model's yes-man habit has an internal signal, and we can read it",
+  "published": "2026-10-28",
+  "charts": [
+    {
+      "title": "Telling a caving reply from a firm one, by language",
+      "unit": "%",
+      "series": [
+        "How reliably we tell them apart"
+      ],
+      "rows": [
+        [
+          "English",
+          99.7
+        ],
+        [
+          "Italian",
+          100
+        ],
+        [
+          "French",
+          100
+        ],
+        [
+          "Spanish",
+          100
+        ],
+        [
+          "German",
+          100
+        ]
+      ],
+      "note": "A separation score on a focused contrast set. 100% means the two are always told apart. Reading this signal is the first step."
+    }
+  ]
+}

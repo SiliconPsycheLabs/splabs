@@ -1,0 +1,55 @@
+{
+  "article": "https://splabs.io/lab/topic-reader-five-languages",
+  "title": "Before an AI answers, it should know what the question is about. A model small enough to do it instantly, in five languages",
+  "published": "2026-10-25",
+  "charts": [
+    {
+      "title": "Accuracy by language",
+      "unit": "",
+      "series": [
+        "Accuracy (F1 × 100)"
+      ],
+      "rows": [
+        [
+          "English",
+          93.5
+        ],
+        [
+          "Italian",
+          90.9
+        ],
+        [
+          "French",
+          91.9
+        ],
+        [
+          "Spanish",
+          91.3
+        ],
+        [
+          "German",
+          91.0
+        ]
+      ],
+      "note": "Macro-F1 on real exam questions never seen in training, scaled to 100. Higher is better."
+    },
+    {
+      "title": "Time to read one request",
+      "unit": " ms",
+      "series": [
+        "First version",
+        "Second version",
+        "Current version"
+      ],
+      "rows": [
+        [
+          "Median on a T4 GPU",
+          38,
+          9.5,
+          8.9
+        ]
+      ],
+      "note": "Milliseconds. Lower is better."
+    }
+  ]
+}

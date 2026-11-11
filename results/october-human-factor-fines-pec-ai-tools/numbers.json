@@ -1,0 +1,33 @@
+{
+  "article": "https://splabs.io/news/security/october-human-factor-fines-pec-ai-tools",
+  "title": "October's human factor: fake fines, PagoPA on certified mail, and AI tools on the list",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Malicious campaigns per week seen in Italy, October 2026",
+      "unit": "",
+      "series": [
+        "Campaigns"
+      ],
+      "rows": [
+        [
+          "3-9 Oct",
+          178
+        ],
+        [
+          "10-16 Oct",
+          254
+        ],
+        [
+          "17-23 Oct",
+          202
+        ],
+        [
+          "24-30 Oct",
+          121
+        ]
+      ],
+      "note": "CERT-AGID weekly summaries. Most targeted Italian users directly."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "article": "https://splabs.io/lab/tested-vs-real-use",
+  "title": "A model can behave better when it knows it is being tested, and we can read the difference from its answers",
+  "published": "2026-10-31",
+  "charts": [
+    {
+      "title": "Average reading by framing (lower is better behaved)",
+      "unit": "",
+      "series": [
+        "Test header",
+        "Real request",
+        "Real request, reworded"
+      ],
+      "rows": [
+        [
+          "gpt-oss-120b",
+          0.17,
+          0.32,
+          0.32
+        ],
+        [
+          "qwen3.8-27b",
+          0.43,
+          0.53,
+          0.49
+        ]
+      ],
+      "note": "Average production reading across sycophancy, manipulation and invented facts."
+    }
+  ]
+}

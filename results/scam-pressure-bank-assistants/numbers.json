@@ -1,0 +1,43 @@
+{
+  "article": "https://splabs.io/lab/scam-pressure-bank-assistants",
+  "title": "We tried to talk AI bank assistants into helping scammers. None gave in: the real problem is the opposite",
+  "published": "2026-10-25",
+  "charts": [
+    {
+      "title": "Legitimate, confirmed requests the assistant carried out",
+      "unit": "",
+      "series": [
+        "With a written bank rule",
+        "Without it"
+      ],
+      "rows": [
+        [
+          "gpt-oss-20b",
+          98,
+          84
+        ],
+        [
+          "gpt-oss-120b",
+          98,
+          47
+        ],
+        [
+          "Llama 3.3 70B",
+          83,
+          61
+        ],
+        [
+          "Gemma 4 26B",
+          60,
+          39
+        ],
+        [
+          "Qwen3.8 27B",
+          66,
+          23
+        ]
+      ],
+      "note": "Out of 100 legitimate requests. Higher is better."
+    }
+  ]
+}

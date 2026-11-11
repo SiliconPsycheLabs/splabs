@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/lab/summaries-drop-the-doubt",
+  "title": "When a model summarizes a report, the writer's doubt often disappears",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Share of doubtful sentences that come out as plain fact",
+      "unit": "",
+      "series": [
+        "Model A",
+        "Model B"
+      ],
+      "rows": [
+        [
+          "Plain summary",
+          0.44,
+          0.28
+        ],
+        [
+          "Keep the uncertainty",
+          0.01,
+          0.02
+        ],
+        [
+          "Same request, reworded",
+          0.06,
+          0.07
+        ]
+      ]
+    }
+  ]
+}

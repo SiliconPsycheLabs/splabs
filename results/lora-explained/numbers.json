@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/news/tutorials/lora-explained",
+  "title": "LoRA, explained: how to fine-tune a model by training a tiny fraction of it",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Numbers trained for one 896 x 896 matrix",
+      "unit": "",
+      "series": [
+        "Trained numbers"
+      ],
+      "rows": [
+        [
+          "Full fine-tuning",
+          802816
+        ],
+        [
+          "LoRA, rank 8",
+          14336
+        ]
+      ],
+      "note": "The rank decides how big the correction can be; 8 to 64 are common."
+    }
+  ]
+}

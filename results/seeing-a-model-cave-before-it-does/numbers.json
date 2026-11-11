@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/lab/seeing-a-model-cave-before-it-does",
+  "title": "We can see a model start to cave before it does",
+  "published": "2026-10-28",
+  "charts": [
+    {
+      "title": "How early can we tell the reply will cave?",
+      "unit": "%",
+      "series": [
+        "Reading power"
+      ],
+      "rows": [
+        [
+          "First quarter of the reply",
+          72
+        ],
+        [
+          "The whole reply",
+          69
+        ]
+      ],
+      "note": "How often the internal signal ranks a caving reply above a firm one. The opening already carries it."
+    }
+  ]
+}

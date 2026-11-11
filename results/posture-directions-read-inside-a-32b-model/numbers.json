@@ -1,0 +1,33 @@
+{
+  "article": "https://splabs.io/lab/posture-directions-read-inside-a-32b-model",
+  "title": "Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "How well a simple reader separates the posture from neutral text (1.0 = always)",
+      "unit": "",
+      "series": [
+        "Small model (0.6B)",
+        "Qwen3-32B"
+      ],
+      "rows": [
+        [
+          "Deference to the user",
+          0.9993,
+          1.0
+        ],
+        [
+          "Grandiosity",
+          0.9966,
+          0.9999
+        ],
+        [
+          "Dissociation",
+          0.9948,
+          0.9999
+        ]
+      ],
+      "note": "Same texts for both models, five languages. The score is the chance that the reader ranks a text carrying the posture above a neutral one, measured on texts it was not fitted on."
+    }
+  ]
+}

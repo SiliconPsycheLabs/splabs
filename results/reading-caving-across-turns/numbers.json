@@ -1,0 +1,29 @@
+{
+  "article": "https://splabs.io/lab/reading-caving-across-turns",
+  "title": "To see a model give in, read the answer it gave before",
+  "published": "2026-10-31",
+  "charts": [
+    {
+      "title": "Separating caving from holding (1 = perfect)",
+      "unit": "",
+      "series": [
+        "Score"
+      ],
+      "rows": [
+        [
+          "Reading each answer alone",
+          0.69
+        ],
+        [
+          "New reader, first version",
+          0.72
+        ],
+        [
+          "New reader, real format",
+          0.98
+        ]
+      ],
+      "note": "Same held-out conversations each time."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "article": "https://splabs.io/lab/sycophancy-circuit-targeted-edit",
+  "title": "We found where a model's sycophancy lives, and switched part of it off",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "How often the model switches to the user's wrong answer",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the change"
+      ],
+      "rows": [
+        [
+          "English",
+          48,
+          30
+        ],
+        [
+          "Italian",
+          71,
+          42
+        ],
+        [
+          "French",
+          49,
+          26
+        ],
+        [
+          "Spanish",
+          52,
+          27
+        ],
+        [
+          "German",
+          49,
+          34
+        ]
+      ],
+      "note": "1,500 questions the change never saw, 300 per language. General accuracy: 54.4% before, 53.5% after."
+    }
+  ]
+}

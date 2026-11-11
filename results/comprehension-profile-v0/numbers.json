@@ -1,0 +1,96 @@
+{
+  "article": "https://splabs.io/lab/comprehension-profile-v0",
+  "title": "Does a model understand you, and does its reply show it?",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Acts on what it understood (%)",
+      "unit": "",
+      "series": [
+        "Acts on it"
+      ],
+      "rows": [
+        [
+          "Hosted assistant",
+          96.4
+        ],
+        [
+          "gpt-oss-120b",
+          93.6
+        ],
+        [
+          "Mistral 24B",
+          93.1
+        ],
+        [
+          "Llama 70B",
+          91.4
+        ],
+        [
+          "Llama 3B",
+          85.8
+        ]
+      ]
+    },
+    {
+      "title": "Understands, does not use it (%): second round vs third round",
+      "unit": "",
+      "series": [
+        "Second round, three judges",
+        "Third round, native"
+      ],
+      "rows": [
+        [
+          "Hosted",
+          4.7,
+          18.3
+        ],
+        [
+          "gpt-oss-120b",
+          12.0,
+          25.0
+        ],
+        [
+          "Llama 70B",
+          10.3,
+          33.3
+        ],
+        [
+          "Mistral 24B",
+          14.2,
+          45.0
+        ]
+      ]
+    },
+    {
+      "title": "Understands, does not use it (%): native vs machine-translated, same scenarios",
+      "unit": "",
+      "series": [
+        "Native",
+        "Translated"
+      ],
+      "rows": [
+        [
+          "Hosted",
+          31.9,
+          29.8
+        ],
+        [
+          "gpt-oss-120b",
+          35.4,
+          29.2
+        ],
+        [
+          "Mistral 24B",
+          62.5,
+          62.5
+        ],
+        [
+          "Llama 70B",
+          57.1,
+          71.4
+        ]
+      ]
+    }
+  ]
+}

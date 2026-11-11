@@ -1,0 +1,33 @@
+{
+  "article": "https://splabs.io/lab/hardened-weights-planted-commands",
+  "title": "A model sold as hardened against prompt injection obeyed planted commands as often as the original",
+  "published": "2026-11-09",
+  "charts": [
+    {
+      "title": "Planted commands the model obeyed, out of 100",
+      "unit": "",
+      "series": [
+        "Attacks obeyed"
+      ],
+      "rows": [
+        [
+          "Open model, as released",
+          33
+        ],
+        [
+          "Same model, hardened in the weights",
+          32
+        ],
+        [
+          "Published research hardening (Meta SecAlign)",
+          0.7
+        ],
+        [
+          "Our correction (on an open 7B model)",
+          0.3
+        ]
+      ],
+      "note": "900 attacks hidden in emails, tables, code and web pages. The first two rows are the same model before and after hardening; the last two are other models read on the same attacks."
+    }
+  ]
+}

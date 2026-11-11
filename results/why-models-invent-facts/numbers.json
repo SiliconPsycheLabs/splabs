@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/news/tutorials/why-models-invent-facts",
+  "title": "Why models invent facts, and how to catch them at it",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Unanswerable questions answered with a specific invented answer",
+      "unit": "%",
+      "series": [
+        "Share of answers"
+      ],
+      "rows": [
+        [
+          "Larger open model",
+          33
+        ],
+        [
+          "Smaller open model",
+          14
+        ]
+      ],
+      "note": "Approximate rates from 16 question pairs in five languages; the larger model about 1 in 3, the smaller about 1 in 7."
+    }
+  ]
+}

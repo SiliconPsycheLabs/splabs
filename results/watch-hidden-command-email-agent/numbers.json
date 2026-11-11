@@ -1,0 +1,43 @@
+{
+  "article": "https://splabs.io/lab/watch-hidden-command-email-agent",
+  "title": "Watch: a hidden line in an e-mail takes over an AI assistant, and the corrected model ignores it",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Hidden commands carried out, out of 12 per action",
+      "unit": "",
+      "series": [
+        "As released",
+        "Corrected"
+      ],
+      "rows": [
+        [
+          "Send data out",
+          2,
+          0
+        ],
+        [
+          "Delete",
+          5,
+          0
+        ],
+        [
+          "Wire money",
+          0,
+          0
+        ],
+        [
+          "Escalate rights",
+          3,
+          0
+        ],
+        [
+          "Publish a post (never trained)",
+          3,
+          0
+        ]
+      ],
+      "note": "Lower is better. Synthetic documents, one training run, 12 cases per action."
+    }
+  ]
+}

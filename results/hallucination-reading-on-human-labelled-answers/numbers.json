@@ -1,0 +1,29 @@
+{
+  "article": "https://splabs.io/lab/hallucination-reading-on-human-labelled-answers",
+  "title": "We tested our hallucination reading on AI answers checked by people: it reads how fabrication is written, not whether a fact is true",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Invented sentence ranked above the correct one, same answer",
+      "unit": "",
+      "series": [
+        "Live reading"
+      ],
+      "rows": [
+        [
+          "All five languages",
+          69
+        ],
+        [
+          "Without Spanish",
+          59
+        ],
+        [
+          "Spanish only",
+          80
+        ]
+      ],
+      "note": "Share of answers where the invented sentence scores above a correct one from the same answer, scaled to 100. 50 is a coin toss."
+    }
+  ]
+}

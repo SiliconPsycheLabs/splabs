@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/lab/honest-work-reports-in-the-weights",
+  "title": "Telling the truth about the work done: from a prompt line to the model's weights",
+  "published": "2026-11-07",
+  "charts": [
+    {
+      "title": "Incomplete reviews whose report hides the gap (%)",
+      "unit": "",
+      "series": [
+        "Misleading report"
+      ],
+      "rows": [
+        [
+          "Original model",
+          91.9
+        ],
+        [
+          "Correction, first try",
+          56.8
+        ],
+        [
+          "Correction, second try",
+          10.8
+        ]
+      ]
+    }
+  ]
+}

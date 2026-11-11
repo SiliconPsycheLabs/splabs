@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/lab/second-reader-persuasion",
+  "title": "A second reader now checks every persuasion flag before it reaches you",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Plain replies wrongly flagged as persuasion",
+      "unit": "",
+      "series": [
+        "One reader",
+        "Two readers"
+      ],
+      "rows": [
+        [
+          "Near-identical plain twins",
+          50,
+          6
+        ],
+        [
+          "Plain sentences in our standard test",
+          14,
+          6
+        ]
+      ],
+      "note": "Out of 100 plain sentences. On the standard test, real persuasion caught went from 95.5 to 95.1 out of 100."
+    }
+  ]
+}

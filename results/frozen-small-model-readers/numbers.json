@@ -1,0 +1,55 @@
+{
+  "article": "https://splabs.io/lab/frozen-small-model-readers",
+  "title": "A small model already knows more than it says. Read from the inside, with no training, it matches our trained reader, and it is now live",
+  "published": "2026-10-28",
+  "charts": [
+    {
+      "title": "Our trained reader vs the unmodified models read from inside",
+      "unit": "",
+      "series": [
+        "0.6B unmodified",
+        "1.7B unmodified (served)",
+        "Trained reader"
+      ],
+      "rows": [
+        [
+          "User pressure",
+          97.6,
+          98.8,
+          98.9
+        ],
+        [
+          "Caving under pressure",
+          93.2,
+          96.0,
+          94.4
+        ],
+        [
+          "Flattery",
+          97.4,
+          97.8,
+          98.7
+        ],
+        [
+          "Made-up facts",
+          95.9,
+          96.9,
+          97.7
+        ],
+        [
+          "Persuasion",
+          96.9,
+          98.4,
+          98.3
+        ],
+        [
+          "Pressure between agents",
+          97.2,
+          98.1,
+          97.6
+        ]
+      ],
+      "note": "Same 3,393 held-out sentences, one message at a time. Higher is better."
+    }
+  ]
+}

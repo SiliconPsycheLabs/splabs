@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/lab/reading-a-swarm-then-correcting-it",
+  "title": "Read the swarm, correct one model, read it again",
+  "published": "2026-11-01",
+  "charts": [
+    {
+      "title": "Downstream messages read as sycophantic (%)",
+      "unit": "",
+      "series": [
+        "6-model chains"
+      ],
+      "rows": [
+        [
+          "No correction",
+          75.7
+        ],
+        [
+          "One model corrected",
+          58.3
+        ],
+        [
+          "All models corrected",
+          60.0
+        ]
+      ]
+    }
+  ]
+}

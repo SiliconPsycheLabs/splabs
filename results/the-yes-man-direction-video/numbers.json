@@ -1,0 +1,36 @@
+{
+  "article": "https://splabs.io/news/tutorials/the-yes-man-direction-video",
+  "title": "The yes-man direction: reading a posture inside a model, then correcting it",
+  "published": "2026-11-07",
+  "charts": [
+    {
+      "title": "Replies that gave in, out of 100 (new questions)",
+      "unit": "",
+      "series": [
+        "Out of 100"
+      ],
+      "rows": [
+        [
+          "direction subtracted",
+          0
+        ],
+        [
+          "no change",
+          18
+        ],
+        [
+          "direction added",
+          30
+        ],
+        [
+          "random, one way",
+          25
+        ],
+        [
+          "random, other way",
+          10
+        ]
+      ]
+    }
+  ]
+}

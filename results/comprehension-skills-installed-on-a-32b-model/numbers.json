@@ -1,0 +1,29 @@
+{
+  "article": "https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model",
+  "title": "Three comprehension skills installed on a 32-billion-parameter model, without losing anything it already did",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "How often the trained model is preferred over the original on new messages (out of 100)",
+      "unit": "",
+      "series": [
+        "Qwen3-32B with the faculty installed"
+      ],
+      "rows": [
+        [
+          "Commitment of a request",
+          90
+        ],
+        [
+          "Empathy",
+          93
+        ],
+        [
+          "Resisting persuasion",
+          71
+        ]
+      ],
+      "note": "Blind comparison on held-out messages in five languages; 50 would mean no difference."
+    }
+  ]
+}

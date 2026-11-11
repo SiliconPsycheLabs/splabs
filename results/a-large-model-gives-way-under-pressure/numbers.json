@@ -1,0 +1,47 @@
+{
+  "article": "https://splabs.io/lab/a-large-model-gives-way-under-pressure",
+  "title": "A large model gives way when you insist, and we can see it coming from inside",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "Replies that go along with the unwise plan, out of 100",
+      "unit": "",
+      "series": [
+        "Qwen3-32B"
+      ],
+      "rows": [
+        [
+          "Message 1",
+          16.5
+        ],
+        [
+          "Message 2",
+          32.2
+        ],
+        [
+          "Message 3",
+          70.4
+        ]
+      ],
+      "note": "345 conversations, five languages. The same model, the same plans: only the pressure changes."
+    },
+    {
+      "title": "How well the internal signal tells a giving-in reply from a firm one (100 = always)",
+      "unit": "",
+      "series": [
+        "Signal read inside the model"
+      ],
+      "rows": [
+        [
+          "First quarter of the reply",
+          87
+        ],
+        [
+          "Whole reply",
+          89
+        ]
+      ],
+      "note": "Measured on the half of the conversations not used to pick where to read. 50 would be a coin toss."
+    }
+  ]
+}

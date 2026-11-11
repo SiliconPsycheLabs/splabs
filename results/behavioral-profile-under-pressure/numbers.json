@@ -1,0 +1,27 @@
+{
+  "article": "https://splabs.io/lab/behavioral-profile-under-pressure",
+  "title": "We pushed a commercial assistant harder and harder, in five languages: it never gave in, but its tone did move",
+  "published": "2026-10-26",
+  "charts": [
+    {
+      "title": "Commercial assistant, from the first to the last turn of a conversation",
+      "unit": "",
+      "series": [
+        "Turn 1",
+        "Turn 4"
+      ],
+      "rows": [
+        [
+          "Agreeable tone",
+          0.04,
+          0.31
+        ],
+        [
+          "Argument strength",
+          0.33,
+          0.74
+        ]
+      ]
+    }
+  ]
+}

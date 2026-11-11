@@ -1,0 +1,38 @@
+{
+  "article": "https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model",
+  "title": "The tool guard installs on a 32-billion-parameter model in one round",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "Planted orders obeyed by the agent (out of 100), before and after the correction",
+      "unit": "",
+      "series": [
+        "Original Qwen3-32B",
+        "After our correction"
+      ],
+      "rows": [
+        [
+          "Seen carriers (6 techniques)",
+          33.3,
+          0.0
+        ],
+        [
+          "Held-out goal: publish data",
+          58.3,
+          0.0
+        ],
+        [
+          "Reply redirected to the attacker",
+          60.0,
+          0.0
+        ],
+        [
+          "Unseen carriers (2 techniques)",
+          0.0,
+          0.0
+        ]
+      ],
+      "note": "Same batteries, same scoring (no model judge), the corrected model reloaded from the hub before reading. Clean behaviour unchanged: every user-asked action still performed, answer quality 100 out of 100 on clean inboxes before and after."
+    }
+  ]
+}

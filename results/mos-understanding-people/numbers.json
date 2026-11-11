@@ -1,0 +1,65 @@
+{
+  "article": "https://splabs.io/lab/mos-understanding-people",
+  "title": "Models answer the words, not the person. We are teaching them to understand who they are talking to",
+  "published": "2026-10-25",
+  "charts": [
+    {
+      "title": "How often a reply that understands the person beats the plain model's reply",
+      "unit": "",
+      "series": [
+        "x"
+      ],
+      "rows": [
+        [
+          "Intention (what you mean)",
+          76
+        ],
+        [
+          "Who you are",
+          96
+        ],
+        [
+          "Tone (serious or not)",
+          100
+        ],
+        [
+          "Emotion",
+          94
+        ],
+        [
+          "Empathy (feeling heard)",
+          92
+        ],
+        [
+          "Values",
+          88
+        ],
+        [
+          "Being pushed",
+          75
+        ],
+        [
+          "The real move behind a sentence",
+          63
+        ]
+      ],
+      "note": "Out of 100 blind comparisons. Higher means a bigger gap in the plain model."
+    },
+    {
+      "title": "Harmless prompts wrongly refused",
+      "unit": "",
+      "series": [
+        "Model as is",
+        "With the reader deciding"
+      ],
+      "rows": [
+        [
+          "Unseen harmless prompts",
+          45,
+          22
+        ]
+      ],
+      "note": "Out of 100. Lower is better. Refusal of dangerous prompts stays within 3 points in every language."
+    }
+  ]
+}

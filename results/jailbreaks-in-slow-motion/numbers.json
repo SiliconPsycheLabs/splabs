@@ -1,0 +1,29 @@
+{
+  "article": "https://splabs.io/news/security/jailbreaks-in-slow-motion",
+  "title": "Jailbreaks in slow motion: attacks spread over many messages, and the trade-off in stopping them",
+  "published": "2026-11-07",
+  "charts": [
+    {
+      "title": "Conversations where the model gave harmful help",
+      "unit": "%",
+      "series": [
+        "Share of conversations"
+      ],
+      "rows": [
+        [
+          "Before",
+          70
+        ],
+        [
+          "Correction, normal caution",
+          25
+        ],
+        [
+          "Correction, maximum protection",
+          12.5
+        ]
+      ],
+      "note": "Approximate shares on unseen multi-message attacks: about 7 in 10, about 1 in 4, about 1 in 8."
+    }
+  ]
+}

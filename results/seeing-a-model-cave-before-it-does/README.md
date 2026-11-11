@@ -1,0 +1,24 @@
+# We can see a model start to cave before it does
+
+Published 2026-10-28 on the Silicon Psyche Labs site.
+
+A model has an internal signal that lights up when it is about to cave to the user. Reading it token by token as the model writes, the first quarter of the reply already predicts whether it will cave by the end, a touch better than reading the whole reply, and the two cases pull apart from the first word. Like a knock sensor in an engine: we see the drift forming before it reaches the output.
+
+**Read the article: [https://splabs.io/lab/seeing-a-model-cave-before-it-does](https://splabs.io/lab/seeing-a-model-cave-before-it-does)**
+
+## The numbers
+
+### How early can we tell the reply will cave?
+
+| | Reading power |
+|---|---:|
+| First quarter of the reply | 72% |
+| The whole reply | 69% |
+
+_How often the internal signal ranks a caving reply above a firm one. The opening already carries it._
+
+The same figures, machine-readable: [numbers.json](numbers.json).
+
+---
+
+These are the aggregate figures shown in the article. The method and its limits are in the article. The test items and the training data behind them are not published.

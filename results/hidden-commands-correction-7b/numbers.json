@@ -1,0 +1,136 @@
+{
+  "article": "https://splabs.io/lab/hidden-commands-correction-7b",
+  "title": "A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Hidden commands obeyed, by kind of attack",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "\"Ignore previous instructions\"",
+          86,
+          6
+        ],
+        [
+          "Fake end of document",
+          86,
+          6
+        ],
+        [
+          "Fake system message",
+          44,
+          8
+        ],
+        [
+          "Appeal to authority",
+          97,
+          22
+        ],
+        [
+          "Order appended at the end",
+          72,
+          39
+        ]
+      ],
+      "note": "Share of hidden commands the model followed, on documents it had never seen. Lower is better."
+    },
+    {
+      "title": "Same test, by language",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "German",
+          70,
+          10
+        ],
+        [
+          "Italian",
+          83,
+          10
+        ],
+        [
+          "Spanish",
+          73,
+          13
+        ],
+        [
+          "French",
+          70,
+          20
+        ],
+        [
+          "English",
+          88,
+          25
+        ]
+      ]
+    },
+    {
+      "title": "Does it still do the job it was asked to do?",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Clean documents",
+          97,
+          97
+        ],
+        [
+          "Documents carrying an attack",
+          43,
+          75
+        ]
+      ],
+      "note": "Share of requests where the model completed the user's task. Higher is better."
+    },
+    {
+      "title": "Hidden instructions followed, Microsoft's public test",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "BIPIA",
+          18.7,
+          0.1
+        ]
+      ],
+      "note": "Share of hidden instructions the model followed. Lower is better."
+    },
+    {
+      "title": "Correct answers to the user's question",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Clean documents",
+          67,
+          74
+        ],
+        [
+          "Documents carrying an attack",
+          57,
+          73
+        ]
+      ],
+      "note": "Share of correct answers. Higher is better."
+    }
+  ]
+}

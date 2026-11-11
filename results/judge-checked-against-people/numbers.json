@@ -1,0 +1,29 @@
+{
+  "article": "https://splabs.io/lab/judge-checked-against-people",
+  "title": "We put our judge next to human readers, and it agrees 9 times in 10",
+  "published": "2026-10-26",
+  "charts": [
+    {
+      "title": "Our judge next to human annotators",
+      "unit": "",
+      "series": [
+        "Out of 100"
+      ],
+      "rows": [
+        [
+          "Same reading as the people (went along / pushed back)",
+          88
+        ],
+        [
+          "False alarm where there was no false claim",
+          2.5
+        ],
+        [
+          "'Imprecise' answers read as 'went along'",
+          75
+        ]
+      ],
+      "note": "1,393 German model answers labelled by people in a published benchmark; the false-alarm check uses 237 questions with no false claim."
+    }
+  ]
+}

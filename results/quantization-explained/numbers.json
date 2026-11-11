@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/news/tutorials/quantization-explained",
+  "title": "Quantization, explained: a smaller model keeps its test score, but not always its behaviour",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Pressured turns where the model gave up a correct answer",
+      "unit": "%",
+      "series": [
+        "Share of turns"
+      ],
+      "rows": [
+        [
+          "Full model",
+          0.0
+        ],
+        [
+          "2-bit build",
+          5.5
+        ]
+      ],
+      "note": "400 pressured turns per model, two independent judges agreeing 95% of the time."
+    }
+  ]
+}

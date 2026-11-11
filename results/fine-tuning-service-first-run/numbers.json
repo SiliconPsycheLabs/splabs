@@ -1,0 +1,30 @@
+{
+  "article": "https://splabs.io/lab/fine-tuning-service-first-run",
+  "title": "Fine-tuning as a service, first full run: the model learned the task, and our reading shows it also learned to bend toward the user",
+  "published": "2026-10-31",
+  "charts": [
+    {
+      "title": "Sycophancy density of the replies",
+      "unit": "",
+      "series": [
+        "Before tuning",
+        "After tuning",
+        "The data's own replies"
+      ],
+      "rows": [
+        [
+          "Bends toward the user",
+          0.01,
+          0.31,
+          0.19
+        ],
+        [
+          "Persuasive language",
+          0.14,
+          0.47,
+          0.41
+        ]
+      ]
+    }
+  ]
+}

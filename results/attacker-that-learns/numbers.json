@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/news/security/attacker-that-learns",
+  "title": "An attacker that learns: why a defence has to hold when the attack adapts",
+  "published": "2026-11-07",
+  "charts": [
+    {
+      "title": "Hidden commands that took over the agent",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Public agent benchmark",
+          8.8,
+          0.4
+        ],
+        [
+          "Attacker that adapts, 10 tries",
+          68,
+          8
+        ]
+      ],
+      "note": "Share of cases where the agent followed the hidden command. Lower is better."
+    }
+  ]
+}

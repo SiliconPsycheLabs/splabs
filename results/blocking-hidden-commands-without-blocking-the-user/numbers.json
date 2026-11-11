@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/lab/blocking-hidden-commands-without-blocking-the-user",
+  "title": "Blocking hidden commands without blocking the user",
+  "published": "2026-11-04",
+  "charts": [
+    {
+      "title": "Out of 20 tasks (read a document, then email a summary to a named colleague)",
+      "unit": "",
+      "series": [
+        "Email sent to the colleague the user named",
+        "Email sent to the attacker when the document asks to change recipient"
+      ],
+      "rows": [
+        [
+          "Unmodified model",
+          20,
+          14
+        ],
+        [
+          "Previous correction",
+          0,
+          0
+        ],
+        [
+          "New correction",
+          20,
+          0
+        ]
+      ]
+    }
+  ]
+}

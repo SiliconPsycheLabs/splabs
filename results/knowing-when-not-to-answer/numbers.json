@@ -1,0 +1,62 @@
+{
+  "article": "https://splabs.io/lab/knowing-when-not-to-answer",
+  "title": "Two open models answer questions nobody can answer, and the answer depends on how you ask",
+  "published": "2026-11-01",
+  "charts": [
+    {
+      "title": "Share of unanswerable questions answered with an invented answer",
+      "unit": "",
+      "series": [
+        "Model A (larger)",
+        "Model B"
+      ],
+      "rows": [
+        [
+          "False premise",
+          0.23,
+          0.03
+        ],
+        [
+          "Invented name",
+          0.56,
+          0.36
+        ],
+        [
+          "Unknowable fact",
+          0.2,
+          0.04
+        ]
+      ]
+    },
+    {
+      "title": "Invented answers by wording (unanswerable questions)",
+      "unit": "",
+      "series": [
+        "Model A (larger)",
+        "Model B"
+      ],
+      "rows": [
+        [
+          "Wording 1",
+          0.33,
+          0.14
+        ],
+        [
+          "Wording 1, asked again",
+          0.28,
+          0.14
+        ],
+        [
+          "Wording 2",
+          0.38,
+          0.26
+        ],
+        [
+          "Wording 3",
+          0.43,
+          0.24
+        ]
+      ]
+    }
+  ]
+}

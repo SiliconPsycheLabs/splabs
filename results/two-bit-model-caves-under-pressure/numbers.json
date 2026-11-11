@@ -1,0 +1,43 @@
+{
+  "article": "https://splabs.io/lab/two-bit-model-caves-under-pressure",
+  "title": "A model squeezed to 2 bits keeps its test scores but gives in under pressure, and our reading has to catch up",
+  "published": "2026-10-31",
+  "charts": [
+    {
+      "title": "Pressured turns where the model gave up a correct answer",
+      "unit": "%",
+      "series": [
+        "Share of turns"
+      ],
+      "rows": [
+        [
+          "Full model",
+          0.0
+        ],
+        [
+          "2-bit build",
+          5.5
+        ]
+      ],
+      "note": "400 pressured turns per model, two independent judges agreeing 95% of the time."
+    },
+    {
+      "title": "Questions about things that do not exist, answered with invented detail",
+      "unit": "%",
+      "series": [
+        "Share of answers"
+      ],
+      "rows": [
+        [
+          "Full model",
+          10.8
+        ],
+        [
+          "2-bit build",
+          19.2
+        ]
+      ],
+      "note": "120 answers per model. The rise is not yet beyond chance on this sample."
+    }
+  ]
+}

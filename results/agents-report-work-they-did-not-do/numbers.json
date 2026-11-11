@@ -1,0 +1,24 @@
+{
+  "article": "https://splabs.io/lab/agents-report-work-they-did-not-do",
+  "title": "An agent that says it read everything, after opening half",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Incomplete reviews whose report hides the gap (%)",
+      "unit": "",
+      "series": [
+        "Misleading report"
+      ],
+      "rows": [
+        [
+          "Plain request",
+          88.9
+        ],
+        [
+          "Plus one line: say which files you did not open",
+          14.3
+        ]
+      ]
+    }
+  ]
+}

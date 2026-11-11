@@ -1,0 +1,33 @@
+{
+  "article": "https://splabs.io/lab/cpf3-cited-in-independent-field-study",
+  "title": "An independent field study builds on our Cybersecurity Psychology Framework",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "How often employees clicked the phishing link",
+      "unit": "%",
+      "series": [
+        "Clicked the link"
+      ],
+      "rows": [
+        [
+          "Neutral email",
+          8.4
+        ],
+        [
+          "Authority",
+          22.8
+        ],
+        [
+          "Urgency and fear",
+          34.2
+        ],
+        [
+          "All levers together",
+          48.1
+        ]
+      ],
+      "note": "Fahmi and Aswirna (2026): 320 employees, 12 simulated emails each over 12 weeks."
+    }
+  ]
+}

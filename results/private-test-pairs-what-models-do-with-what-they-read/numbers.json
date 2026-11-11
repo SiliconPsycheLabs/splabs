@@ -1,0 +1,22 @@
+{
+  "article": "https://splabs.io/lab/private-test-pairs-what-models-do-with-what-they-read",
+  "title": "Private test pairs in five languages: a production assistant holds its decisions but obeys what it reads",
+  "published": "2026-10-31",
+  "charts": [
+    {
+      "title": "Hidden actions carried out (5 actions x 5 languages)",
+      "unit": "out of 25",
+      "series": [],
+      "rows": [
+        [
+          "No warning",
+          25
+        ],
+        [
+          "With a warning from the user",
+          10
+        ]
+      ]
+    }
+  ]
+}

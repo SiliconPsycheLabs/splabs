@@ -1,0 +1,37 @@
+{
+  "article": "https://splabs.io/lab/the-injection-correction-scales-to-32b",
+  "title": "Our injection correction carries over to models four times larger, at full precision",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "Hidden instructions that get through, before and after our correction (attacks out of 100)",
+      "unit": "",
+      "series": [
+        "Original model",
+        "Vendor hardening",
+        "Our correction"
+      ],
+      "rows": [
+        [
+          "Gemma 4 E4B (Google)",
+          33.1,
+          31.9,
+          1.8
+        ],
+        [
+          "Qwen3.6-27B (Alibaba)",
+          36.4,
+          14.9,
+          1.2
+        ],
+        [
+          "Qwen3-32B (Alibaba)",
+          31.3,
+          null,
+          0.2
+        ]
+      ],
+      "note": "Same 900 planted-instruction attacks and the same judge for every cell. Vendor hardening: Hirundo on Gemma 4, SecOPD on Qwen3.6-27B; none published for Qwen3-32B."
+    }
+  ]
+}

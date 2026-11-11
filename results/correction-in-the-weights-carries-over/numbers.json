@@ -1,0 +1,91 @@
+{
+  "article": "https://splabs.io/lab/correction-in-the-weights-carries-over",
+  "title": "We correct the model itself, and the correction carries over",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Hidden commands obeyed, on kinds of task never seen in training",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Web pages",
+          17.4,
+          0.0
+        ],
+        [
+          "Summaries of articles",
+          21.7,
+          0.4
+        ]
+      ],
+      "note": "Share of hidden commands the model followed. Lower is better."
+    },
+    {
+      "title": "Correct answers when the document carries an attack",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Web pages",
+          85.2,
+          94.2
+        ],
+        [
+          "Summaries of articles",
+          60.9,
+          66.2
+        ]
+      ],
+      "note": "Share of correct answers on attacked documents. Higher is better."
+    },
+    {
+      "title": "Multi-turn attacks that got harmful help from the model, by setting",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Stronger protection setting",
+          68.0,
+          12.5
+        ],
+        [
+          "Balanced setting",
+          68.0,
+          27.0
+        ]
+      ],
+      "note": "Share of conversations with harmful help at any turn, 200 held-out conversations. Lower is better."
+    },
+    {
+      "title": "Harmless but alarming-sounding questions refused, by setting",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After the correction"
+      ],
+      "rows": [
+        [
+          "Stronger protection setting",
+          2.0,
+          31.7
+        ],
+        [
+          "Balanced setting",
+          2.0,
+          4.8
+        ]
+      ],
+      "note": "Share of safe questions declined in full or in part. Lower is better."
+    }
+  ]
+}

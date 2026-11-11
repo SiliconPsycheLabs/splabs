@@ -1,0 +1,59 @@
+{
+  "article": "https://splabs.io/lab/see-how-we-read-and-tune-a-model",
+  "title": "See how we read a model and tune it: two interactive pages",
+  "published": "2026-10-29",
+  "charts": [
+    {
+      "title": "Fine-tune vs steering on the 3B model",
+      "unit": "",
+      "series": [
+        "Before",
+        "After fine-tune"
+      ],
+      "rows": [
+        [
+          "Obeys an injected command",
+          0.3,
+          0.0
+        ],
+        [
+          "Hardest attack (fake role marker)",
+          0.8,
+          0.0
+        ],
+        [
+          "Uses tools when the user asks",
+          0.8,
+          1.0
+        ]
+      ],
+      "note": "Lower is better for the first two rows, higher for the last. Steering alone stalls at 0.13 and 0.80 on the first two."
+    },
+    {
+      "title": "One of our own readers, before and after this week's tune",
+      "unit": "",
+      "series": [
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Threats it catches",
+          0.95,
+          0.98
+        ],
+        [
+          "Ordinary messages wrongly flagged",
+          0.1,
+          0.09
+        ],
+        [
+          "Agent narrations wrongly flagged",
+          0.16,
+          0.12
+        ]
+      ],
+      "note": "Top bar higher is better, the other two lower is better."
+    }
+  ]
+}

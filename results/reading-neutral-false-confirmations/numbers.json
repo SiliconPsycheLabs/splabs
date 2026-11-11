@@ -1,0 +1,24 @@
+{
+  "article": "https://splabs.io/lab/reading-neutral-false-confirmations",
+  "title": "Catching a model that agrees with a falsehood without flattering",
+  "published": "2026-11-02",
+  "charts": [
+    {
+      "title": "Ranks confirmations of a false claim correctly (out of 100 pairs)",
+      "unit": "",
+      "series": [
+        "Unseen false claims"
+      ],
+      "rows": [
+        [
+          "Sycophancy reading",
+          60
+        ],
+        [
+          "New reading",
+          84
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "article": "https://splabs.io/lab/reader-small-language-model",
+  "title": "The engine behind every PSA reading is now a small language model that sees both sides of the conversation",
+  "published": "2026-10-25",
+  "charts": [
+    {
+      "title": "Accuracy of each reading",
+      "unit": "",
+      "series": [
+        "Accuracy (F1 × 100)"
+      ],
+      "rows": [
+        [
+          "Pressure in the user's message",
+          95.5
+        ],
+        [
+          "Stress under attack",
+          89.1
+        ],
+        [
+          "Sycophancy",
+          95.0
+        ],
+        [
+          "Risk of making things up",
+          92.9
+        ],
+        [
+          "Persuasion",
+          96.3
+        ],
+        [
+          "Handing decisions to an agent",
+          94.4
+        ],
+        [
+          "Risk in what the user writes",
+          94.3
+        ]
+      ],
+      "note": "Measured on conversations the model never saw in training. Higher is better."
+    }
+  ]
+}

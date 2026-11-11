@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/news/security/agents-overclaim-check-the-log",
+  "title": "Trust, but check the log: when an AI agent reports work it never did",
+  "published": "2026-11-06",
+  "charts": [
+    {
+      "title": "Incomplete reviews whose report was misleading",
+      "unit": "%",
+      "series": [
+        "Share of reports"
+      ],
+      "rows": [
+        [
+          "Without the sentence",
+          89
+        ],
+        [
+          "With the sentence",
+          14
+        ]
+      ],
+      "note": "72 runs in all; which files were opened is counted from the agent's own action log. (24/27; ~1/7)"
+    }
+  ]
+}
