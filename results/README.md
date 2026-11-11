@@ -1,6 +1,6 @@
 # Results
 
-53 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+54 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,6 +8,7 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-11 | **[Inside a model, an order from the user, an order planted in a document and plain data look different](commands-and-data-marked-in-the-weights/)**<br><sub>On a public injection benchmark, a simple reader on a 7B model's internal state tells the three apart almost every time.</sub> | [article](https://splabs.io/lab/commands-and-data-marked-in-the-weights) |
 | 2026-11-11 | **[Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](correction-holds-against-adaptive-attacker/)**<br><sub>On the field's agent benchmark, and against a second model that learns how to break it, the corrected model still ignores hidden commands.</sub> | [article](https://splabs.io/lab/correction-holds-against-adaptive-attacker) |
 | 2026-11-11 | **[Our injection correction carries over to models four times larger, at full precision](the-injection-correction-scales-to-32b/)**<br><sub>Same recipe, three larger bases, one attack in a hundred gets through instead of one in three.</sub> | [article](https://splabs.io/lab/the-injection-correction-scales-to-32b) |
 | 2026-11-11 | **[The tool guard installs on a 32-billion-parameter model in one round](the-tool-guard-installs-on-a-32b-model/)**<br><sub>An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.</sub> | [article](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model) |

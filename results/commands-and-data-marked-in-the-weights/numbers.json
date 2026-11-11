@@ -1,0 +1,33 @@
+{
+  "article": "https://splabs.io/lab/commands-and-data-marked-in-the-weights",
+  "title": "Inside a model, an order from the user, an order planted in a document and plain data look different",
+  "published": "2026-11-11",
+  "charts": [
+    {
+      "title": "Spans correctly found on the held-out cases (out of 100)",
+      "unit": "",
+      "series": [
+        "Reader on the model's internal state",
+        "Fixed rules on the text"
+      ],
+      "rows": [
+        [
+          "User orders",
+          100,
+          14.5
+        ],
+        [
+          "Planted orders",
+          100,
+          11.2
+        ],
+        [
+          "Plain data",
+          98.5,
+          83.5
+        ]
+      ],
+      "note": "1,122 held-out blocks, split by case so no injection text is shared with training. Declared bar: 85 out of 100 on each line. The fixed rules are a keyword and imperative-mood baseline run on the same blocks."
+    }
+  ]
+}

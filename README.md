@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-72-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-53-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-73-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-54-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -89,6 +89,10 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
+  <sub>2026-11-11 · [numbers](results/commands-and-data-marked-in-the-weights/)</sub>  
+  On a public injection benchmark, a simple reader on a 7B model's internal state tells the three apart almost every time.
+
 - **[Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
   <sub>2026-11-11 · [numbers](results/correction-holds-against-adaptive-attacker/)</sub>  
   On the field's agent benchmark, and against a second model that learns how to break it, the corrected model still ignores hidden commands.
@@ -108,10 +112,6 @@ Figures as published in the articles; each line links to its numbers folder.
 - **[Anthropic accepted us into its Cyber Verification Program, at the Defense Access tier](https://splabs.io/lab/accepted-anthropic-cyber-verification-program)**  
   <sub>2026-11-11</sub>  
   Anthropic verified us for Defense Access. We work with Claude Mythos on reading how a model can be steered by commands hidden in what it reads, and on correcting it.
-
-- **[Three comprehension skills installed on a 32-billion-parameter model, without losing anything it already did](https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model)**  
-  <sub>2026-11-11 · [numbers](results/comprehension-skills-installed-on-a-32b-model/)</sub>  
-  Empathy, reading what a request commits it to, and resisting persuasion: installed on Qwen3-32B in minutes each, nothing lost.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

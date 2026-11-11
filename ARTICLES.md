@@ -1,10 +1,14 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 72 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 73 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (46) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (47) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
 
 ## From the lab
+
+- **[Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
+  <sub>2026-11-11 · [numbers](results/commands-and-data-marked-in-the-weights/)</sub>  
+  On a public injection benchmark, a simple reader on a 7B model's internal state tells the three apart almost every time.
 
 - **[Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
   <sub>2026-11-11 · [numbers](results/correction-holds-against-adaptive-attacker/)</sub>  
