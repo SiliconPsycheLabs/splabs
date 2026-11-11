@@ -40,8 +40,8 @@ article we write, the SDK that connects your agents to PSA, and our open data an
 
 ```mermaid
 flowchart LR
-    A["Read<br/><sub>output, and inside the model<br/>where we have access</sub>"] --> B["Correct<br/><sub>a small change in the weights<br/>for one behaviour at a time</sub>"]
-    B --> C["Verify<br/><sub>same test, reloaded model,<br/>nothing else lost</sub>"]
+    A["<b>Read</b><br/>output and internals"] --> B["<b>Correct</b><br/>in the weights"]
+    B --> C["<b>Verify</b><br/>same test, reloaded"]
     C -->|"next behaviour"| A
 ```
 
