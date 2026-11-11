@@ -4,7 +4,7 @@
 
 **From the lab** · published 2026-11-02 · `comprehension` `reading the person` `model comparison` `work in progress`
 
-> We are measuring how far a model understands the person, not only how often it goes wrong. Large models understand almost everything when asked; on messages written the way people write, their replies
+> We measure how far a model understands the person. Large models understand almost everything when asked; on messages written the way people write, their replies often ignore it.
 
 A new test asks each model two things about the same message: what does the person mean, and does your normal reply act on it? Six models, five languages, three rounds. Understanding grows with size and then saturates; using it does not. On messages written natively in each language, large models ignore what they understood on 18 to 45 messages in 100, most often by answering a rhetorical question as a real one.
 

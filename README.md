@@ -99,7 +99,7 @@ Figures as published in the articles; each line links to its numbers folder.
 
 - **[The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/the-tool-guard-installs-on-a-32b-model/)</sub>  
-  An agent that reads an inbox and can send mail, delete files or wire money: the larger model obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intac
+  An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.
 
 - **[Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/posture-directions-read-inside-a-32b-model/)</sub>  
@@ -107,7 +107,7 @@ Figures as published in the articles; each line links to its numbers folder.
 
 - **[Anthropic accepted us into its Cyber Verification Program, at the Defense Access tier](https://splabs.io/lab/accepted-anthropic-cyber-verification-program)**  
   <sub>2026-11-11</sub>  
-  Anthropic verified Silicon Psyche Labs for Defense Access. We now work with Claude Mythos on the defensive side of model security: reading how a model can be steered by commands hidden in what it read
+  Anthropic verified us for Defense Access. We work with Claude Mythos on reading how a model can be steered by commands hidden in what it reads, and on correcting it.
 
 - **[Three comprehension skills installed on a 32-billion-parameter model, without losing anything it already did](https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/comprehension-skills-installed-on-a-32b-model/)</sub>  

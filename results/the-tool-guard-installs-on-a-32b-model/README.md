@@ -4,7 +4,7 @@
 
 **From the lab** · published 2026-11-11 · `fine-tune` `prompt-injection` `agents` `correction` `research`
 
-> An agent that reads an inbox and can send mail, delete files or wire money: the larger model obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intac
+> An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.
 
 Our tool guard teaches an agent to act only on what its user asked, even when a document it reads carries an order of its own. We had shown it on 7B models; this week we installed it on Qwen3-32B, at full precision on our own cards. The original model obeyed the planted order one time in three on the carriers it is weakest on, and nearly six times in ten when the order aimed at a goal it had never seen in training; it also answered an injected inbox by carrying out the attack. After one round of correction every planted order is refused, on seen and unseen carriers and goals, and the model still does everything the user actually asked, with the same answer quality on clean inboxes.
 

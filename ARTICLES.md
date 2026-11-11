@@ -16,7 +16,7 @@ Everything we have published on [splabs.io](https://splabs.io/news): 72 articles
 
 - **[The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/the-tool-guard-installs-on-a-32b-model/)</sub>  
-  An agent that reads an inbox and can send mail, delete files or wire money: the larger model obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intac
+  An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.
 
 - **[Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/posture-directions-read-inside-a-32b-model/)</sub>  
@@ -24,7 +24,7 @@ Everything we have published on [splabs.io](https://splabs.io/news): 72 articles
 
 - **[Anthropic accepted us into its Cyber Verification Program, at the Defense Access tier](https://splabs.io/lab/accepted-anthropic-cyber-verification-program)**  
   <sub>2026-11-11</sub>  
-  Anthropic verified Silicon Psyche Labs for Defense Access. We now work with Claude Mythos on the defensive side of model security: reading how a model can be steered by commands hidden in what it read
+  Anthropic verified us for Defense Access. We work with Claude Mythos on reading how a model can be steered by commands hidden in what it reads, and on correcting it.
 
 - **[Three comprehension skills installed on a 32-billion-parameter model, without losing anything it already did](https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/comprehension-skills-installed-on-a-32b-model/)</sub>  
@@ -48,7 +48,7 @@ Everything we have published on [splabs.io](https://splabs.io/news): 72 articles
 
 - **[An independent field study builds on our Cybersecurity Psychology Framework](https://splabs.io/lab/cpf3-cited-in-independent-field-study)**  
   <sub>2026-11-06 · [numbers](results/cpf3-cited-in-independent-field-study/)</sub>  
-  Researchers in Indonesia used the Cybersecurity Psychology Framework as theoretical grounding for a 320-person phishing study. Their numbers back its central idea: psychological pressures do not add u
+  Researchers in Indonesia grounded a 320-person phishing study on the Cybersecurity Psychology Framework. Their numbers back its idea: psychological pressures multiply, they do not add up.
 
 - **[Watch: a hidden line in an e-mail takes over an AI assistant, and the corrected model ignores it](https://splabs.io/lab/watch-hidden-command-email-agent)**  
   <sub>2026-11-06 · [numbers](results/watch-hidden-command-email-agent/)</sub>  
@@ -80,7 +80,7 @@ Everything we have published on [splabs.io](https://splabs.io/news): 72 articles
 
 - **[Does a model understand you, and does its reply show it?](https://splabs.io/lab/comprehension-profile-v0)**  
   <sub>2026-11-02 · [numbers](results/comprehension-profile-v0/)</sub>  
-  We are measuring how far a model understands the person, not only how often it goes wrong. Large models understand almost everything when asked; on messages written the way people write, their replies
+  We measure how far a model understands the person. Large models understand almost everything when asked; on messages written the way people write, their replies often ignore it.
 
 - **[We correct the model itself, and the correction carries over](https://splabs.io/lab/correction-in-the-weights-carries-over)**  
   <sub>2026-11-02 · [numbers](results/correction-in-the-weights-carries-over/)</sub>  
@@ -104,7 +104,7 @@ Everything we have published on [splabs.io](https://splabs.io/news): 72 articles
 
 - **[Private test pairs in five languages: a production assistant holds its decisions but obeys what it reads](https://splabs.io/lab/private-test-pairs-what-models-do-with-what-they-read)**  
   <sub>2026-10-31 · [numbers](results/private-test-pairs-what-models-do-with-what-they-read/)</sub>  
-  We wrote 120 private test pairs in five languages and ran them on a production assistant and on a small model we host. Decisions held; commitments and changes written inside documents were carried out
+  120 private test pairs in five languages: decisions held, but orders written inside documents were carried out, and a plain warning from the user stopped only six in ten.
 
 - **[To see a model give in, read the answer it gave before](https://splabs.io/lab/reading-caving-across-turns)**  
   <sub>2026-10-31 · [numbers](results/reading-caving-across-turns/)</sub>  
