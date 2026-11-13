@@ -1,8 +1,8 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 76 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 74 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (50) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (49) · [AI security and psychology](#ai-security-and-psychology) (10) · [Tutorials](#tutorials) (15)
 
 ## From the lab
 
@@ -101,10 +101,6 @@ Everything we have published on [splabs.io](https://splabs.io/news): 76 articles
 - **[INCORRECT: We correct the model itself, and the correction carries over](https://splabs.io/lab/correction-in-the-weights-carries-over)**  
   <sub>2026-11-02 · [numbers](results/correction-in-the-weights-carries-over/)</sub>  
   Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
-
-- **[When a model summarizes a report, the writer's doubt often disappears](https://splabs.io/lab/summaries-drop-the-doubt)**  
-  <sub>2026-11-02 · [numbers](results/summaries-drop-the-doubt/)</sub>  
-  We asked two open models to summarize incident reports in five languages. With a plain request, a sentence like "I think the brake may have failed" often comes out as a plain fact.
 
 - **[Catching a model that agrees with a falsehood without flattering](https://splabs.io/lab/reading-neutral-false-confirmations)**  
   <sub>2026-11-02 · [numbers](results/reading-neutral-false-confirmations/)</sub>  
@@ -223,10 +219,6 @@ Everything we have published on [splabs.io](https://splabs.io/news): 76 articles
 - **[A secret leaked one harmless piece at a time: why per-message checks miss leaks across AI agents](https://splabs.io/news/security/secret-leaked-one-piece-at-a-time)**  
   <sub>2026-11-06</sub>  
   Five agents, five ordinary answers, one protected document rebuilt. The signal only exists in the sum.
-
-- **[The framed question: how the wording of a request steers what a search-based assistant finds](https://splabs.io/news/security/framed-question-steers-retrieval)**  
-  <sub>2026-11-06</sub>  
-  A question that carries its own conclusion pulls back the documents that agree with it. Before the model writes a word.
 
 - **[When the model pushes: telling persuasion apart from a firm, polite answer](https://splabs.io/news/security/when-the-model-pushes-persuasion)**  
   <sub>2026-11-06 · [numbers](results/when-the-model-pushes-persuasion/)</sub>  
