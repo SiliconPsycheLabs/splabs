@@ -1,6 +1,6 @@
 {
   "article": "https://splabs.io/lab/hidden-commands-agents",
-  "title": "The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent",
+  "title": "INCORRECT: The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent",
   "published": "2026-10-30",
   "charts": [
     {

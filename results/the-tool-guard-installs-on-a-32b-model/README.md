@@ -1,12 +1,12 @@
 [← All results](../)
 
-# The tool guard installs on a 32-billion-parameter model in one round
+# INCORRECT: The tool guard installs on a 32-billion-parameter model in one round
 
 **From the lab** · published 2026-11-11 · `fine-tune` `prompt-injection` `agents` `correction` `research`
 
-> An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.
+> Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-Our tool guard teaches an agent to act only on what its user asked, even when a document it reads carries an order of its own. We had shown it on 7B models; this week we installed it on Qwen3-32B, at full precision on our own cards. The original model obeyed the planted order one time in three on the carriers it is weakest on, and nearly six times in ten when the order aimed at a goal it had never seen in training; it also answered an injected inbox by carrying out the attack. After one round of correction every planted order is refused, on seen and unseen carriers and goals, and the model still does everything the user actually asked, with the same answer quality on clean inboxes.
+We published this article on 11 November 2026 and marked it as incorrect on 13 November 2026. It stays online, marked, because an error that is erased teaches nothing. Our tool guard teaches an agent to act only on what its user asked, even when a document it reads carries an order of its own. We had shown it on 7B models; this week we installed it on Qwen3-32B, at full precision on our own cards. The original model obeyed the planted order one time in three on the carriers it is weakest on, and nearly six times in ten when the order aimed at a goal it had never seen in training; it also answered an injected inbox by carrying out the attack. After one round of correction every planted order is refused, on seen and unseen carriers and goals, and the model still does everything the user actually asked, with the same answer quality on clean inboxes.
 
 **Read the full article, with the method and its limits: [https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**
 

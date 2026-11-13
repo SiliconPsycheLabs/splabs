@@ -1,12 +1,12 @@
 [← All results](../)
 
-# The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent
+# INCORRECT: The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent
 
 **From the lab** · published 2026-10-30 · `prompt injection` `agents` `correction in the weights` `InjecAgent`
 
-> We trained a model to ignore orders hidden in emails and tables; it now also refuses them when it uses tools.
+> Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-An AI agent reads a web page, a review or an email, and someone has hidden an order in it: unlock the door, send the payment details. We had corrected an open model so it ignores such orders in documents. We tested it, unchanged, on a public benchmark of agents that use tools: the hidden orders that took over the agent fell to about a quarter, and the agent works as well as before.
+We published this article on 30 October 2026 and marked it as incorrect on 13 November 2026. It stays online, marked, because an error that is erased teaches nothing. An AI agent reads a web page, a review or an email, and someone has hidden an order in it: unlock the door, send the payment details. We had corrected an open model so it ignores such orders in documents. We tested it, unchanged, on a public benchmark of agents that use tools: the hidden orders that took over the agent fell to about a quarter, and the agent works as well as before.
 
 **Read the full article, with the method and its limits: [https://splabs.io/lab/hidden-commands-agents](https://splabs.io/lab/hidden-commands-agents)**
 

@@ -1,12 +1,12 @@
 [← All results](../)
 
-# A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying
+# INCORRECT: A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying
 
 **From the lab** · published 2026-11-02 · `prompt injection` `7B` `correction in the weights` `BIPIA`
 
-> We retrained an AI so it ignores hidden commands in documents and keeps your instructions in charge.
+> Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-When an assistant reads an email or a web page, anyone who wrote that page can slip in an order, and the assistant usually follows it. We retrained an open-source model so it tells your request apart from an order hidden in what it reads, in five languages, without a filter in front of it and without losing the ability to do its job.
+We published this article on 2 November 2026 and marked it as incorrect on 13 November 2026. It stays online, marked, because an error that is erased teaches nothing. When an assistant reads an email or a web page, anyone who wrote that page can slip in an order, and the assistant usually follows it. We retrained an open-source model so it tells your request apart from an order hidden in what it reads, in five languages, without a filter in front of it and without losing the ability to do its job.
 
 **Read the full article, with the method and its limits: [https://splabs.io/lab/hidden-commands-correction-7b](https://splabs.io/lab/hidden-commands-correction-7b)**
 

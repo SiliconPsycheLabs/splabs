@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/lab/correction-that-switches-on-only-where-needed",
+  "title": "INCORRECT: A correction that switches on only where the model reads a hidden command",
+  "published": "2026-11-12",
+  "charts": [
+    {
+      "title": "Practice cases won by an attacker that adapts to the model, out of 310",
+      "unit": "",
+      "series": [
+        "As released",
+        "Whole-model correction",
+        "Switch-on correction"
+      ],
+      "rows": [
+        [
+          "Cases won after up to 10 tries",
+          212,
+          3,
+          3
+        ]
+      ],
+      "note": "Lower is better. Public agent benchmark (InjecAgent, direct harm), attacker writes a new injection after each failure. The whole-model figure is after 9 of 10 tries."
+    }
+  ]
+}

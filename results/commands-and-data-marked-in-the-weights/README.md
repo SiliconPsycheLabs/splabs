@@ -1,12 +1,12 @@
 [← All results](../)
 
-# Inside a model, an order from the user, an order planted in a document and plain data look different
+# INCORRECT: Inside a model, an order from the user, an order planted in a document and plain data look different
 
 **From the lab** · published 2026-11-11 · `whitebox` `injection` `reading` `research`
 
-> On a public injection benchmark, a simple reader on a 7B model's internal state tells the three apart almost every time.
+> Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-A prompt injection works because the model cannot tell an order from its user from an order hidden in the text it was asked to read. We looked inside an open 7B model while it read more than six thousand such cases, and found that its internal state already marks which words are the user's order, which are a planted order and which are just data. A simple reader picks out the planted orders every time on the held-out cases, where fixed rules find about one in ten. The result holds on this benchmark's format, in English; the next test moves the planted order anywhere in free text, in five languages.
+We published this article on 11 November 2026 and marked it as incorrect on 13 November 2026. It stays online, marked, because an error that is erased teaches nothing. A prompt injection works because the model cannot tell an order from its user from an order hidden in the text it was asked to read. We looked inside an open 7B model while it read more than six thousand such cases, and found that its internal state already marks which words are the user's order, which are a planted order and which are just data. A simple reader picks out the planted orders every time on the held-out cases, where fixed rules find about one in ten. The result holds on this benchmark's format, in English; the next test moves the planted order anywhere in free text, in five languages.
 
 **Read the full article, with the method and its limits: [https://splabs.io/lab/commands-and-data-marked-in-the-weights](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**
 

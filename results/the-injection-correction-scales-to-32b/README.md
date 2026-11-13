@@ -1,12 +1,12 @@
 [← All results](../)
 
-# Our injection correction carries over to models four times larger, at full precision
+# INCORRECT: Our injection correction carries over to models four times larger, at full precision
 
 **From the lab** · published 2026-11-11 · `fine-tune` `prompt-injection` `correction` `research`
 
-> Same recipe, three larger bases, one attack in a hundred gets through instead of one in three.
+> Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-We moved our planted-instruction correction from 7B models to Gemma 4 E4B, Qwen3.6-27B and Qwen3-32B, at full precision on our own cards. On every base the original lets about one hidden instruction in three through; after the correction it is one or two in a hundred, two in a thousand on the 32B, with ordinary questions answered as well as before. The vendor hardening for the same models moves the number by one point (Hirundo) or halves it (SecOPD).
+We published this article on 11 November 2026 and marked it as incorrect on 13 November 2026. It stays online, marked, because an error that is erased teaches nothing. We moved our planted-instruction correction from 7B models to Gemma 4 E4B, Qwen3.6-27B and Qwen3-32B, at full precision on our own cards. On every base the original lets about one hidden instruction in three through; after the correction it is one or two in a hundred, two in a thousand on the 32B, with ordinary questions answered as well as before. The vendor hardening for the same models moves the number by one point (Hirundo) or halves it (SecOPD).
 
 **Read the full article, with the method and its limits: [https://splabs.io/lab/the-injection-correction-scales-to-32b](https://splabs.io/lab/the-injection-correction-scales-to-32b)**
 

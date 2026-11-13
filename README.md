@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-74-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-54-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-75-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-55-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -89,29 +89,29 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[INCORRECT: A correction that switches on only where the model reads a hidden command](https://splabs.io/lab/correction-that-switches-on-only-where-needed)**  
+  <sub>2026-11-12 · [numbers](results/correction-that-switches-on-only-where-needed/)</sub>  
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
+
 - **[Our numbers are now on GitHub, next to every article](https://splabs.io/lab/our-numbers-on-github)**  
   <sub>2026-11-11</sub>  
   A new public repository holds the figures behind every article we publish, the PSA SDK and our open data. Every article with numbers links to its own folder.
 
-- **[Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
+- **[INCORRECT: Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
   <sub>2026-11-11 · [numbers](results/commands-and-data-marked-in-the-weights/)</sub>  
-  On a public injection benchmark, a simple reader on a 7B model's internal state tells the three apart almost every time.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-- **[Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
+- **[INCORRECT: Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
   <sub>2026-11-11 · [numbers](results/correction-holds-against-adaptive-attacker/)</sub>  
-  On the field's agent benchmark, and against a second model that learns how to break it, the corrected model still ignores hidden commands.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-- **[Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b)**  
+- **[INCORRECT: Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b)**  
   <sub>2026-11-11 · [numbers](results/the-injection-correction-scales-to-32b/)</sub>  
-  Same recipe, three larger bases, one attack in a hundred gets through instead of one in three.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-- **[The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
+- **[INCORRECT: The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/the-tool-guard-installs-on-a-32b-model/)</sub>  
-  An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.
-
-- **[Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**  
-  <sub>2026-11-11 · [numbers](results/posture-directions-read-inside-a-32b-model/)</sub>  
-  Deference, grandiosity and dissociation show up as a readable signal inside Qwen3-32B, in five languages.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

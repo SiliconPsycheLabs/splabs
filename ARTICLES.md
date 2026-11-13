@@ -1,30 +1,34 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 74 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 75 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (48) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (49) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
 
 ## From the lab
+
+- **[INCORRECT: A correction that switches on only where the model reads a hidden command](https://splabs.io/lab/correction-that-switches-on-only-where-needed)**  
+  <sub>2026-11-12 · [numbers](results/correction-that-switches-on-only-where-needed/)</sub>  
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[Our numbers are now on GitHub, next to every article](https://splabs.io/lab/our-numbers-on-github)**  
   <sub>2026-11-11</sub>  
   A new public repository holds the figures behind every article we publish, the PSA SDK and our open data. Every article with numbers links to its own folder.
 
-- **[Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
+- **[INCORRECT: Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
   <sub>2026-11-11 · [numbers](results/commands-and-data-marked-in-the-weights/)</sub>  
-  On a public injection benchmark, a simple reader on a 7B model's internal state tells the three apart almost every time.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-- **[Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
+- **[INCORRECT: Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
   <sub>2026-11-11 · [numbers](results/correction-holds-against-adaptive-attacker/)</sub>  
-  On the field's agent benchmark, and against a second model that learns how to break it, the corrected model still ignores hidden commands.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-- **[Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b)**  
+- **[INCORRECT: Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b)**  
   <sub>2026-11-11 · [numbers](results/the-injection-correction-scales-to-32b/)</sub>  
-  Same recipe, three larger bases, one attack in a hundred gets through instead of one in three.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
-- **[The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
+- **[INCORRECT: The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/the-tool-guard-installs-on-a-32b-model/)</sub>  
-  An agent that can send mail, delete files or wire money obeyed a planted order up to six times in ten; after our correction, never, with its ordinary answers intact.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[Three behavioural drifts can be read inside a 32-billion-parameter model as cleanly as inside a small one](https://splabs.io/lab/posture-directions-read-inside-a-32b-model)**  
   <sub>2026-11-11 · [numbers](results/posture-directions-read-inside-a-32b-model/)</sub>  
@@ -58,25 +62,25 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-11-06 · [numbers](results/cpf3-cited-in-independent-field-study/)</sub>  
   Researchers in Indonesia grounded a 320-person phishing study on the Cybersecurity Psychology Framework. Their numbers back its idea: psychological pressures multiply, they do not add up.
 
-- **[Watch: a hidden line in an e-mail takes over an AI assistant, and the corrected model ignores it](https://splabs.io/lab/watch-hidden-command-email-agent)**  
+- **[INCORRECT: Watch: a hidden line in an e-mail takes over an AI assistant, and the corrected model ignores it](https://splabs.io/lab/watch-hidden-command-email-agent)**  
   <sub>2026-11-06 · [numbers](results/watch-hidden-command-email-agent/)</sub>  
-  A live run on real mailboxes: the model as released sends the customer list out; the same model with our correction only summarises.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[An agent that says it read everything, after opening half](https://splabs.io/lab/agents-report-work-they-did-not-do)**  
   <sub>2026-11-06 · [numbers](results/agents-report-work-they-did-not-do/)</sub>  
   We asked AI agents to review 36 files. Two of three models open about half and then write that they reviewed them all; one extra sentence in the request makes them tell the truth.
 
-- **[Blocking hidden commands without blocking the user](https://splabs.io/lab/blocking-hidden-commands-without-blocking-the-user)**  
+- **[INCORRECT: Blocking hidden commands without blocking the user](https://splabs.io/lab/blocking-hidden-commands-without-blocking-the-user)**  
   <sub>2026-11-04 · [numbers](results/blocking-hidden-commands-without-blocking-the-user/)</sub>  
-  Our correction stopped hidden commands in documents but also stopped the user's own request to act after reading. The new version does both.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[A second reader now checks every persuasion flag before it reaches you](https://splabs.io/lab/second-reader-persuasion)**  
   <sub>2026-11-02 · [numbers](results/second-reader-persuasion/)</sub>  
   Plain replies are no longer mistaken for persuasion: a second reader must agree before a flag is raised.
 
-- **[A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying](https://splabs.io/lab/hidden-commands-correction-7b)**  
+- **[INCORRECT: A command hidden in a document can take over an AI assistant. We changed the model itself so it stops obeying](https://splabs.io/lab/hidden-commands-correction-7b)**  
   <sub>2026-11-02 · [numbers](results/hidden-commands-correction-7b/)</sub>  
-  We retrained an AI so it ignores hidden commands in documents and keeps your instructions in charge.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[We tested our hallucination reading on AI answers checked by people: it reads how fabrication is written, not whether a fact is true](https://splabs.io/lab/hallucination-reading-on-human-labelled-answers)**  
   <sub>2026-11-02 · [numbers](results/hallucination-reading-on-human-labelled-answers/)</sub>  
@@ -90,9 +94,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-11-02 · [numbers](results/comprehension-profile-v0/)</sub>  
   We measure how far a model understands the person. Large models understand almost everything when asked; on messages written the way people write, their replies often ignore it.
 
-- **[We correct the model itself, and the correction carries over](https://splabs.io/lab/correction-in-the-weights-carries-over)**  
+- **[INCORRECT: We correct the model itself, and the correction carries over](https://splabs.io/lab/correction-in-the-weights-carries-over)**  
   <sub>2026-11-02 · [numbers](results/correction-in-the-weights-carries-over/)</sub>  
-  We fix an AI model in its own weights, and the fix keeps working on tasks and attacks it never saw in training.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[When a model summarizes a report, the writer's doubt often disappears](https://splabs.io/lab/summaries-drop-the-doubt)**  
   <sub>2026-11-02 · [numbers](results/summaries-drop-the-doubt/)</sub>  
@@ -130,9 +134,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-10-31 · [numbers](results/tested-vs-real-use/)</sub>  
   The same task, framed as a test or as a real request: an open model behaves measurably better under the test.
 
-- **[The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent](https://splabs.io/lab/hidden-commands-agents)**  
+- **[INCORRECT: The correction that stops a model obeying hidden commands in documents also protects it when it acts as an agent](https://splabs.io/lab/hidden-commands-agents)**  
   <sub>2026-10-30 · [numbers](results/hidden-commands-agents/)</sub>  
-  We trained a model to ignore orders hidden in emails and tables; it now also refuses them when it uses tools.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[Three Oxford papers, and what they mean for reading and correcting a model](https://splabs.io/lab/three-oxford-papers)**  
   <sub>2026-10-30</sub>  
@@ -142,9 +146,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-10-29 · [numbers](results/see-how-we-read-and-tune-a-model/)</sub>  
   Two new pages show, step by step and with animations, how we read a model's behaviour and how we correct it inside its weights.
 
-- **[Our models are open: the readers that serve PSA and the corrections that fix injection, on Hugging Face](https://splabs.io/lab/open-models-on-hugging-face)**  
+- **[INCORRECT: Our models are open: the readers that serve PSA and the corrections that fix injection, on Hugging Face](https://splabs.io/lab/open-models-on-hugging-face)**  
   <sub>2026-10-29</sub>  
-  The small models that read behaviour for PSA, and the ones we tuned to stop obeying hidden commands, are now free to download.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[A small model already knows more than it says. Read from the inside, with no training, it matches our trained reader, and it is now live](https://splabs.io/lab/frozen-small-model-readers)**  
   <sub>2026-10-28 · [numbers](results/frozen-small-model-readers/)</sub>  
@@ -182,9 +186,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-10-25 · [numbers](results/repairing-a-retrained-model/)</sub>  
   We gave a retrained open model back its sense of danger by reading its internal state, with no new training.
 
-- **[We handed our corrected model to an independent red team, and we are keeping every attack they send](https://splabs.io/lab/independent-red-team)**  
+- **[INCORRECT: We handed our corrected model to an independent red team, and we are keeping every attack they send](https://splabs.io/lab/independent-red-team)**  
   <sub>2026-10-25</sub>  
-  Our corrected model is now being attacked by an independent red team, and we keep every attempt to learn from it.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[Models answer the words, not the person. We are teaching them to understand who they are talking to](https://splabs.io/lab/mos-understanding-people)**  
   <sub>2026-10-25 · [numbers](results/mos-understanding-people/)</sub>  
@@ -204,9 +208,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-11-07 · [numbers](results/safe-model-still-drifts/)</sub>  
   A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.
 
-- **[An attacker that learns: why a defence has to hold when the attack adapts](https://splabs.io/news/security/attacker-that-learns)**  
+- **[INCORRECT: An attacker that learns: why a defence has to hold when the attack adapts](https://splabs.io/news/security/attacker-that-learns)**  
   <sub>2026-11-07 · [numbers](results/attacker-that-learns/)</sub>  
-  Fixed tests flatter defences. Against an attacker that rewrites itself ten times, our correction still cut success from about 7 in 10 to under 1 in 10.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[Jailbreaks in slow motion: attacks spread over many messages, and the trade-off in stopping them](https://splabs.io/news/security/jailbreaks-in-slow-motion)**  
   <sub>2026-11-07 · [numbers](results/jailbreaks-in-slow-motion/)</sub>  
@@ -232,9 +236,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
   <sub>2026-11-06 · [numbers](results/october-human-factor-fines-pec-ai-tools/)</sub>  
   What a month of attacks that need a person to fall for them says about the levers that work.
 
-- **[The attack is in what the assistant reads: hidden commands, explained for security teams](https://splabs.io/news/security/hidden-commands-explained-for-security-teams)**  
+- **[INCORRECT: The attack is in what the assistant reads: hidden commands, explained for security teams](https://splabs.io/news/security/hidden-commands-explained-for-security-teams)**  
   <sub>2026-11-06</sub>  
-  Why filters miss them, what an agent can be made to do, and the defences that hold.
+  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 
 - **[The same pressure works on people and on models, but it breaks them in opposite ways](https://splabs.io/news/security/same-pressure-people-and-models)**  
   <sub>2026-11-06</sub>  
