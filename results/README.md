@@ -1,6 +1,6 @@
 # Results
 
-55 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+56 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,6 +8,7 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-13 | **[We marked 14 of our own articles as incorrect: protection against hidden commands cannot be guaranteed, by us or by anyone](why-we-stopped-hidden-commands-protection/)**<br><sub>We built a correction against hidden commands, tested it until it broke, and worked out why no one can guarantee this protection.</sub> | [article](https://splabs.io/lab/why-we-stopped-hidden-commands-protection) |
 | 2026-11-12 | **[INCORRECT: A correction that switches on only where the model reads a hidden command](correction-that-switches-on-only-where-needed/)**<br><sub>Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.</sub> | [article](https://splabs.io/lab/correction-that-switches-on-only-where-needed) |
 | 2026-11-11 | **[INCORRECT: Inside a model, an order from the user, an order planted in a document and plain data look different](commands-and-data-marked-in-the-weights/)**<br><sub>Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.</sub> | [article](https://splabs.io/lab/commands-and-data-marked-in-the-weights) |
 | 2026-11-11 | **[INCORRECT: Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](correction-holds-against-adaptive-attacker/)**<br><sub>Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.</sub> | [article](https://splabs.io/lab/correction-holds-against-adaptive-attacker) |

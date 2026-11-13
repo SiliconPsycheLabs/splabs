@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-75-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-55-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-76-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-56-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -89,6 +89,10 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[We marked 14 of our own articles as incorrect: protection against hidden commands cannot be guaranteed, by us or by anyone](https://splabs.io/lab/why-we-stopped-hidden-commands-protection)**  
+  <sub>2026-11-13 · [numbers](results/why-we-stopped-hidden-commands-protection/)</sub>  
+  We built a correction against hidden commands, tested it until it broke, and worked out why no one can guarantee this protection.
+
 - **[INCORRECT: A correction that switches on only where the model reads a hidden command](https://splabs.io/lab/correction-that-switches-on-only-where-needed)**  
   <sub>2026-11-12 · [numbers](results/correction-that-switches-on-only-where-needed/)</sub>  
   Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
@@ -107,10 +111,6 @@ Figures as published in the articles; each line links to its numbers folder.
 
 - **[INCORRECT: Our injection correction carries over to models four times larger, at full precision](https://splabs.io/lab/the-injection-correction-scales-to-32b)**  
   <sub>2026-11-11 · [numbers](results/the-injection-correction-scales-to-32b/)</sub>  
-  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
-
-- **[INCORRECT: The tool guard installs on a 32-billion-parameter model in one round](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model)**  
-  <sub>2026-11-11 · [numbers](results/the-tool-guard-installs-on-a-32b-model/)</sub>  
   Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 <!--latest:end-->
 

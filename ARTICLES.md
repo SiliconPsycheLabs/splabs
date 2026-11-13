@@ -1,10 +1,14 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 75 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 76 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (49) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (50) · [AI security and psychology](#ai-security-and-psychology) (11) · [Tutorials](#tutorials) (15)
 
 ## From the lab
+
+- **[We marked 14 of our own articles as incorrect: protection against hidden commands cannot be guaranteed, by us or by anyone](https://splabs.io/lab/why-we-stopped-hidden-commands-protection)**  
+  <sub>2026-11-13 · [numbers](results/why-we-stopped-hidden-commands-protection/)</sub>  
+  We built a correction against hidden commands, tested it until it broke, and worked out why no one can guarantee this protection.
 
 - **[INCORRECT: A correction that switches on only where the model reads a hidden command](https://splabs.io/lab/correction-that-switches-on-only-where-needed)**  
   <sub>2026-11-12 · [numbers](results/correction-that-switches-on-only-where-needed/)</sub>  

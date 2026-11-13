@@ -1,0 +1,27 @@
+{
+  "article": "https://splabs.io/lab/why-we-stopped-hidden-commands-protection",
+  "title": "We marked 14 of our own articles as incorrect: protection against hidden commands cannot be guaranteed, by us or by anyone",
+  "published": "2026-11-13",
+  "charts": [
+    {
+      "title": "Cases out of 80 where the hidden command got through",
+      "unit": "",
+      "series": [
+        "Model as released",
+        "Our corrected model"
+      ],
+      "rows": [
+        [
+          "Fixed attack",
+          42,
+          4
+        ],
+        [
+          "Attacker that rewrites up to 800 times (at least)",
+          68,
+          26
+        ]
+      ]
+    }
+  ]
+}
