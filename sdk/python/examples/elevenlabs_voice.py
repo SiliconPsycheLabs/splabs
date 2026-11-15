@@ -50,13 +50,11 @@ print(f"Conversation: {result['conversation_id']}")
 print(f"Turns scored: {result['turns_scored']}")
 print(f"Aggregate alert: {result['aggregate']['alert']}")
 print(f"Average BHS:     {result['aggregate']['avg_bhs']:.3f}" if result["aggregate"].get("avg_bhs") else "Average BHS:     n/a")
-print(f"DRM triggered:   {result['aggregate']['drm_triggered']}")
 
 print("\nPer-turn breakdown:")
 for turn in result["turns"]:
     bhs_str = f"{turn['bhs']:.3f}" if turn.get("bhs") is not None else "n/a"
-    drm_str = turn.get("drm_alert") or "green"
-    print(f"  Turn {turn['turn']:02d}: alert={turn['alert']:<8} bhs={bhs_str}  drm={drm_str}")
+    print(f"  Turn {turn['turn']:02d}: alert={turn['alert']:<8} bhs={bhs_str}")
 
 
 # ── 2. HMAC webhook verification ─────────────────────────────────────────────

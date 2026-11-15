@@ -1,38 +1,21 @@
-export type AgentRole = 'orchestrator' | 'researcher' | 'planner' | 'executor' | 'reviewer' | 'validator';
-export type EdgeType = 'delegation' | 'collaboration' | 'sequential';
-export type AlertLevel = 'green' | 'yellow' | 'red';
+export type AlertLevel = 'green' | 'yellow' | 'red' | 'critical';
 
-export interface Node {
-  agentId: string;
-  agentRole: AgentRole;
-  content: string;
-  inputText?: string;
-  parentIndex?: number;
-  edgeType?: EdgeType;
+export interface AnalyzeOptions {
+  /** The model reply to read. */
+  responseText: string;
+  /** The user turn (or incoming message) the reply answered, read as context. */
+  userText?: string;
+  sessionName?: string;
+  sessionId?: string;
+  turn?: number;
+  /** Default true: read without storing the turn. */
+  dryRun?: boolean;
 }
 
-export interface GraphResult {
-  graphId: string;
+/** The /analyze response: postures per classifier (c0-c4, ca), bhs, alert and the other fields
+ *  documented at https://splabs.io/docs/api. */
+export interface Reading {
   alert: AlertLevel;
-  scs?: number;
-  cahs?: number;
-  ppi?: number;
-  nodesCount: number;
-}
-
-export interface Graph {
-  graphId: string;
-  alert: AlertLevel;
-  createdAt: string;
-  nodesCount: number;
-  scs?: number;
-}
-
-export interface AgentProfile {
-  agentId: string;
-  scsTrend?: string;
-  cahsTrend?: string;
-  totalGraphs: number;
-  alertDistribution: Record<string, number>;
-  lastSeen?: string;
+  bhs?: number;
+  [field: string]: unknown;
 }

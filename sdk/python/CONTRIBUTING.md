@@ -6,22 +6,8 @@ The SDK is open source (Apache 2.0). Contributions welcome: especially new frame
 
 Each adapter is ~50-100 lines of glue code. You don't need to understand PSA internals.
 
-The only thing you need to know:
-- `agent_id`: a unique string identifying the agent
-- `agent_role`: one of: `orchestrator`, `researcher`, `planner`, `executor`, `reviewer`, `validator`
-- `content`: a short description of what the agent did (see format below)
-
-### Content format
-
-```
-[TASK: <short description>] <what happened>. Outcome: <result>.
-```
-
-Examples:
-```
-[TASK: answer user question] User asked about climate change. Outcome: answered with 3 key points.
-[TOOL: web_search] Searched for "PSA SDK". Result: found 5 relevant pages.
-```
+An adapter maps a framework's hooks to `analyze()` calls: one call per model reply, with the user
+turn (or the incoming message) as context when you have it.
 
 ### Steps
 
@@ -36,21 +22,16 @@ from .._client_factory import get_client
 
 
 class PSAMyFrameworkObserver:
-    def __init__(self, agent_id: str = "my-framework-agent", **client_kwargs):
-        self.agent_id = agent_id
+    def __init__(self, session_name: str = "my-framework", **client_kwargs):
+        self.session_name = session_name
         self._client = get_client(**client_kwargs)
 
-    def on_run_complete(self, output: str, input_text: str = "") -> None:
-        nodes = [{
-            "agent_id": self.agent_id,
-            "agent_role": "orchestrator",
-            "content": f"[TASK: my-framework run] Outcome: {output[:300]}",
-            "input_text": input_text[:500],
-        }]
+    def on_reply(self, reply: str, user_text: str = "") -> dict | None:
         try:
-            self._client.trace(nodes)
+            return self._client.analyze(response_text=reply, user_text=user_text or None,
+                                        session_name=self.session_name)
         except Exception:
-            pass  # best-effort
+            return None  # best-effort
 ```
 
 3. Add an example in `examples/my_framework_basic.py`
@@ -61,13 +42,13 @@ class PSAMyFrameworkObserver:
 my-framework = ["my-framework-package>=x.y"]
 ```
 
-5. Document in the main `README.md` under "Framework adapters"
+5. Document it in `README.md` under "Adapters"
 
 6. Open a PR: that's it.
 
 ## Adding a JS adapter
 
-Same idea, in `js/src/adapters/my-framework.ts`. Export a class or function that calls `client.trace(nodes)`.
+Same idea, in `js/src/adapters/my-framework.ts`. Export a class or function that calls `client.analyze(...)` once per reply.
 
 Add the export to `js/package.json` under `exports`:
 ```json

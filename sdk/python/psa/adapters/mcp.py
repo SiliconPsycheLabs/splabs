@@ -17,9 +17,6 @@ Then add to your MCP client config (Claude Desktop, Cursor, Cline, etc.):
 
 Exposed tools:
   - psa_analyze(response_text, user_text?) → the behavioral reading of one turn
-  - submit_trace(nodes)         → GraphResult
-  - query_graphs(alert, limit)  → list[Graph]
-  - get_agent_profile(agent_id) → AgentProfile
 """
 from __future__ import annotations
 import json
@@ -47,8 +44,7 @@ async def list_tools() -> list[types.Tool]:
                 "Read the behaviour of an AI turn from its output alone. "
                 "Given a model reply, and optionally the user turn it answered, PSA returns the "
                 "behavioral reading of that turn: the C0-C4 postures (sycophancy, persuasion, "
-                "hallucination, ...), the IRS input signals (dissociation / "
-                "grandiosity), the BHS behavioral-health score, and the alert level. It reads "
+                "hallucination, ...), the BHS behavioral-health score, and the alert level. It reads "
                 "behaviour from the output, with no access "
                 "to the model's weights or logs. The reading is strongest on text the caller did "
                 "NOT author (score another agent's reply, not your own)."
@@ -77,43 +73,6 @@ async def list_tools() -> list[types.Tool]:
                 "required": ["response_text"],
             },
         ),
-        types.Tool(
-            name="submit_trace",
-            description="Submit a behavioral trace to PSA v3. Returns alert level (green/yellow/red) and graph_id.",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "nodes": {
-                        "type": "array",
-                        "description": "List of agent nodes. Each node: {agent_id, agent_role, content, input_text?, parent_index?, edge_type?}",
-                        "items": {"type": "object"},
-                    }
-                },
-                "required": ["nodes"],
-            },
-        ),
-        types.Tool(
-            name="query_graphs",
-            description="Query past PSA traces. Filter by alert level.",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "alert": {"type": "string", "enum": ["green", "yellow", "red"], "description": "Filter by alert level"},
-                    "limit": {"type": "integer", "default": 10, "description": "Max results"},
-                },
-            },
-        ),
-        types.Tool(
-            name="get_agent_profile",
-            description="Get the longitudinal behavioral profile for an agent (posture trend, alert distribution).",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "agent_id": {"type": "string", "description": "The agent ID to retrieve profile for"}
-                },
-                "required": ["agent_id"],
-            },
-        ),
     ]
 
 
@@ -128,21 +87,6 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
                 dry_run=arguments.get("dry_run", True),
             )
             return [types.TextContent(type="text", text=json.dumps(reading))]
-
-        elif name == "submit_trace":
-            result = _client.trace(arguments["nodes"])
-            return [types.TextContent(type="text", text=json.dumps(result.model_dump()))]
-
-        elif name == "query_graphs":
-            graphs = _client.query(
-                alert=arguments.get("alert"),
-                limit=arguments.get("limit", 10),
-            )
-            return [types.TextContent(type="text", text=json.dumps([g.model_dump() for g in graphs]))]
-
-        elif name == "get_agent_profile":
-            p = _client.profile(arguments["agent_id"])
-            return [types.TextContent(type="text", text=json.dumps(p.model_dump()))]
 
         else:
             return [types.TextContent(type="text", text=f"Unknown tool: {name}")]

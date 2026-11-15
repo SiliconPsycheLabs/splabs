@@ -29,10 +29,7 @@ This file shows:
     }
 
 === STEP 4: Available tools in Claude Desktop ===
-    - psa_analyze    → read one AI turn (postures, IRS safety signals, BHS, alert)
-    - submit_trace   → send a behavioral trace to PSA
-    - query_graphs   → query past traces by alert level
-    - get_agent_profile → get longitudinal profile for an agent
+    - psa_analyze    → read one AI turn (postures, BHS, alert)
 
 === Manual test from Python (no MCP client needed) ===
 """
@@ -40,7 +37,7 @@ import os
 os.environ.setdefault("PSA_API_KEY", os.environ.get("PSA_API_KEY", "your-key"))
 os.environ.setdefault("PSA_BASE_URL", "https://splabs.io")
 
-from psa import analyze, trace, query, profile
+from psa import analyze
 
 # psa_analyze equivalent: read one AI turn from its output
 reading = analyze(
@@ -49,20 +46,3 @@ reading = analyze(
 )
 print(f"psa_analyze → alert={reading['alert']}, bhs={reading['bhs']}, "
       f"engine={reading['engine']}")
-
-# submit_trace equivalent
-result = trace(nodes=[{
-    "agent_id": "mcp-test-agent",
-    "agent_role": "orchestrator",
-    "content": "[TASK: MCP test] Testing PSA SDK from examples/mcp_client.py. Outcome: success.",
-    "input_text": "Test MCP integration",
-}])
-print(f"submit_trace → graph_id={result.graph_id}, alert={result.alert}")
-
-# query_graphs equivalent
-graphs = query(alert="green", limit=3)
-print(f"query_graphs → {len(graphs)} recent green traces")
-
-# get_agent_profile equivalent
-p = profile("mcp-test-agent")
-print(f"get_agent_profile → total_graphs={p.total_graphs}, scs_trend={p.scs_trend}")

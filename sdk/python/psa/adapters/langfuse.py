@@ -15,7 +15,6 @@ Scores written:
   psa_c3_hri    : C3 harmful response index                              NUMERIC
   psa_c4_pd     : C4 persona drift                                       NUMERIC
   psa_c0_cpi    : C0 contextual pressure index                           NUMERIC
-  psa_drm_alert : "green"/"yellow"/"critical" (only when user_text given) CATEGORICAL
 
 Usage:
     from psa.adapters.langfuse import PSAObserver
@@ -24,7 +23,7 @@ Usage:
     result = observer.score(
         trace_id=langfuse_trace.id,
         response_text=llm_output,
-        user_text=user_message,   # optional: enables IRS + DRM
+        user_text=user_message,   # optional: the user turn the reply answered
     )
 """
 from __future__ import annotations
@@ -74,7 +73,7 @@ class PSAObserver:
         Args:
             trace_id: Langfuse trace ID to attach scores to.
             response_text: The LLM response to score.
-            user_text: The user message that produced the response. Enables IRS + DRM.
+            user_text: The user message that produced the response. Read as context for the reply.
             observation_id: Optional Langfuse observation/span ID for finer-grained attachment.
 
         Returns:
@@ -134,10 +133,5 @@ def _extract_scores(r: dict) -> list[_Score]:
     c0 = r.get("c0") or {}
     if "cpi" in c0:
         out.append(("psa_c0_cpi", float(c0["cpi"]), "NUMERIC"))
-
-    drm = r.get("drm") or {}
-    drm_alert = drm.get("drm_alert")
-    if drm_alert:
-        out.append(("psa_drm_alert", drm_alert, "CATEGORICAL"))
 
     return out

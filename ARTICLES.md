@@ -1,8 +1,8 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 74 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 72 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (49) · [AI security and psychology](#ai-security-and-psychology) (10) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (48) · [AI security and psychology](#ai-security-and-psychology) (9) · [Tutorials](#tutorials) (15)
 
 ## From the lab
 
@@ -105,10 +105,6 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
 - **[Catching a model that agrees with a falsehood without flattering](https://splabs.io/lab/reading-neutral-false-confirmations)**  
   <sub>2026-11-02 · [numbers](results/reading-neutral-false-confirmations/)</sub>  
   Some models confirm a false claim in a calm, neutral voice. Our sycophancy reading did not see it; a reading that looks at the message together with what it answers now does.
-
-- **[Read the swarm, correct one model, read it again](https://splabs.io/lab/reading-a-swarm-then-correcting-it)**  
-  <sub>2026-11-01 · [numbers](results/reading-a-swarm-then-correcting-it/)</sub>  
-  We joined our swarm reading to the step that corrects a model. Correcting the model where the drift starts works best, and reading a hosted model before it writes tells when it is about to drift.
 
 - **[Two open models answer questions nobody can answer, and the answer depends on how you ask](https://splabs.io/lab/knowing-when-not-to-answer)**  
   <sub>2026-11-01 · [numbers](results/knowing-when-not-to-answer/)</sub>  
@@ -215,10 +211,6 @@ Everything we have published on [splabs.io](https://splabs.io/news): 74 articles
 - **[Jailbreaks in slow motion: attacks spread over many messages, and the trade-off in stopping them](https://splabs.io/news/security/jailbreaks-in-slow-motion)**  
   <sub>2026-11-07 · [numbers](results/jailbreaks-in-slow-motion/)</sub>  
   No single message asks for the harmful thing. The conversation gets there step by step. What a correction can do, and what it costs.
-
-- **[A secret leaked one harmless piece at a time: why per-message checks miss leaks across AI agents](https://splabs.io/news/security/secret-leaked-one-piece-at-a-time)**  
-  <sub>2026-11-06</sub>  
-  Five agents, five ordinary answers, one protected document rebuilt. The signal only exists in the sum.
 
 - **[When the model pushes: telling persuasion apart from a firm, polite answer](https://splabs.io/news/security/when-the-model-pushes-persuasion)**  
   <sub>2026-11-06 · [numbers](results/when-the-model-pushes-persuasion/)</sub>  

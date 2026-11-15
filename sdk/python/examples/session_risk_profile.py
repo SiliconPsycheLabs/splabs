@@ -21,7 +21,6 @@ Run:
     PSA_API_KEY=your-key python examples/session_risk_profile.py
 
 Notes:
-  - IRS (the safety channel) is never fed into the business-risk score.
   - HRI (hallucination) is carried as a SEPARATE flag, never folded in.
   - The figures the capability was validated on are small-corpus reference
     numbers, not a general-availability claim.
@@ -106,7 +105,6 @@ def main():
     print("Bucket     :", profile["bucket"])
     print("Profile    :", profile["profile"])       # mean + within-session trend, per pd/sd/bhs
     print("HRI flag   :", profile["hri_flag"])       # separate; never folded into the score
-    print("IRS in score:", not profile["irs_excluded"])  # always False by design
 
     # 3) persist the reference and restore it later without re-fitting
     #    stored = json.dumps(reference.to_dict())
