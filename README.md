@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-73-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-55-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-74-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-56-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -88,6 +88,10 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
+  <sub>2026-11-15 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
+  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
+
 - **[Our small reader against a model fifty times larger](https://splabs.io/lab/small-reader-vs-32b)**  
   <sub>2026-11-15 · [numbers](results/small-reader-vs-32b/)</sub>  
   On six readings, a 0.6B reader matches a 32B model on four and beats it on two.
@@ -106,10 +110,6 @@ Figures as published in the articles; each line links to its numbers folder.
 
 - **[INCORRECT: Inside a model, an order from the user, an order planted in a document and plain data look different](https://splabs.io/lab/commands-and-data-marked-in-the-weights)**  
   <sub>2026-11-11 · [numbers](results/commands-and-data-marked-in-the-weights/)</sub>  
-  Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
-
-- **[INCORRECT: Our correction against hidden commands holds on the public agent benchmark and against an attacker that learns to beat it](https://splabs.io/lab/correction-holds-against-adaptive-attacker)**  
-  <sub>2026-11-11 · [numbers](results/correction-holds-against-adaptive-attacker/)</sub>  
   Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.
 <!--latest:end-->
 

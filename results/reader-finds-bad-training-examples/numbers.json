@@ -1,0 +1,25 @@
+{
+  "article": "https://splabs.io/lab/reader-finds-bad-training-examples",
+  "title": "Our reader finds the training examples that teach a model to give in",
+  "published": "2026-11-15",
+  "charts": [
+    {
+      "title": "Replies that go along with the plan, out of 30",
+      "unit": "",
+      "series": [
+        "Replies that give in"
+      ],
+      "rows": [
+        [
+          "30 ranked highest by the signal",
+          12
+        ],
+        [
+          "30 ranked lowest",
+          0
+        ]
+      ],
+      "note": "Labelled by our judge model with the prompt we use to measure caving."
+    }
+  ]
+}

@@ -1,10 +1,14 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 73 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 74 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (49) · [AI security and psychology](#ai-security-and-psychology) (9) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (50) · [AI security and psychology](#ai-security-and-psychology) (9) · [Tutorials](#tutorials) (15)
 
 ## From the lab
+
+- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
+  <sub>2026-11-15 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
+  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
 
 - **[Our small reader against a model fifty times larger](https://splabs.io/lab/small-reader-vs-32b)**  
   <sub>2026-11-15 · [numbers](results/small-reader-vs-32b/)</sub>  
