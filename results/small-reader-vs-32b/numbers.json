@@ -1,0 +1,47 @@
+{
+  "article": "https://splabs.io/lab/small-reader-vs-32b",
+  "title": "Our small reader against a model fifty times larger",
+  "published": "2026-11-15",
+  "charts": [
+    {
+      "title": "Balanced accuracy per reading (%)",
+      "unit": "",
+      "series": [
+        "Our 0.6B reader",
+        "32B, definitions only"
+      ],
+      "rows": [
+        [
+          "C0",
+          94,
+          88
+        ],
+        [
+          "C1",
+          86,
+          74
+        ],
+        [
+          "C2",
+          94,
+          92
+        ],
+        [
+          "C3",
+          93,
+          90
+        ],
+        [
+          "C4",
+          91,
+          89
+        ],
+        [
+          "CA",
+          91,
+          91
+        ]
+      ]
+    }
+  ]
+}
