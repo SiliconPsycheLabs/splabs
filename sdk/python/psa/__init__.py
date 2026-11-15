@@ -1,5 +1,4 @@
 from .client import PSAClient, PSAError
-from .models import Node, GraphResult, Graph, AgentProfile
 
 _default_client: PSAClient | None = None
 
@@ -25,20 +24,4 @@ def analyze(
     )
 
 
-def trace(nodes: list) -> GraphResult:
-    return _get_client().trace(nodes)
-
-
-def query(alert: str | None = None, limit: int = 20, page: int = 1) -> list:
-    return _get_client().query(alert=alert, limit=limit, page=page)
-
-
-def profile(agent_id: str) -> AgentProfile:
-    return _get_client().profile(agent_id)
-
-
-__all__ = [
-    "PSAClient", "PSAError",
-    "Node", "GraphResult", "Graph", "AgentProfile",
-    "analyze", "trace", "query", "profile",
-]
+__all__ = ["PSAClient", "PSAError", "analyze"]

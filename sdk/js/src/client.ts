@@ -1,22 +1,10 @@
-import type { Node, GraphResult, Graph, AgentProfile, AlertLevel } from './models';
+import type { AnalyzeOptions, Reading } from './models';
 
 export interface PSAClientConfig {
   apiKey?: string;
   baseUrl?: string;
   timeout?: number;
   maxRetries?: number;
-}
-
-function toSnake(node: Node): Record<string, unknown> {
-  const out: Record<string, unknown> = {
-    agent_id: node.agentId,
-    agent_role: node.agentRole,
-    content: node.content,
-  };
-  if (node.inputText !== undefined) out.input_text = node.inputText;
-  if (node.parentIndex !== undefined) out.parent_index = node.parentIndex;
-  if (node.edgeType !== undefined) out.edge_type = node.edgeType;
-  return out;
 }
 
 export class PSAError extends Error {
@@ -81,46 +69,14 @@ export class PSAClient {
     throw new PSAError(0, `Request failed after ${this.maxRetries} attempts: ${lastError?.message}`);
   }
 
-  async trace(nodes: Node[]): Promise<GraphResult> {
-    const data = await this.request<Record<string, unknown>>('POST', '/api/v3/psa/graph', {
-      nodes: nodes.map(toSnake),
-    });
-    return {
-      graphId: String(data.graph_id ?? ''),
-      alert: (data.alert as AlertLevel) ?? 'green',
-      scs: data.scs as number | undefined,
-      cahs: data.cahs as number | undefined,
-      ppi: data.ppi as number | undefined,
-      nodesCount: nodes.length,
-    };
-  }
-
-  async query(options: { alert?: AlertLevel; limit?: number; page?: number } = {}): Promise<Graph[]> {
-    const params = new URLSearchParams();
-    params.set('page', String(options.page ?? 1));
-    params.set('per_page', String(options.limit ?? 20));
-    if (options.alert) params.set('alert', options.alert);
-
-    const data = await this.request<{ items?: unknown[] } | unknown[]>('GET', `/api/v3/psa/graphs?${params}`);
-    const items = Array.isArray(data) ? data : (data as { items?: unknown[] }).items ?? [];
-    return (items as Record<string, unknown>[]).map(g => ({
-      graphId: String(g.graph_id ?? g.id ?? ''),
-      alert: (g.alert as AlertLevel) ?? 'green',
-      createdAt: String(g.created_at ?? ''),
-      nodesCount: Number(g.nodes_count ?? 0),
-      scs: g.scs as number | undefined,
-    }));
-  }
-
-  async profile(agentId: string): Promise<AgentProfile> {
-    const data = await this.request<Record<string, unknown>>('GET', `/api/v3/psa/agent/${agentId}/profile`);
-    return {
-      agentId,
-      scsTrend: data.scs_trend as string | undefined,
-      cahsTrend: data.cahs_trend as string | undefined,
-      totalGraphs: Number(data.total_graphs ?? 0),
-      alertDistribution: (data.alert_distribution ?? {}) as Record<string, number>,
-      lastSeen: data.last_seen as string | undefined,
-    };
+  /** POST /api/v2/psa/analyze: the behavioral reading of one model reply. */
+  async analyze(options: AnalyzeOptions): Promise<Reading> {
+    const body: Record<string, unknown> = { response_text: options.responseText };
+    if (options.userText) body.user_text = options.userText;
+    if (options.sessionName) body.session_name = options.sessionName;
+    if (options.sessionId) body.session_id = options.sessionId;
+    if (options.turn !== undefined) body.turn = options.turn;
+    body.dry_run = options.dryRun ?? true;
+    return this.request<Reading>('POST', '/api/v2/psa/analyze', body);
   }
 }

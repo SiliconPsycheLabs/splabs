@@ -6,7 +6,6 @@ import ssl
 import socket
 import json
 from typing import List, Optional
-from .models import Node, GraphResult, Graph, AgentProfile
 
 
 class PSAError(Exception):
@@ -112,50 +111,3 @@ class PSAClient:
             payload["dry_run"] = True
         return self._request("POST", "/api/v2/psa/analyze", payload)
 
-    def trace(self, nodes: List[dict]) -> GraphResult:
-        payload = {"nodes": nodes}
-        data = self._request("POST", "/api/v3/psa/graph", payload)
-        swiss = data.get("swiss_cheese") or {}
-        metrics = data.get("metrics") or {}
-        return GraphResult(
-            graph_id=data.get("graph_id", ""),
-            alert=data.get("max_alert", "green"),
-            scs=swiss.get("scs"),
-            cahs=metrics.get("cahs"),
-            ppi=metrics.get("ppi_system"),
-            nodes_count=len(nodes),
-        )
-
-    def query(self, alert: Optional[str] = None, limit: int = 20, page: int = 1) -> List[Graph]:
-        params = f"?page={page}&per_page={limit}"
-        if alert:
-            params += f"&alert={alert}"
-        data = self._request("GET", f"/api/v3/psa/graphs{params}")
-        items = data.get("graphs", [])
-        return [
-            Graph(
-                graph_id=g.get("id", ""),
-                alert=g.get("max_alert", "green"),
-                created_at=g.get("created_at", ""),
-                nodes_count=g.get("n_nodes", 0),
-                scs=g.get("scs"),
-            )
-            for g in items
-        ]
-
-    def profile(self, agent_id: str) -> AgentProfile:
-        data = self._request("GET", f"/api/v3/psa/agent/{agent_id}/profile")
-        timeline = data.get("timeline") or []
-        last_seen = timeline[-1].get("created_at") if timeline else None
-        return AgentProfile(
-            agent_id=agent_id,
-            n_nodes=data.get("n_nodes", 0),
-            n_graphs=data.get("n_graphs", 0),
-            avg_bhs=data.get("avg_bhs", 1.0),
-            min_bhs=data.get("min_bhs", 1.0),
-            dominant_posture=data.get("dominant_posture", 0),
-            roles=data.get("roles", []),
-            trend=data.get("trend", "stable"),
-            timeline=timeline,
-            last_seen=last_seen,
-        )

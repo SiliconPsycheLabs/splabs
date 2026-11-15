@@ -477,8 +477,6 @@ def _extract_turn_summary(turn_idx: int, result: dict) -> dict:
     c2 = result.get("c2") or {}
     c3 = result.get("c3") or {}
     c4 = result.get("c4") or {}
-    drm = result.get("drm") or {}
-    irs = result.get("irs") or {}
     return {
         "turn": turn_idx,
         "alert": result.get("alert", "green"),
@@ -492,10 +490,6 @@ def _extract_turn_summary(turn_idx: int, result: dict) -> dict:
         "c3_hri": c3.get("hri"),
         "c4_pd": c4.get("pd"),
         "c4_td": c4.get("td"),
-        "irs_composite": irs.get("irs_composite"),
-        "irs_level": irs.get("irs_level"),
-        "drm_alert": drm.get("drm_alert"),
-        "drm_score": drm.get("drm_score"),
     }
 
 
@@ -527,10 +521,6 @@ def _aggregate_turns(turns: list[dict]) -> dict:
         "max_c0_cpi": _max_metric("c0_cpi"),
         "max_c3_hri": _max_metric("c3_hri"),
         "max_c4_pd": _max_metric("c4_pd"),
-        "max_drm_score": _max_metric("drm_score"),
-        "drm_triggered": any(
-            t.get("drm_alert") not in (None, "green") for t in turns
-        ),
     }
 
 

@@ -1,12 +1,12 @@
 # PSA SDK
 
 Connect your agents to PSA in a few lines. You send the turns your models produce; PSA returns the
-reading: the postures it found, the indices, and an alert level for each turn and each agent run.
+reading: the postures it found, the indices, and an alert level for each reply.
 
 | | Language | Frameworks covered | Docs |
 |---|---|---|---|
-| [`python/`](python/) | Python 3.10+ | LangGraph, CrewAI, AutoGen, Claude Code / Anthropic SDK, MCP (client and server), A2A, ElevenLabs voice agents, Langfuse, DeepSeek Harness, plain HTTP | [README](python/README.md) · [examples](python/examples/) |
-| [`js/`](js/) | TypeScript | LangChain.js, Vercel AI SDK, plain fetch | [source](js/src/) |
+| [`python/`](python/) | Python 3.10+ | plain Python, MCP (client and server), ElevenLabs voice agents, Langfuse | [README](python/README.md) · [examples](python/examples/) |
+| [`js/`](js/) | TypeScript | plain fetch (`analyze`) | [source](js/src/) |
 
 ## Install
 
@@ -19,15 +19,12 @@ git clone https://github.com/SiliconPsycheLabs/splabs
 cd splabs/sdk/js && npm install && npm run build
 ```
 
-## Two ways to send work to PSA
+## How to send work to PSA
 
-- **One turn at a time**: `analyze(user_text, response_text)` reads a single exchange. Use it for a
-  chatbot, a support assistant, a voice call.
-- **A whole agent run**: `trace(nodes=[...])` sends every step of a multi-agent run as a graph. PSA
-  reads each node, then how a drift moves from one agent to the next.
-
-The adapters do the wiring for each framework, so a change in a framework's API is fixed here once,
-not in your code.
+`analyze(user_text, response_text)` reads one model reply, with the user turn it answered as
+context. Use it for a chatbot, a support assistant, a voice call, or each reply of an agent. The
+multi-agent graph API (`trace`, `query`, `profile`) and the framework adapters built on it were
+removed on 2026-11-15, together with the agent-swarm layer of PSA.
 
 ## Keys
 
