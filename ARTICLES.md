@@ -1,10 +1,14 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 74 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 75 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (50) · [AI security and psychology](#ai-security-and-psychology) (9) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (51) · [AI security and psychology](#ai-security-and-psychology) (9) · [Tutorials](#tutorials) (15)
 
 ## From the lab
+
+- **[A deterministic gate in front of an AI agent, and a fine-tune that makes it cost less](https://splabs.io/lab/deterministic-gate-and-fine-tune-cycle)**  
+  <sub>2026-11-16 · [numbers](results/deterministic-gate-and-fine-tune-cycle/)</sub>  
+  We put fixed rules in front of an open model working as an agent, counted what they stopped, and tuned the model on its own blocked actions.
 
 - **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
   <sub>2026-11-15 · [numbers](results/reader-finds-bad-training-examples/)</sub>  

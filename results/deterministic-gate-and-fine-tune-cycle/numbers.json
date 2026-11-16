@@ -1,0 +1,42 @@
+{
+  "article": "https://splabs.io/lab/deterministic-gate-and-fine-tune-cycle",
+  "title": "A deterministic gate in front of an AI agent, and a fine-tune that makes it cost less",
+  "published": "2026-11-16",
+  "charts": [
+    {
+      "title": "Blocked or held actions per 100, clean work",
+      "unit": "",
+      "series": [
+        "Base model",
+        "After the fine-tune"
+      ],
+      "rows": [
+        [
+          "Clean work",
+          7.7,
+          4.5
+        ]
+      ]
+    },
+    {
+      "title": "Out of 24 or 48 runs",
+      "unit": "",
+      "series": [
+        "Base model",
+        "After the fine-tune"
+      ],
+      "rows": [
+        [
+          "Runs that followed the planted instruction (of 48)",
+          6,
+          5
+        ],
+        [
+          "Clean coding tasks finished (of 24)",
+          8,
+          17
+        ]
+      ]
+    }
+  ]
+}
