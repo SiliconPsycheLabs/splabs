@@ -6,13 +6,13 @@ Everything we have published on [splabs.io](https://splabs.io/news): 75 articles
 
 ## From the lab
 
+- **[The gate now runs as a service, and we switched off our text-scoring API](https://splabs.io/lab/gate-as-a-service-text-scoring-switched-off)**  
+  <sub>2026-11-16</sub>  
+  Every action an agent proposes is checked by fixed rules on our server before it runs. The API that scored text is retired.
+
 - **[A deterministic gate in front of an AI agent, and a fine-tune that makes it cost less](https://splabs.io/lab/deterministic-gate-and-fine-tune-cycle)**  
   <sub>2026-11-16 · [numbers](results/deterministic-gate-and-fine-tune-cycle/)</sub>  
   We put fixed rules in front of an open model working as an agent, counted what they stopped, and tuned the model on its own blocked actions.
-
-- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
-  <sub>2026-11-15 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
-  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
 
 - **[Our small reader against a model fifty times larger](https://splabs.io/lab/small-reader-vs-32b)**  
   <sub>2026-11-15 · [numbers](results/small-reader-vs-32b/)</sub>  

@@ -6,7 +6,7 @@
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
   <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-75-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-57-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-56-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -88,13 +88,13 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[The gate now runs as a service, and we switched off our text-scoring API](https://splabs.io/lab/gate-as-a-service-text-scoring-switched-off)**  
+  <sub>2026-11-16</sub>  
+  Every action an agent proposes is checked by fixed rules on our server before it runs. The API that scored text is retired.
+
 - **[A deterministic gate in front of an AI agent, and a fine-tune that makes it cost less](https://splabs.io/lab/deterministic-gate-and-fine-tune-cycle)**  
   <sub>2026-11-16 · [numbers](results/deterministic-gate-and-fine-tune-cycle/)</sub>  
   We put fixed rules in front of an open model working as an agent, counted what they stopped, and tuned the model on its own blocked actions.
-
-- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
-  <sub>2026-11-15 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
-  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
 
 - **[Our small reader against a model fifty times larger](https://splabs.io/lab/small-reader-vs-32b)**  
   <sub>2026-11-15 · [numbers](results/small-reader-vs-32b/)</sub>  
