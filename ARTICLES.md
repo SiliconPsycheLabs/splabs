@@ -1,10 +1,34 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 75 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 83 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (51) · [AI security and psychology](#ai-security-and-psychology) (9) · [Tutorials](#tutorials) (15)
+[From the lab](#from-the-lab) (57) · [AI security and psychology](#ai-security-and-psychology) (10) · [Tutorials](#tutorials) (16)
 
 ## From the lab
+
+- **[The gate in front of a coding agent, with the person in the loop](https://splabs.io/lab/the-gate-asks-the-person)**  
+  <sub>2026-11-17</sub>  
+  Every command a coding agent is about to run goes to the gate. Forbidden ones are refused; the ones that need a person reach you as an approval prompt.
+
+- **[Eleven open models behind the same gate: what they tried, what was stopped, what got done](https://splabs.io/lab/open-models-behind-the-same-gate)**  
+  <sub>2026-11-17 · [numbers](results/open-models-behind-the-same-gate/)</sub>  
+  We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.
+
+- **[Two new things the gate can do: answer with a decoy, and run an agent in a simulated world](https://splabs.io/lab/decoys-and-shadow-runs)**  
+  <sub>2026-11-17 · [numbers](results/decoys-and-shadow-runs/)</sub>  
+  The gate can now hand a fake result to an action it refuses and catch the fake value if it comes back, and it can run a whole agent episode against a simulated system.
+
+- **[What 25,000 agent actions taught the gate: twelve holes found, a new open-source release](https://splabs.io/lab/what-25000-agent-actions-taught-the-gate)**  
+  <sub>2026-11-17 · [numbers](results/what-25000-agent-actions-taught-the-gate/)</sub>  
+  We let an agent try forbidden things 15,000 times, read what the gate let through, and closed what we found in a new public release.
+
+- **[Our own coding agents now ask the gate before they act](https://splabs.io/lab/gate-in-front-of-claude-code)**  
+  <sub>2026-11-17</sub>  
+  Every command, file change, web fetch and tool call of our Claude Code sessions now goes through the deterministic gate first.
+
+- **[First runs through the hosted gate: 3,605 decisions, and the first rules drawn from what an agent tried](https://splabs.io/lab/first-runs-through-the-hosted-gate)**  
+  <sub>2026-11-17 · [numbers](results/first-runs-through-the-hosted-gate/)</sub>  
+  Agents working on our machines sent every action to the gate service first. A model told to misbehave showed us five gaps, now closed.
 
 - **[The gate now runs as a service, and we switched off our text-scoring API](https://splabs.io/lab/gate-as-a-service-text-scoring-switched-off)**  
   <sub>2026-11-16</sub>  
@@ -212,6 +236,10 @@ Everything we have published on [splabs.io](https://splabs.io/news): 75 articles
 
 ## AI security and psychology
 
+- **[Frontier or open source is the wrong question: which work goes to which model](https://splabs.io/news/security/frontier-or-open-source-which-work-goes-to-which)**  
+  <sub>2026-11-17 · [numbers](results/frontier-or-open-source-which-work-goes-to-which/)</sub>  
+  A trillion-dollar model is the wrong tool for routine work, and a smarter model does not stop hidden instructions. What I read, what we tested, and where I draw the line.
+
 - **[Passing every safety test is half the answer: a safe model can still drift](https://splabs.io/news/security/safe-model-still-drifts)**  
   <sub>2026-11-07 · [numbers](results/safe-model-still-drifts/)</sub>  
   A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.
@@ -249,6 +277,10 @@ Everything we have published on [splabs.io](https://splabs.io/news): 75 articles
   Attackers do not need to break the AI. They need people to believe it. Ten weak spots and what to do.
 
 ## Tutorials
+
+- **[Why every command an AI agent sends should pass through a gate](https://splabs.io/news/tutorials/why-agent-commands-need-a-gate)**  
+  <sub>2026-11-17</sub>  
+  Agents are worth building, and no model is safe from running a command nobody wanted. So the check goes outside the model. A plain guide.
 
 - **[From the arrow to the weights: a correction is only as good as its controls](https://splabs.io/news/tutorials/from-the-arrow-to-the-weights-video)**  
   <sub>2026-11-11 · [numbers](results/from-the-arrow-to-the-weights-video/)</sub>  

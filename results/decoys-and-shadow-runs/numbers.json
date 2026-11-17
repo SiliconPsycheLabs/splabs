@@ -1,0 +1,36 @@
+{
+  "article": "https://splabs.io/lab/decoys-and-shadow-runs",
+  "title": "Two new things the gate can do: answer with a decoy, and run an agent in a simulated world",
+  "published": "2026-11-17",
+  "charts": [
+    {
+      "title": "Tasks (of 50) where the gate's verdict, blocked or not, matches a real run",
+      "unit": "",
+      "series": [
+        "Tasks"
+      ],
+      "rows": [
+        [
+          "A second real run",
+          33
+        ],
+        [
+          "Free model as the server",
+          27
+        ],
+        [
+          "Recorded outputs only",
+          19
+        ],
+        [
+          "Simulator that keeps its world",
+          32
+        ],
+        [
+          "The same, with one recording",
+          36
+        ]
+      ]
+    }
+  ]
+}

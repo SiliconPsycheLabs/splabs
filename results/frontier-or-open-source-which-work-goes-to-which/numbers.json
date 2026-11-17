@@ -1,0 +1,22 @@
+{
+  "article": "https://splabs.io/news/security/frontier-or-open-source-which-work-goes-to-which",
+  "title": "Frontier or open source is the wrong question: which work goes to which model",
+  "published": "2026-11-17",
+  "charts": [
+    {
+      "title": "Times the rules stepped in, per 100 actions of normal work",
+      "unit": "",
+      "series": [
+        "Before the training",
+        "After the training"
+      ],
+      "rows": [
+        [
+          "Normal work",
+          7.7,
+          4.5
+        ]
+      ]
+    }
+  ]
+}

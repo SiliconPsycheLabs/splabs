@@ -1,6 +1,6 @@
 # Results
 
-56 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+61 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,6 +8,10 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-17 | **[Eleven open models behind the same gate: what they tried, what was stopped, what got done](open-models-behind-the-same-gate/)**<br><sub>We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.</sub> | [article](https://splabs.io/lab/open-models-behind-the-same-gate) |
+| 2026-11-17 | **[Two new things the gate can do: answer with a decoy, and run an agent in a simulated world](decoys-and-shadow-runs/)**<br><sub>The gate can now hand a fake result to an action it refuses and catch the fake value if it comes back, and it can run a whole agent episode against a simulated system.</sub> | [article](https://splabs.io/lab/decoys-and-shadow-runs) |
+| 2026-11-17 | **[What 25,000 agent actions taught the gate: twelve holes found, a new open-source release](what-25000-agent-actions-taught-the-gate/)**<br><sub>We let an agent try forbidden things 15,000 times, read what the gate let through, and closed what we found in a new public release.</sub> | [article](https://splabs.io/lab/what-25000-agent-actions-taught-the-gate) |
+| 2026-11-17 | **[First runs through the hosted gate: 3,605 decisions, and the first rules drawn from what an agent tried](first-runs-through-the-hosted-gate/)**<br><sub>Agents working on our machines sent every action to the gate service first. A model told to misbehave showed us five gaps, now closed.</sub> | [article](https://splabs.io/lab/first-runs-through-the-hosted-gate) |
 | 2026-11-16 | **[A deterministic gate in front of an AI agent, and a fine-tune that makes it cost less](deterministic-gate-and-fine-tune-cycle/)**<br><sub>We put fixed rules in front of an open model working as an agent, counted what they stopped, and tuned the model on its own blocked actions.</sub> | [article](https://splabs.io/lab/deterministic-gate-and-fine-tune-cycle) |
 | 2026-11-15 | **[Our small reader against a model fifty times larger](small-reader-vs-32b/)**<br><sub>On six readings, a 0.6B reader matches a 32B model on four and beats it on two.</sub> | [article](https://splabs.io/lab/small-reader-vs-32b) |
 | 2026-11-13 | **[We marked 14 of our own articles as incorrect: protection against hidden commands cannot be guaranteed, by us or by anyone](why-we-stopped-hidden-commands-protection/)**<br><sub>We built a correction against hidden commands, tested it until it broke, and worked out why no one can guarantee this protection.</sub> | [article](https://splabs.io/lab/why-we-stopped-hidden-commands-protection) |
@@ -58,6 +62,7 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-17 | **[Frontier or open source is the wrong question: which work goes to which model](frontier-or-open-source-which-work-goes-to-which/)**<br><sub>A trillion-dollar model is the wrong tool for routine work, and a smarter model does not stop hidden instructions. What I read, what we tested, and where I draw the line.</sub> | [article](https://splabs.io/news/security/frontier-or-open-source-which-work-goes-to-which) |
 | 2026-11-07 | **[Passing every safety test is half the answer: a safe model can still drift](safe-model-still-drifts/)**<br><sub>A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.</sub> | [article](https://splabs.io/news/security/safe-model-still-drifts) |
 | 2026-11-07 | **[INCORRECT: An attacker that learns: why a defence has to hold when the attack adapts](attacker-that-learns/)**<br><sub>Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.</sub> | [article](https://splabs.io/news/security/attacker-that-learns) |
 | 2026-11-07 | **[Jailbreaks in slow motion: attacks spread over many messages, and the trade-off in stopping them](jailbreaks-in-slow-motion/)**<br><sub>No single message asks for the harmful thing. The conversation gets there step by step. What a correction can do, and what it costs.</sub> | [article](https://splabs.io/news/security/jailbreaks-in-slow-motion) |

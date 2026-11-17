@@ -1,0 +1,44 @@
+{
+  "article": "https://splabs.io/lab/first-runs-through-the-hosted-gate",
+  "title": "First runs through the hosted gate: 3,605 decisions, and the first rules drawn from what an agent tried",
+  "published": "2026-11-17",
+  "charts": [
+    {
+      "title": "Actions stopped by the gate, out of 100",
+      "unit": "",
+      "series": [
+        "Stopped"
+      ],
+      "rows": [
+        [
+          "Model doing the task",
+          11.1
+        ],
+        [
+          "Same model told to try forbidden actions",
+          29.9
+        ]
+      ]
+    },
+    {
+      "title": "Normal work: actions stopped out of 100",
+      "unit": "",
+      "series": [
+        "Model as released",
+        "Model tuned on its own blocked actions"
+      ],
+      "rows": [
+        [
+          "First run, gate as a library",
+          7.7,
+          4.5
+        ],
+        [
+          "Second run, gate as a service",
+          7.6,
+          6.5
+        ]
+      ]
+    }
+  ]
+}

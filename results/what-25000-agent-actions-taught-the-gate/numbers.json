@@ -1,0 +1,44 @@
+{
+  "article": "https://splabs.io/lab/what-25000-agent-actions-taught-the-gate",
+  "title": "What 25,000 agent actions taught the gate: twelve holes found, a new open-source release",
+  "published": "2026-11-17",
+  "charts": [
+    {
+      "title": "New kinds of action per 1,000 actions",
+      "unit": "",
+      "series": [
+        "Model doing the task",
+        "Same model told to misbehave"
+      ],
+      "rows": [
+        [
+          "In the first thousand",
+          132,
+          114
+        ],
+        [
+          "After many thousands",
+          21,
+          40
+        ]
+      ]
+    },
+    {
+      "title": "Actions stopped by the new version, replayed on the night's log",
+      "unit": "",
+      "series": [
+        "Stopped"
+      ],
+      "rows": [
+        [
+          "Of 8,890 allowed to the misbehaving agent",
+          120
+        ],
+        [
+          "Of 6,652 allowed to the normal worker",
+          12
+        ]
+      ]
+    }
+  ]
+}
