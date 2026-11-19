@@ -1,0 +1,27 @@
+{
+  "article": "https://splabs.io/news/security/why-the-gate-stays-on-when-it-blocks-nothing",
+  "title": "Why the gate stays on when it blocks nothing",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "Extra holds from rules compiled on each run (%)",
+      "unit": "%",
+      "series": [
+        "Misbehaving sessions",
+        "Honest actions"
+      ],
+      "rows": [
+        [
+          "Run one",
+          30,
+          1.0
+        ],
+        [
+          "Run two",
+          35,
+          1.7
+        ]
+      ]
+    }
+  ]
+}

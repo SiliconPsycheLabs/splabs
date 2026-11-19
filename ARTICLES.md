@@ -1,10 +1,50 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 91 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 103 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (60) · [AI security and psychology](#ai-security-and-psychology) (14) · [Tutorials](#tutorials) (17)
+[From the lab](#from-the-lab) (70) · [AI security and psychology](#ai-security-and-psychology) (16) · [Tutorials](#tutorials) (17)
 
 ## From the lab
+
+- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
+  <sub>2026-11-19 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
+  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
+
+- **[We put a public attack benchmark through the gate: it stops the technical attacks, the business ones need rules](https://splabs.io/lab/gate-on-a-public-attack-benchmark)**  
+  <sub>2026-11-19 · [numbers](results/gate-on-a-public-attack-benchmark/)</sub>  
+  We ran 91 published agent attacks through our deterministic gate. It stopped most technical ones with almost no friction and left the legitimate-looking ones open, what per-customer rules are for.
+
+- **[The gate is also your access policy: maintenance, office hours, and a key per agent](https://splabs.io/lab/the-gate-as-access-policy)**  
+  <sub>2026-11-19</sub>  
+  Not every blocked action is an attack. The gate now lets the owner close things for their own reasons, on a schedule, with a reply that tells the agent why.
+
+- **[Rules for actions that look like normal work](https://splabs.io/lab/rules-for-actions-that-look-like-normal-work)**  
+  <sub>2026-11-19 · [numbers](results/rules-for-actions-that-look-like-normal-work/)</sub>  
+  Hard attacks make an agent do something ordinary: clear a cache, message everyone, open a settings page. Six new gate rules hold these for a person, checked with a model as the agent.
+
+- **[The same rules, whatever route the agent takes](https://splabs.io/lab/the-same-rules-whatever-route-the-agent-takes)**  
+  <sub>2026-11-19</sub>  
+  A command, a file or a request sent through an MCP tool skipped checks the gate makes on the direct action. We tested it with the tools of security MCP servers and closed every route we found.
+
+- **[Two lists the owner writes, measured on five public attack benchmarks](https://splabs.io/lab/two-lists-the-owner-writes)**  
+  <sub>2026-11-19 · [numbers](results/two-lists-the-owner-writes/)</sub>  
+  Five public agent-attack benchmarks behind the gate. As shipped it stops what an agent takes from what it reads; two short lists the owner writes stop the rest and cut the cost on normal work.
+
+- **[One command in five that an agent may run executes code no gate reads](https://splabs.io/lab/one-allowed-command-in-five-runs-code-the-gate-cannot-read)**  
+  <sub>2026-11-19</sub>  
+  We counted what happens inside the actions the gate lets through: one command in five runs code the gate does not see. Here is the second checkpoint we are designing.
+
+- **[Machines, buildings and company accounts behind the same gate](https://splabs.io/lab/machines-buildings-and-company-accounts)**  
+  <sub>2026-11-19 · [numbers](results/machines-buildings-and-company-accounts/)</sub>  
+  The gate now reads what an agent does to a PLC, a CNC machine, a robot, a building or an ERP by the protocol itself, and the owner can declare their machines with a safe range for each value.
+
+- **[The gate's traffic, read the way a network engineer reads packets](https://splabs.io/lab/the-gate-traffic-read-like-packets)**  
+  <sub>2026-11-19</sub>  
+  A second console for the gate: one line per action, a filter you type, and the full detail of each decision beside the list.
+
+- **[A decision record nobody can rewrite in silence](https://splabs.io/lab/a-decision-record-nobody-can-rewrite)**  
+  <sub>2026-11-19</sub>  
+  Every decision of the gate, and every answer a person gives to a held action, is now sealed to the one before it. Change one line of the record and the break shows.
 
 - **[Chains of commands read step by step](https://splabs.io/lab/chains-of-commands-read-step-by-step)**  
   <sub>2026-11-19 · [numbers](results/chains-of-commands-read-step-by-step/)</sub>  
@@ -247,6 +287,14 @@ Everything we have published on [splabs.io](https://splabs.io/news): 91 articles
   Open models retrained for one job quietly change elsewhere too, and nobody tells their users.
 
 ## AI security and psychology
+
+- **[Injection attacks from a public competition and from live websites, through the gate](https://splabs.io/news/security/public-and-wild-injections-through-the-gate)**  
+  <sub>2026-11-19</sub>  
+  We took the harmful actions from a large public injection competition and from payloads found on live websites, and checked what our gate does with each one.
+
+- **[Why the gate stays on when it blocks nothing](https://splabs.io/news/security/why-the-gate-stays-on-when-it-blocks-nothing)**  
+  <sub>2026-11-19 · [numbers](results/why-the-gate-stays-on-when-it-blocks-nothing/)</sub>  
+  After a while a well tuned gate blocks almost nothing. That is the result, not a reason to switch it off: an agent's inputs and its model change every day.
 
 - **[Agents and employee data: the rules that keep it inside](https://splabs.io/news/security/agents-and-employee-data)**  
   <sub>2026-11-19</sub>  

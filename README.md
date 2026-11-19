@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-91-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-64-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-103-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-70-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -88,29 +88,29 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
-- **[Chains of commands read step by step](https://splabs.io/lab/chains-of-commands-read-step-by-step)**  
-  <sub>2026-11-19 · [numbers](results/chains-of-commands-read-step-by-step/)</sub>  
-  When an agent sends a chain of commands with one link that is not allowed, the gate now lets the safe links through and stops the wrong one and everything that depends on it.
+- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
+  <sub>2026-11-19 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
+  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
 
-- **[Every door to an action that cannot be undone](https://splabs.io/lab/every-door-to-an-action-that-cannot-be-undone)**  
-  <sub>2026-11-19 · [numbers](results/every-door-to-an-action-that-cannot-be-undone/)</sub>  
-  We drew a map of the actions an agent can take that cannot be undone, crossed with every route it can use to reach them, and closed every box that was open.
+- **[We put a public attack benchmark through the gate: it stops the technical attacks, the business ones need rules](https://splabs.io/lab/gate-on-a-public-attack-benchmark)**  
+  <sub>2026-11-19 · [numbers](results/gate-on-a-public-attack-benchmark/)</sub>  
+  We ran 91 published agent attacks through our deterministic gate. It stopped most technical ones with almost no friction and left the legitimate-looking ones open, what per-customer rules are for.
 
-- **[Developers' models behind the gate: every harmful action stopped, very different friction on the work](https://splabs.io/lab/developers-models-behind-the-gate)**  
-  <sub>2026-11-17 · [numbers](results/developers-models-behind-the-gate/)</sub>  
-  Five models people run as coding agents, behind the same rules: every action that would have carried out a hidden instruction was stopped. The friction on their real work differs five times.
+- **[The gate is also your access policy: maintenance, office hours, and a key per agent](https://splabs.io/lab/the-gate-as-access-policy)**  
+  <sub>2026-11-19</sub>  
+  Not every blocked action is an attack. The gate now lets the owner close things for their own reasons, on a schedule, with a reply that tells the agent why.
 
-- **[The gate in front of a coding agent, with the person in the loop](https://splabs.io/lab/the-gate-asks-the-person)**  
-  <sub>2026-11-17</sub>  
-  Every command a coding agent is about to run goes to the gate. Forbidden ones are refused; the ones that need a person reach you as an approval prompt.
+- **[Rules for actions that look like normal work](https://splabs.io/lab/rules-for-actions-that-look-like-normal-work)**  
+  <sub>2026-11-19 · [numbers](results/rules-for-actions-that-look-like-normal-work/)</sub>  
+  Hard attacks make an agent do something ordinary: clear a cache, message everyone, open a settings page. Six new gate rules hold these for a person, checked with a model as the agent.
 
-- **[Eleven open models behind the same gate: what was stopped, what got done](https://splabs.io/lab/open-models-behind-the-same-gate)**  
-  <sub>2026-11-17 · [numbers](results/open-models-behind-the-same-gate/)</sub>  
-  We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.
+- **[The same rules, whatever route the agent takes](https://splabs.io/lab/the-same-rules-whatever-route-the-agent-takes)**  
+  <sub>2026-11-19</sub>  
+  A command, a file or a request sent through an MCP tool skipped checks the gate makes on the direct action. We tested it with the tools of security MCP servers and closed every route we found.
 
-- **[Two new things the gate can do: answer with a decoy, and run an agent in a simulated world](https://splabs.io/lab/decoys-and-shadow-runs)**  
-  <sub>2026-11-17 · [numbers](results/decoys-and-shadow-runs/)</sub>  
-  The gate can now hand a fake result to an action it refuses and catch the fake value if it comes back, and it can run a whole agent episode against a simulated system.
+- **[Two lists the owner writes, measured on five public attack benchmarks](https://splabs.io/lab/two-lists-the-owner-writes)**  
+  <sub>2026-11-19 · [numbers](results/two-lists-the-owner-writes/)</sub>  
+  Five public agent-attack benchmarks behind the gate. As shipped it stops what an agent takes from what it reads; two short lists the owner writes stop the rest and cut the cost on normal work.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

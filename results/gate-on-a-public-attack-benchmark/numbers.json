@@ -1,0 +1,24 @@
+{
+  "article": "https://splabs.io/lab/gate-on-a-public-attack-benchmark",
+  "title": "We put a public attack benchmark through the gate: it stops the technical attacks, the business ones need rules",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "Harmful actions the gate stopped (per 100)",
+      "unit": "",
+      "series": [
+        "Stopped or sent to a person"
+      ],
+      "rows": [
+        [
+          "Coding tasks",
+          85
+        ],
+        [
+          "Business tasks",
+          5
+        ]
+      ]
+    }
+  ]
+}

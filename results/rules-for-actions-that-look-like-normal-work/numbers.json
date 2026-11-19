@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/lab/rules-for-actions-that-look-like-normal-work",
+  "title": "Rules for actions that look like normal work",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "Harmful actions held, before and after the new rules (%)",
+      "unit": "%",
+      "series": [
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Value planted in a document",
+          98,
+          100
+        ],
+        [
+          "Effect asked for in words",
+          22,
+          95
+        ],
+        [
+          "Public injection competition",
+          82,
+          97
+        ]
+      ]
+    }
+  ]
+}

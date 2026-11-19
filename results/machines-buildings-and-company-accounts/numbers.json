@@ -1,0 +1,30 @@
+{
+  "article": "https://splabs.io/lab/machines-buildings-and-company-accounts",
+  "title": "Machines, buildings and company accounts behind the same gate",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "80 actions outside software, with the tool given to the agent",
+      "unit": "",
+      "series": [
+        "Passed",
+        "Held or refused for the right reason",
+        "Held by a matching word"
+      ],
+      "rows": [
+        [
+          "Before",
+          67,
+          7,
+          6
+        ],
+        [
+          "After",
+          3,
+          77,
+          0
+        ]
+      ]
+    }
+  ]
+}

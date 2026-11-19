@@ -1,6 +1,6 @@
 # Results
 
-64 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+70 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,6 +8,11 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-19 | **[Our reader finds the training examples that teach a model to give in](reader-finds-bad-training-examples/)**<br><sub>Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.</sub> | [article](https://splabs.io/lab/reader-finds-bad-training-examples) |
+| 2026-11-19 | **[We put a public attack benchmark through the gate: it stops the technical attacks, the business ones need rules](gate-on-a-public-attack-benchmark/)**<br><sub>We ran 91 published agent attacks through our deterministic gate. It stopped most technical ones with almost no friction and left the legitimate-looking ones open, what per-customer rules are for.</sub> | [article](https://splabs.io/lab/gate-on-a-public-attack-benchmark) |
+| 2026-11-19 | **[Rules for actions that look like normal work](rules-for-actions-that-look-like-normal-work/)**<br><sub>Hard attacks make an agent do something ordinary: clear a cache, message everyone, open a settings page. Six new gate rules hold these for a person, checked with a model as the agent.</sub> | [article](https://splabs.io/lab/rules-for-actions-that-look-like-normal-work) |
+| 2026-11-19 | **[Two lists the owner writes, measured on five public attack benchmarks](two-lists-the-owner-writes/)**<br><sub>Five public agent-attack benchmarks behind the gate. As shipped it stops what an agent takes from what it reads; two short lists the owner writes stop the rest and cut the cost on normal work.</sub> | [article](https://splabs.io/lab/two-lists-the-owner-writes) |
+| 2026-11-19 | **[Machines, buildings and company accounts behind the same gate](machines-buildings-and-company-accounts/)**<br><sub>The gate now reads what an agent does to a PLC, a CNC machine, a robot, a building or an ERP by the protocol itself, and the owner can declare their machines with a safe range for each value.</sub> | [article](https://splabs.io/lab/machines-buildings-and-company-accounts) |
 | 2026-11-19 | **[Chains of commands read step by step](chains-of-commands-read-step-by-step/)**<br><sub>When an agent sends a chain of commands with one link that is not allowed, the gate now lets the safe links through and stops the wrong one and everything that depends on it.</sub> | [article](https://splabs.io/lab/chains-of-commands-read-step-by-step) |
 | 2026-11-19 | **[Every door to an action that cannot be undone](every-door-to-an-action-that-cannot-be-undone/)**<br><sub>We drew a map of the actions an agent can take that cannot be undone, crossed with every route it can use to reach them, and closed every box that was open.</sub> | [article](https://splabs.io/lab/every-door-to-an-action-that-cannot-be-undone) |
 | 2026-11-17 | **[Developers' models behind the gate: every harmful action stopped, very different friction on the work](developers-models-behind-the-gate/)**<br><sub>Five models people run as coding agents, behind the same rules: every action that would have carried out a hidden instruction was stopped. The friction on their real work differs five times.</sub> | [article](https://splabs.io/lab/developers-models-behind-the-gate) |
@@ -65,6 +70,7 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-19 | **[Why the gate stays on when it blocks nothing](why-the-gate-stays-on-when-it-blocks-nothing/)**<br><sub>After a while a well tuned gate blocks almost nothing. That is the result, not a reason to switch it off: an agent's inputs and its model change every day.</sub> | [article](https://splabs.io/news/security/why-the-gate-stays-on-when-it-blocks-nothing) |
 | 2026-11-17 | **[Frontier or open source is the wrong question: which work goes to which model](frontier-or-open-source-which-work-goes-to-which/)**<br><sub>A trillion-dollar model is the wrong tool for routine work, and a smarter model does not stop hidden instructions. What I read, what we tested, and where I draw the line.</sub> | [article](https://splabs.io/news/security/frontier-or-open-source-which-work-goes-to-which) |
 | 2026-11-07 | **[Passing every safety test is half the answer: a safe model can still drift](safe-model-still-drifts/)**<br><sub>A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.</sub> | [article](https://splabs.io/news/security/safe-model-still-drifts) |
 | 2026-11-07 | **[INCORRECT: An attacker that learns: why a defence has to hold when the attack adapts](attacker-that-learns/)**<br><sub>Marked as incorrect on 13 November 2026: a correction makes a model obey planted commands less often, it does not stop it.</sub> | [article](https://splabs.io/news/security/attacker-that-learns) |

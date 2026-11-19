@@ -1,0 +1,56 @@
+{
+  "article": "https://splabs.io/lab/two-lists-the-owner-writes",
+  "title": "Two lists the owner writes, measured on five public attack benchmarks",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "Attacks carried out (%)",
+      "unit": "%",
+      "series": [
+        "No gate",
+        "Gate as shipped",
+        "Gate with the owner's lists"
+      ],
+      "rows": [
+        [
+          "LLMail-Inject (1,500 e-mails)",
+          9.8,
+          0,
+          0
+        ],
+        [
+          "MCPTox (1,348 cases)",
+          29,
+          14.7,
+          6.3
+        ],
+        [
+          "Agent Security Bench (4,080 cases)",
+          74.9,
+          74.1,
+          0
+        ]
+      ]
+    },
+    {
+      "title": "Normal actions held, per 100",
+      "unit": "",
+      "series": [
+        "Gate as shipped",
+        "Gate with the owner's lists"
+      ],
+      "rows": [
+        [
+          "tau-bench, shop and airline",
+          21.4,
+          8.6
+        ],
+        [
+          "MCPTox, the same requests without the poisoned tool",
+          8.3,
+          1.8
+        ]
+      ]
+    }
+  ]
+}
