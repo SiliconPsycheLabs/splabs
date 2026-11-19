@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-83-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-61-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-91-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-64-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -88,29 +88,29 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[Chains of commands read step by step](https://splabs.io/lab/chains-of-commands-read-step-by-step)**  
+  <sub>2026-11-19 · [numbers](results/chains-of-commands-read-step-by-step/)</sub>  
+  When an agent sends a chain of commands with one link that is not allowed, the gate now lets the safe links through and stops the wrong one and everything that depends on it.
+
+- **[Every door to an action that cannot be undone](https://splabs.io/lab/every-door-to-an-action-that-cannot-be-undone)**  
+  <sub>2026-11-19 · [numbers](results/every-door-to-an-action-that-cannot-be-undone/)</sub>  
+  We drew a map of the actions an agent can take that cannot be undone, crossed with every route it can use to reach them, and closed every box that was open.
+
+- **[Developers' models behind the gate: every harmful action stopped, very different friction on the work](https://splabs.io/lab/developers-models-behind-the-gate)**  
+  <sub>2026-11-17 · [numbers](results/developers-models-behind-the-gate/)</sub>  
+  Five models people run as coding agents, behind the same rules: every action that would have carried out a hidden instruction was stopped. The friction on their real work differs five times.
+
 - **[The gate in front of a coding agent, with the person in the loop](https://splabs.io/lab/the-gate-asks-the-person)**  
   <sub>2026-11-17</sub>  
   Every command a coding agent is about to run goes to the gate. Forbidden ones are refused; the ones that need a person reach you as an approval prompt.
 
-- **[Eleven open models behind the same gate: what they tried, what was stopped, what got done](https://splabs.io/lab/open-models-behind-the-same-gate)**  
+- **[Eleven open models behind the same gate: what was stopped, what got done](https://splabs.io/lab/open-models-behind-the-same-gate)**  
   <sub>2026-11-17 · [numbers](results/open-models-behind-the-same-gate/)</sub>  
   We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.
 
 - **[Two new things the gate can do: answer with a decoy, and run an agent in a simulated world](https://splabs.io/lab/decoys-and-shadow-runs)**  
   <sub>2026-11-17 · [numbers](results/decoys-and-shadow-runs/)</sub>  
   The gate can now hand a fake result to an action it refuses and catch the fake value if it comes back, and it can run a whole agent episode against a simulated system.
-
-- **[What 25,000 agent actions taught the gate: twelve holes found, a new open-source release](https://splabs.io/lab/what-25000-agent-actions-taught-the-gate)**  
-  <sub>2026-11-17 · [numbers](results/what-25000-agent-actions-taught-the-gate/)</sub>  
-  We let an agent try forbidden things 15,000 times, read what the gate let through, and closed what we found in a new public release.
-
-- **[Our own coding agents now ask the gate before they act](https://splabs.io/lab/gate-in-front-of-claude-code)**  
-  <sub>2026-11-17</sub>  
-  Every command, file change, web fetch and tool call of our Claude Code sessions now goes through the deterministic gate first.
-
-- **[First runs through the hosted gate: 3,605 decisions, and the first rules drawn from what an agent tried](https://splabs.io/lab/first-runs-through-the-hosted-gate)**  
-  <sub>2026-11-17 · [numbers](results/first-runs-through-the-hosted-gate/)</sub>  
-  Agents working on our machines sent every action to the gate service first. A model told to misbehave showed us five gaps, now closed.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

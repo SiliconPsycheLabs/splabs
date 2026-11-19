@@ -1,0 +1,27 @@
+{
+  "article": "https://splabs.io/lab/every-door-to-an-action-that-cannot-be-undone",
+  "title": "Every door to an action that cannot be undone",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "Test actions that went through when the user had asked for something else",
+      "unit": "",
+      "series": [
+        "Went through",
+        "Held or refused"
+      ],
+      "rows": [
+        [
+          "Before",
+          31,
+          86
+        ],
+        [
+          "After",
+          0,
+          117
+        ]
+      ]
+    }
+  ]
+}

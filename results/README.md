@@ -1,6 +1,6 @@
 # Results
 
-61 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+64 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,7 +8,10 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
-| 2026-11-17 | **[Eleven open models behind the same gate: what they tried, what was stopped, what got done](open-models-behind-the-same-gate/)**<br><sub>We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.</sub> | [article](https://splabs.io/lab/open-models-behind-the-same-gate) |
+| 2026-11-19 | **[Chains of commands read step by step](chains-of-commands-read-step-by-step/)**<br><sub>When an agent sends a chain of commands with one link that is not allowed, the gate now lets the safe links through and stops the wrong one and everything that depends on it.</sub> | [article](https://splabs.io/lab/chains-of-commands-read-step-by-step) |
+| 2026-11-19 | **[Every door to an action that cannot be undone](every-door-to-an-action-that-cannot-be-undone/)**<br><sub>We drew a map of the actions an agent can take that cannot be undone, crossed with every route it can use to reach them, and closed every box that was open.</sub> | [article](https://splabs.io/lab/every-door-to-an-action-that-cannot-be-undone) |
+| 2026-11-17 | **[Developers' models behind the gate: every harmful action stopped, very different friction on the work](developers-models-behind-the-gate/)**<br><sub>Five models people run as coding agents, behind the same rules: every action that would have carried out a hidden instruction was stopped. The friction on their real work differs five times.</sub> | [article](https://splabs.io/lab/developers-models-behind-the-gate) |
+| 2026-11-17 | **[Eleven open models behind the same gate: what was stopped, what got done](open-models-behind-the-same-gate/)**<br><sub>We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.</sub> | [article](https://splabs.io/lab/open-models-behind-the-same-gate) |
 | 2026-11-17 | **[Two new things the gate can do: answer with a decoy, and run an agent in a simulated world](decoys-and-shadow-runs/)**<br><sub>The gate can now hand a fake result to an action it refuses and catch the fake value if it comes back, and it can run a whole agent episode against a simulated system.</sub> | [article](https://splabs.io/lab/decoys-and-shadow-runs) |
 | 2026-11-17 | **[What 25,000 agent actions taught the gate: twelve holes found, a new open-source release](what-25000-agent-actions-taught-the-gate/)**<br><sub>We let an agent try forbidden things 15,000 times, read what the gate let through, and closed what we found in a new public release.</sub> | [article](https://splabs.io/lab/what-25000-agent-actions-taught-the-gate) |
 | 2026-11-17 | **[First runs through the hosted gate: 3,605 decisions, and the first rules drawn from what an agent tried](first-runs-through-the-hosted-gate/)**<br><sub>Agents working on our machines sent every action to the gate service first. A model told to misbehave showed us five gaps, now closed.</sub> | [article](https://splabs.io/lab/first-runs-through-the-hosted-gate) |

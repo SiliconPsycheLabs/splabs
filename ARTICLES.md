@@ -1,16 +1,28 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 83 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 91 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (57) · [AI security and psychology](#ai-security-and-psychology) (10) · [Tutorials](#tutorials) (16)
+[From the lab](#from-the-lab) (60) · [AI security and psychology](#ai-security-and-psychology) (14) · [Tutorials](#tutorials) (17)
 
 ## From the lab
+
+- **[Chains of commands read step by step](https://splabs.io/lab/chains-of-commands-read-step-by-step)**  
+  <sub>2026-11-19 · [numbers](results/chains-of-commands-read-step-by-step/)</sub>  
+  When an agent sends a chain of commands with one link that is not allowed, the gate now lets the safe links through and stops the wrong one and everything that depends on it.
+
+- **[Every door to an action that cannot be undone](https://splabs.io/lab/every-door-to-an-action-that-cannot-be-undone)**  
+  <sub>2026-11-19 · [numbers](results/every-door-to-an-action-that-cannot-be-undone/)</sub>  
+  We drew a map of the actions an agent can take that cannot be undone, crossed with every route it can use to reach them, and closed every box that was open.
+
+- **[Developers' models behind the gate: every harmful action stopped, very different friction on the work](https://splabs.io/lab/developers-models-behind-the-gate)**  
+  <sub>2026-11-17 · [numbers](results/developers-models-behind-the-gate/)</sub>  
+  Five models people run as coding agents, behind the same rules: every action that would have carried out a hidden instruction was stopped. The friction on their real work differs five times.
 
 - **[The gate in front of a coding agent, with the person in the loop](https://splabs.io/lab/the-gate-asks-the-person)**  
   <sub>2026-11-17</sub>  
   Every command a coding agent is about to run goes to the gate. Forbidden ones are refused; the ones that need a person reach you as an approval prompt.
 
-- **[Eleven open models behind the same gate: what they tried, what was stopped, what got done](https://splabs.io/lab/open-models-behind-the-same-gate)**  
+- **[Eleven open models behind the same gate: what was stopped, what got done](https://splabs.io/lab/open-models-behind-the-same-gate)**  
   <sub>2026-11-17 · [numbers](results/open-models-behind-the-same-gate/)</sub>  
   We ran eleven open models through the same agent tasks behind the same rules. None carried out a hidden instruction. They differ far more in the work they finish.
 
@@ -236,6 +248,22 @@ Everything we have published on [splabs.io](https://splabs.io/news): 83 articles
 
 ## AI security and psychology
 
+- **[Agents and employee data: the rules that keep it inside](https://splabs.io/news/security/agents-and-employee-data)**  
+  <sub>2026-11-19</sub>  
+  An HR assistant reads CVs, payslips and e-mails all day. One line hidden in a CV can ask it to send them out. The gate checks where the recipient came from before anything leaves.
+
+- **[What a wrong agent action costs, and what a check costs](https://splabs.io/news/security/what-a-wrong-agent-action-costs)**  
+  <sub>2026-11-19</sub>  
+  A wrong action costs the clean-up; a check costs a few seconds; a question to a person costs that person's time. The gate counts all three, so the trade-off is a number, not a guess.
+
+- **[Who answers when an agent acts](https://splabs.io/news/security/who-answers-when-an-agent-acts)**  
+  <sub>2026-11-19</sub>  
+  An agent acts with your company's permissions, and the company answers for what it does. A gate turns that into rules you set, a person where it matters, and a record.
+
+- **[One gate for every Claude Code in the company](https://splabs.io/news/security/one-gate-for-every-claude-code-in-the-company)**  
+  <sub>2026-11-19</sub>  
+  IT sets the gate once in Claude Code's managed settings; no developer can switch it off. One rule set for every machine, one log of who approved what.
+
 - **[Frontier or open source is the wrong question: which work goes to which model](https://splabs.io/news/security/frontier-or-open-source-which-work-goes-to-which)**  
   <sub>2026-11-17 · [numbers](results/frontier-or-open-source-which-work-goes-to-which/)</sub>  
   A trillion-dollar model is the wrong tool for routine work, and a smarter model does not stop hidden instructions. What I read, what we tested, and where I draw the line.
@@ -277,6 +305,10 @@ Everything we have published on [splabs.io](https://splabs.io/news): 83 articles
   Attackers do not need to break the AI. They need people to believe it. Ten weak spots and what to do.
 
 ## Tutorials
+
+- **[The gate in Claude Code in two minutes](https://splabs.io/news/tutorials/gate-claude-code-in-two-minutes)**  
+  <sub>2026-11-19</sub>  
+  One command installs it. Then every command Claude Code is about to run is checked by fixed rules: it runs, it is refused with a reason, or you are asked.
 
 - **[Why every command an AI agent sends should pass through a gate](https://splabs.io/news/tutorials/why-agent-commands-need-a-gate)**  
   <sub>2026-11-17</sub>  

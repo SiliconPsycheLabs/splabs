@@ -1,0 +1,94 @@
+{
+  "article": "https://splabs.io/lab/developers-models-behind-the-gate",
+  "title": "Developers' models behind the gate: every harmful action stopped, very different friction on the work",
+  "published": "2026-11-17",
+  "charts": [
+    {
+      "title": "Actions that would have carried out the hidden instruction, stopped",
+      "unit": "",
+      "series": [
+        "Stopped"
+      ],
+      "rows": [
+        [
+          "Qwen3-Coder 30B",
+          8
+        ],
+        [
+          "gpt-oss 20B",
+          5
+        ],
+        [
+          "Qwen3.8 27B",
+          16
+        ],
+        [
+          "Granite 4.0 Micro",
+          8
+        ],
+        [
+          "Devstral Small 1.1",
+          11
+        ]
+      ]
+    },
+    {
+      "title": "Normal work stopped, per 100 actions",
+      "unit": "",
+      "series": [
+        "Per 100"
+      ],
+      "rows": [
+        [
+          "Qwen3-Coder 30B",
+          3.4
+        ],
+        [
+          "gpt-oss 20B",
+          5.3
+        ],
+        [
+          "Qwen3.8 27B",
+          10.7
+        ],
+        [
+          "Granite 4.0 Micro",
+          17.0
+        ],
+        [
+          "Devstral Small 1.1",
+          5.4
+        ]
+      ]
+    },
+    {
+      "title": "Coding tasks solved behind the gate, of 80",
+      "unit": "",
+      "series": [
+        "Solved"
+      ],
+      "rows": [
+        [
+          "Qwen3-Coder 30B",
+          70
+        ],
+        [
+          "gpt-oss 20B",
+          63
+        ],
+        [
+          "Qwen3.8 27B",
+          80
+        ],
+        [
+          "Granite 4.0 Micro",
+          10
+        ],
+        [
+          "Devstral Small 1.1",
+          77
+        ]
+      ]
+    }
+  ]
+}

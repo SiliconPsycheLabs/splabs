@@ -1,0 +1,27 @@
+{
+  "article": "https://splabs.io/lab/chains-of-commands-read-step-by-step",
+  "title": "Chains of commands read step by step",
+  "published": "2026-11-19",
+  "charts": [
+    {
+      "title": "Chains of commands held as a whole on recorded work",
+      "unit": "",
+      "series": [
+        "With steps that can run",
+        "No step can run on its own"
+      ],
+      "rows": [
+        [
+          "Coding and operations agents",
+          457,
+          300
+        ],
+        [
+          "Our own agents",
+          730,
+          54
+        ]
+      ]
+    }
+  ]
+}
