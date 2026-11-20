@@ -88,6 +88,10 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
+- **[Gate rules without writing code: a form, the rule in plain words, and a trial on past traffic](https://splabs.io/lab/a-form-for-gate-rules)**  
+  <sub>2026-11-20</sub>  
+  Build a rule by picking conditions, read it in plain words, and see what it would have stopped before it decides anything.
+
 - **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
   <sub>2026-11-19 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
   Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
@@ -107,10 +111,6 @@ Figures as published in the articles; each line links to its numbers folder.
 - **[The same rules, whatever route the agent takes](https://splabs.io/lab/the-same-rules-whatever-route-the-agent-takes)**  
   <sub>2026-11-19</sub>  
   A command, a file or a request sent through an MCP tool skipped checks the gate makes on the direct action. We tested it with the tools of security MCP servers and closed every route we found.
-
-- **[Two lists the owner writes, measured on five public attack benchmarks](https://splabs.io/lab/two-lists-the-owner-writes)**  
-  <sub>2026-11-19 · [numbers](results/two-lists-the-owner-writes/)</sub>  
-  Five public agent-attack benchmarks behind the gate. As shipped it stops what an agent takes from what it reads; two short lists the owner writes stop the rest and cut the cost on normal work.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

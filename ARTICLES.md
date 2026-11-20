@@ -6,6 +6,10 @@ Everything we have published on [splabs.io](https://splabs.io/news): 103 article
 
 ## From the lab
 
+- **[Gate rules without writing code: a form, the rule in plain words, and a trial on past traffic](https://splabs.io/lab/a-form-for-gate-rules)**  
+  <sub>2026-11-20</sub>  
+  Build a rule by picking conditions, read it in plain words, and see what it would have stopped before it decides anything.
+
 - **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
   <sub>2026-11-19 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
   Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
@@ -37,10 +41,6 @@ Everything we have published on [splabs.io](https://splabs.io/news): 103 article
 - **[Machines, buildings and company accounts behind the same gate](https://splabs.io/lab/machines-buildings-and-company-accounts)**  
   <sub>2026-11-19 · [numbers](results/machines-buildings-and-company-accounts/)</sub>  
   The gate now reads what an agent does to a PLC, a CNC machine, a robot, a building or an ERP by the protocol itself, and the owner can declare their machines with a safe range for each value.
-
-- **[The gate's traffic, read the way a network engineer reads packets](https://splabs.io/lab/the-gate-traffic-read-like-packets)**  
-  <sub>2026-11-19</sub>  
-  A second console for the gate: one line per action, a filter you type, and the full detail of each decision beside the list.
 
 - **[A decision record nobody can rewrite in silence](https://splabs.io/lab/a-decision-record-nobody-can-rewrite)**  
   <sub>2026-11-19</sub>  
