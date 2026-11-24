@@ -1,6 +1,6 @@
 # Results
 
-70 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+74 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,6 +8,8 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-24 | **[Decoys: when the gate stops an attacker, it can answer with a fake](decoys-in-the-gate/)**<br><sub>A rule that stops an action can now answer with a fake result the owner wrote, and a fake key it hands out stops any action that later uses it.</sub> | [article](https://splabs.io/lab/decoys-in-the-gate) |
+| 2026-11-24 | **[A payment API's rules, read from its own published description and checked against the API itself](stripe-rules-from-its-own-document/)**<br><sub>We turned Stripe's published API description into gate rules with no hand-written rule, then asked Stripe itself about 17,000 requests per round. They agree on about 97 in 100.</sub> | [article](https://splabs.io/lab/stripe-rules-from-its-own-document) |
 | 2026-11-19 | **[Our reader finds the training examples that teach a model to give in](reader-finds-bad-training-examples/)**<br><sub>Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.</sub> | [article](https://splabs.io/lab/reader-finds-bad-training-examples) |
 | 2026-11-19 | **[We put a public attack benchmark through the gate: it stops the technical attacks, the business ones need rules](gate-on-a-public-attack-benchmark/)**<br><sub>We ran 91 published agent attacks through our deterministic gate. It stopped most technical ones with almost no friction and left the legitimate-looking ones open, what per-customer rules are for.</sub> | [article](https://splabs.io/lab/gate-on-a-public-attack-benchmark) |
 | 2026-11-19 | **[Rules for actions that look like normal work](rules-for-actions-that-look-like-normal-work/)**<br><sub>Hard attacks make an agent do something ordinary: clear a cache, message everyone, open a settings page. Six new gate rules hold these for a person, checked with a model as the agent.</sub> | [article](https://splabs.io/lab/rules-for-actions-that-look-like-normal-work) |
@@ -70,6 +72,8 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-24 | **[Two actions at the same instant, kept in order](simultaneous-actions-kept-in-order/)**<br><sub>A gate with no memory judges two simultaneous actions on the same record as it was. We now ship the piece that makes them go one after the other.</sub> | [article](https://splabs.io/news/security/simultaneous-actions-kept-in-order) |
+| 2026-11-24 | **[Why our gate keeps no memory](why-the-gate-keeps-no-memory/)**<br><sub>When a job is split among several agents, a gate with its own memory forgets. Ours now reads every fact from the company's records.</sub> | [article](https://splabs.io/news/security/why-the-gate-keeps-no-memory) |
 | 2026-11-19 | **[Why the gate stays on when it blocks nothing](why-the-gate-stays-on-when-it-blocks-nothing/)**<br><sub>After a while a well tuned gate blocks almost nothing. That is the result, not a reason to switch it off: an agent's inputs and its model change every day.</sub> | [article](https://splabs.io/news/security/why-the-gate-stays-on-when-it-blocks-nothing) |
 | 2026-11-17 | **[Frontier or open source is the wrong question: which work goes to which model](frontier-or-open-source-which-work-goes-to-which/)**<br><sub>A trillion-dollar model is the wrong tool for routine work, and a smarter model does not stop hidden instructions. What I read, what we tested, and where I draw the line.</sub> | [article](https://splabs.io/news/security/frontier-or-open-source-which-work-goes-to-which) |
 | 2026-11-07 | **[Passing every safety test is half the answer: a safe model can still drift](safe-model-still-drifts/)**<br><sub>A commercial assistant refused all of about 136 attacks. Under ordinary pressure, its tone still climbed for eight turns.</sub> | [article](https://splabs.io/news/security/safe-model-still-drifts) |

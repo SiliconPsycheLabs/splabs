@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/news/security/simultaneous-actions-kept-in-order",
+  "title": "Two actions at the same instant, kept in order",
+  "published": "2026-11-24",
+  "charts": [
+    {
+      "title": "Payments made when 8 are asked at once and 3 are allowed",
+      "unit": "",
+      "series": [
+        "Payments made per round, on average"
+      ],
+      "rows": [
+        [
+          "Allowed by the rule",
+          3
+        ],
+        [
+          "Sender keeping no order",
+          7.8
+        ],
+        [
+          "Sender keeping the order",
+          3
+        ]
+      ]
+    }
+  ]
+}
