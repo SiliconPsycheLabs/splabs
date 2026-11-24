@@ -1,0 +1,28 @@
+{
+  "article": "https://splabs.io/news/security/why-the-gate-keeps-no-memory",
+  "title": "Why our gate keeps no memory",
+  "published": "2026-11-24",
+  "charts": [
+    {
+      "title": "Forbidden actions that passed",
+      "unit": "%",
+      "series": [
+        "Share that passed"
+      ],
+      "rows": [
+        [
+          "The path as designed",
+          0
+        ],
+        [
+          "Two requests at the same instant",
+          0.05
+        ],
+        [
+          "The agent supplies the records",
+          82.6
+        ]
+      ]
+    }
+  ]
+}

@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-103-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-70-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-114-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-74-312e81?style=flat-square"></a>
   <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -88,29 +88,29 @@ Figures as published in the articles; each line links to its numbers folder.
 ## Latest from the lab
 
 <!--latest:start-->
-- **[Gate rules without writing code: a form, the rule in plain words, and a trial on past traffic](https://splabs.io/lab/a-form-for-gate-rules)**  
-  <sub>2026-11-20</sub>  
-  Build a rule by picking conditions, read it in plain words, and see what it would have stopped before it decides anything.
+- **[The gate's SDK is public: put the gate in front of your agent in a few lines](https://splabs.io/lab/the-gate-sdk-is-public)**  
+  <sub>2026-11-24</sub>  
+  The piece that connects an agent to the gate is now open source, for Python functions, OpenAI-style APIs, LangChain, the OpenAI Agents SDK, CrewAI, MCP servers and coding agents.
 
-- **[Our reader finds the training examples that teach a model to give in](https://splabs.io/lab/reader-finds-bad-training-examples)**  
-  <sub>2026-11-19 · [numbers](results/reader-finds-bad-training-examples/)</sub>  
-  Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.
+- **[One gate for every kind of agent: MCP, function calling, coding assistants, frameworks](https://splabs.io/lab/one-gate-for-every-kind-of-agent)**  
+  <sub>2026-11-24</sub>  
+  Every action of an agent now reaches the gate before it runs, whether the agent is a coding assistant, an MCP app, a program calling a model directly or a framework.
 
-- **[We put a public attack benchmark through the gate: it stops the technical attacks, the business ones need rules](https://splabs.io/lab/gate-on-a-public-attack-benchmark)**  
-  <sub>2026-11-19 · [numbers](results/gate-on-a-public-attack-benchmark/)</sub>  
-  We ran 91 published agent attacks through our deterministic gate. It stopped most technical ones with almost no friction and left the legitimate-looking ones open, what per-customer rules are for.
+- **[Decoys: when the gate stops an attacker, it can answer with a fake](https://splabs.io/lab/decoys-in-the-gate)**  
+  <sub>2026-11-24 · [numbers](results/decoys-in-the-gate/)</sub>  
+  A rule that stops an action can now answer with a fake result the owner wrote, and a fake key it hands out stops any action that later uses it.
 
-- **[The gate is also your access policy: maintenance, office hours, and a key per agent](https://splabs.io/lab/the-gate-as-access-policy)**  
-  <sub>2026-11-19</sub>  
-  Not every blocked action is an attack. The gate now lets the owner close things for their own reasons, on a schedule, with a reply that tells the agent why.
+- **[A payment API's rules, read from its own published description and checked against the API itself](https://splabs.io/lab/stripe-rules-from-its-own-document)**  
+  <sub>2026-11-24 · [numbers](results/stripe-rules-from-its-own-document/)</sub>  
+  We turned Stripe's published API description into gate rules with no hand-written rule, then asked Stripe itself about 17,000 requests per round. They agree on about 97 in 100.
 
-- **[Rules for actions that look like normal work](https://splabs.io/lab/rules-for-actions-that-look-like-normal-work)**  
-  <sub>2026-11-19 · [numbers](results/rules-for-actions-that-look-like-normal-work/)</sub>  
-  Hard attacks make an agent do something ordinary: clear a cache, message everyone, open a settings page. Six new gate rules hold these for a person, checked with a model as the agent.
+- **[Models working as agents find what the gate reads wrong](https://splabs.io/lab/agents-find-what-the-gate-misreads)**  
+  <sub>2026-11-24</sub>  
+  Open models now work as agents on all seven of our GPUs, every action checked by the gate and by the real system. Each disagreement points to a rule to fix.
 
-- **[The same rules, whatever route the agent takes](https://splabs.io/lab/the-same-rules-whatever-route-the-agent-takes)**  
-  <sub>2026-11-19</sub>  
-  A command, a file or a request sent through an MCP tool skipped checks the gate makes on the direct action. We tested it with the tools of security MCP servers and closed every route we found.
+- **[Four models, about 48,000 runs behind the gate, no harm done](https://splabs.io/lab/no-harm-behind-the-gate-in-48000-runs)**  
+  <sub>2026-11-24</sub>  
+  Four open models ran small simulated companies while planted messages pushed them to cause damage. Behind the gate, no run ended in harm. Without it, up to two in three did.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

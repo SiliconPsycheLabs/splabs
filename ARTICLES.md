@@ -1,10 +1,46 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 103 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 114 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (70) · [AI security and psychology](#ai-security-and-psychology) (16) · [Tutorials](#tutorials) (17)
+[From the lab](#from-the-lab) (79) · [AI security and psychology](#ai-security-and-psychology) (18) · [Tutorials](#tutorials) (17)
 
 ## From the lab
+
+- **[The gate's SDK is public: put the gate in front of your agent in a few lines](https://splabs.io/lab/the-gate-sdk-is-public)**  
+  <sub>2026-11-24</sub>  
+  The piece that connects an agent to the gate is now open source, for Python functions, OpenAI-style APIs, LangChain, the OpenAI Agents SDK, CrewAI, MCP servers and coding agents.
+
+- **[One gate for every kind of agent: MCP, function calling, coding assistants, frameworks](https://splabs.io/lab/one-gate-for-every-kind-of-agent)**  
+  <sub>2026-11-24</sub>  
+  Every action of an agent now reaches the gate before it runs, whether the agent is a coding assistant, an MCP app, a program calling a model directly or a framework.
+
+- **[Decoys: when the gate stops an attacker, it can answer with a fake](https://splabs.io/lab/decoys-in-the-gate)**  
+  <sub>2026-11-24 · [numbers](results/decoys-in-the-gate/)</sub>  
+  A rule that stops an action can now answer with a fake result the owner wrote, and a fake key it hands out stops any action that later uses it.
+
+- **[A payment API's rules, read from its own published description and checked against the API itself](https://splabs.io/lab/stripe-rules-from-its-own-document)**  
+  <sub>2026-11-24 · [numbers](results/stripe-rules-from-its-own-document/)</sub>  
+  We turned Stripe's published API description into gate rules with no hand-written rule, then asked Stripe itself about 17,000 requests per round. They agree on about 97 in 100.
+
+- **[Models working as agents find what the gate reads wrong](https://splabs.io/lab/agents-find-what-the-gate-misreads)**  
+  <sub>2026-11-24</sub>  
+  Open models now work as agents on all seven of our GPUs, every action checked by the gate and by the real system. Each disagreement points to a rule to fix.
+
+- **[Four models, about 48,000 runs behind the gate, no harm done](https://splabs.io/lab/no-harm-behind-the-gate-in-48000-runs)**  
+  <sub>2026-11-24</sub>  
+  Four open models ran small simulated companies while planted messages pushed them to cause damage. Behind the gate, no run ended in harm. Without it, up to two in three did.
+
+- **[We asked twenty real systems to check the gate's answers](https://splabs.io/lab/real-systems-check-the-gate)**  
+  <sub>2026-11-24</sub>  
+  We wrote the permission rules of databases, Kubernetes, sudo, mail and more as gate tables, then asked each real system to judge the same actions. They agreed.
+
+- **[Gate 2.0: every rule is a table, read by one engine](https://splabs.io/lab/gate-2-rules-as-tables)**  
+  <sub>2026-11-24</sub>  
+  The gate's rules are no longer code: they are tables an owner can read, and one engine reads them all. On over a million past decisions, no answer changed.
+
+- **[Finding one action among a million and a half](https://splabs.io/lab/finding-one-action-among-a-million)**  
+  <sub>2026-11-24</sub>  
+  The gate records every action an agent asks. A person now finds any of them by invoice, customer, date or reason, in under a second.
 
 - **[Gate rules without writing code: a form, the rule in plain words, and a trial on past traffic](https://splabs.io/lab/a-form-for-gate-rules)**  
   <sub>2026-11-20</sub>  
@@ -288,6 +324,14 @@ Everything we have published on [splabs.io](https://splabs.io/news): 103 article
 
 ## AI security and psychology
 
+- **[Two actions at the same instant, kept in order](https://splabs.io/news/security/simultaneous-actions-kept-in-order)**  
+  <sub>2026-11-24 · [numbers](results/simultaneous-actions-kept-in-order/)</sub>  
+  A gate with no memory judges two simultaneous actions on the same record as it was. We now ship the piece that makes them go one after the other.
+
+- **[Why our gate keeps no memory](https://splabs.io/news/security/why-the-gate-keeps-no-memory)**  
+  <sub>2026-11-24 · [numbers](results/why-the-gate-keeps-no-memory/)</sub>  
+  When a job is split among several agents, a gate with its own memory forgets. Ours now reads every fact from the company's records.
+
 - **[Injection attacks from a public competition and from live websites, through the gate](https://splabs.io/news/security/public-and-wild-injections-through-the-gate)**  
   <sub>2026-11-19</sub>  
   We took the harmful actions from a large public injection competition and from payloads found on live websites, and checked what our gate does with each one.
@@ -354,9 +398,9 @@ Everything we have published on [splabs.io](https://splabs.io/news): 103 article
 
 ## Tutorials
 
-- **[The gate in Claude Code in two minutes](https://splabs.io/news/tutorials/gate-claude-code-in-two-minutes)**  
+- **[The gate in front of Claude Code: a table decides what it may touch](https://splabs.io/news/tutorials/gate-claude-code-in-two-minutes)**  
   <sub>2026-11-19</sub>  
-  One command installs it. Then every command Claude Code is about to run is checked by fixed rules: it runs, it is refused with a reason, or you are asked.
+  A hook checks every tool call Claude Code is about to make against a table of rules. The call passes or it does not, with a fixed reason, and each decision is recorded.
 
 - **[Why every command an AI agent sends should pass through a gate](https://splabs.io/news/tutorials/why-agent-commands-need-a-gate)**  
   <sub>2026-11-17</sub>  

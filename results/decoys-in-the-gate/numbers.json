@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/lab/decoys-in-the-gate",
+  "title": "Decoys: when the gate stops an attacker, it can answer with a fake",
+  "published": "2026-11-24",
+  "charts": [
+    {
+      "title": "Golden cases on 7 real systems: expected and obtained (count)",
+      "unit": "",
+      "series": [
+        "Expected",
+        "Obtained"
+      ],
+      "rows": [
+        [
+          "Allowed actions that still pass",
+          2236,
+          2236
+        ],
+        [
+          "Copies carrying a planted value, stopped by that rule",
+          2236,
+          2236
+        ],
+        [
+          "Decoys that name the rule that stopped the action",
+          1230,
+          1230
+        ]
+      ]
+    }
+  ]
+}

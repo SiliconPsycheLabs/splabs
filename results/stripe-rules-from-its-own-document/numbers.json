@@ -1,0 +1,26 @@
+{
+  "article": "https://splabs.io/lab/stripe-rules-from-its-own-document",
+  "title": "A payment API's rules, read from its own published description and checked against the API itself",
+  "published": "2026-11-24",
+  "charts": [
+    {
+      "title": "The gate against Stripe, three rounds",
+      "unit": "",
+      "series": [],
+      "rows": [
+        [
+          "Round 1",
+          null
+        ],
+        [
+          "Round 2",
+          null
+        ],
+        [
+          "Round 3",
+          null
+        ]
+      ]
+    }
+  ]
+}
