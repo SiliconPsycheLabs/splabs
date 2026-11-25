@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://splabs.io"><img src="assets/banner.svg" alt="Silicon Psyche Labs: we understand models, and we fine-tune them" width="100%"></a>
+  <a href="https://splabs.io"><img src="assets/banner.svg" alt="Silicon Psyche Labs: a deterministic gate decides what your AI agents can do" width="100%"></a>
 </p>
 
 <p align="center">
@@ -14,75 +14,67 @@
 
 # Silicon Psyche Labs
 
-**A model doesn't break, it drifts.** It caves when a user insists. It agrees with a wrong answer to
-please. It obeys an order hidden in an email it was only asked to summarise. It reports work it never
-did. None of that shows up as an error: the model answers fluently, and it is wrong in a way that
-looks right.
+**A model does not break, it drifts.** It caves when a user insists, agrees with a wrong answer to please, obeys an
+order hidden in an email it was only asked to summarise. None of that can be removed from a model: it can be seen and
+reduced, never taken out. In a chat that costs little. In an agent that pays, deletes, sends mail and changes access,
+one wrong action costs money.
 
-We do two things that belong together:
+So we put a **deterministic gate** in front of every action an agent is about to take. The action is checked against
+the owner's rules before it runs: it **passes**, or it **does not pass** with a fixed reason the model reads. Nothing
+probabilistic decides: the same action on the same facts always gets the same answer, and every decision is counted.
 
-- **We read model behaviour.** From the output alone, the way an outside observer would. Where we
-  host the model, we also read it from the inside, in its internal states. Either way we turn the
-  behaviour into numbers tied to the research literature.
-- **We tune the model.** We correct what drifted, and we install the faculties it lacks: telling
-  the user's request from a planted order, holding a position under pressure, reading intention,
-  register and emotion. The correction goes into the weights, so it travels with the model.
+The rules are drawn from what agents actually try. Where it pays, we also **audit** the company's own model from the
+inside and **fine-tune** it on its own logged failures, so it runs into the rules less, and the gate's count shows by
+how much.
 
-A reading without a correction is only a meter. A correction without a reading is a guess. We do both,
-and we check the second with the first.
-
-This repository is where we publish what can be checked from the outside: the numbers behind every
-article we write, and our open data and models. The gate's engine and the SDK that puts the gate in front of an
-agent are in [SiliconPsycheLabs/gate](https://github.com/SiliconPsycheLabs/gate).
+This repository is where we publish what can be checked from the outside: the numbers behind every article we write,
+and our open data. The gate's engine and its SDK are open source in
+[SiliconPsycheLabs/gate](https://github.com/SiliconPsycheLabs/gate).
 
 ---
 
-## How we work
+## How it works
 
 ```mermaid
 flowchart LR
-    A["<b>Read</b><br/>output and internals"] --> B["<b>Correct</b><br/>in the weights"]
-    B --> C["<b>Verify</b><br/>same test, reloaded"]
-    C -->|"next behaviour"| A
+    A["<b>Agent</b><br/>asks for an action"] --> G{"<b>Gate</b><br/>the owner's rules"}
+    G -->|passes| R["<b>Runs</b>"]
+    G -->|"does not pass"| M["<b>Fixed reason</b><br/>back to the model"]
+    G --> T["<b>Tape</b><br/>every decision"]
+    T --> N["<b>New rules</b>, and the fine-tune<br/>on request"]
 ```
 
 | Step | What happens | What you get |
 |---|---|---|
-| **Read** | We put the model in front of the situations where it drifts (pressure, flattery, planted orders, long agent runs) and measure how often, and how far, it gives way. | A reading per behaviour, with numbers and the literature each number maps to. |
-| **Correct** | We train a small adapter on the model's own good answers, aimed at one behaviour. No filter at the door, no rule list in front of the model. | A corrected model, in the weights, that you host where you host the original. |
-| **Verify** | We reload the corrected model from storage and repeat the same read, plus a check that everything the model did well before still works. | A before/after you can audit, and the confidence that nothing else regressed. |
+| **Gate** | Every action (a tool call, a SQL statement, a shell line, a mail, an API request) is read against one table of rules per agent, and against the company's own records: the state of an invoice, who is acting, the time. What is not in the table does not pass. | A ceiling on what an agent can do, the same answer every time, and a model that reads why. |
+| **Tape** | Every decision is recorded with the rule that gave it. | The count of what passed and what did not, and the rules to write next. |
+| **Audit and fine-tune**, on request | We run the company's own tasks and our attack library against its model, read what happens inside it, and tune it on its own failures. | Fewer blocked actions, fewer retries, maybe a smaller model, measured by the same count. |
 
-Every test has its bar declared before it runs, and a result that misses the bar is published as
-what it is.
-
----
-
-## What we read and correct
-
-| Family | In plain words | Example article |
-|---|---|---|
-| **Caving under pressure** | The model drops a correct position when the user pushes, or slides into a bad plan over several turns. | [A large model gives way when you insist](https://splabs.io/lab/a-large-model-gives-way-under-pressure) |
-| **Sycophancy** | It agrees with the user's wrong answer to please them. | [We found where a model's sycophancy lives](https://splabs.io/lab/sycophancy-circuit-targeted-edit) |
-| **Planted orders (prompt injection)** | It obeys an instruction hidden in a document, email or tool output it was asked to read. | [Our injection correction carries over to larger models](https://splabs.io/lab/the-injection-correction-scales-to-32b) |
-| **Agents acting on planted orders** | An agent with tools (mail, files, payments) carries out the attacker's order instead of the user's. | [The tool guard installs on a 32B model](https://splabs.io/lab/the-tool-guard-installs-on-a-32b-model) |
-| **False reports of work done** | It says a job is complete when parts of it were never opened. | [Telling the truth about the work done](https://splabs.io/lab/honest-work-reports-in-the-weights) |
-| **Missing comprehension** | It misses what a request commits it to, the emotion behind a message, a persuasion attempt. | [Three comprehension skills installed on a 32B model](https://splabs.io/lab/comprehension-skills-installed-on-a-32b-model) |
-
-The full list of what we have published is in [`ARTICLES.md`](ARTICLES.md).
+A planted instruction can make a model want anything. With the gate, it can do only what the owner's rules allow.
 
 ---
 
 ## Selected results
 
-Figures as published in the articles; each line links to its numbers folder.
+Figures as published in the articles.
 
-| What we measured | Before | After our correction | Numbers |
-|---|---:|---:|---|
-| Hidden instructions that get through, Qwen3-32B (out of 100 attacks) | 31.3 | **0.2** | [results](results/the-injection-correction-scales-to-32b/) |
-| Planted orders an agent obeys when the order aims at a new goal (out of 100) | 58.3 | **0** | [results](results/the-tool-guard-installs-on-a-32b-model/) |
-| Incomplete reviews whose report hides the gap (%) | 91.9 | **10.8** | [results](results/honest-work-reports-in-the-weights/) |
-| Times the model switches to the user's wrong answer, Italian (%) | 71 | **42** | [results](results/sycophancy-circuit-targeted-edit/) |
-| A model sold as hardened against injection, planted commands obeyed (out of 100) | 33 | 32 (vendor) / **0.3** (ours, 7B) | [results](results/hardened-weights-planted-commands/) |
+| What we measured | Result | Article |
+|---|---|---|
+| The rules rewritten as tables read by one engine, replayed on every recorded decision | 1,142,215 decisions, 0 differences from the rules they replaced | [Gate 2.0](https://splabs.io/lab/gate-2-rules-as-tables) |
+| Twenty real systems as judges of the tables written from their own rule languages (PostgreSQL 16 grants, for example) | 39,721 of 39,721 actions that had to pass passed; 80,279 of 80,279 that must not pass did not | [Real systems check the gate](https://splabs.io/lab/real-systems-check-the-gate) |
+| Four open models running small companies while planted messages pushed them to cause damage | with the gate, 0 runs ended in harm in about 48,000; without it, up to 2 attacked runs in 3 | [No harm behind the gate](https://splabs.io/lab/no-harm-behind-the-gate-in-48000-runs) |
+| One job split among several agents, the gate reading the company's records | 429,285 of 429,285 actions that had to pass passed; none of 917,550 that must not | [numbers](results/why-the-gate-keeps-no-memory/) |
+| Two payments asked at the same instant, with a limit of 3 per round | 7.8 made on average with no order kept, 3 with the order kept | [numbers](results/simultaneous-actions-kept-in-order/) |
+| Stripe's own API description turned into rules with no hand-written rule, judged by Stripe in test mode | about 97 requests in 100 answered as Stripe answers them, work in progress | [numbers](results/stripe-rules-from-its-own-document/) |
+
+---
+
+## What we learned reading models
+
+Before the gate, we spent months reading models' behaviour, from their output and from their internal states:
+caving under pressure, sycophancy, planted orders, false reports of work done. Those articles are kept in
+[`ARTICLES.md`](ARTICLES.md). They are why we build the gate: every one of those behaviours could be measured and
+reduced, and none could be removed. They are also what the audit of a company's model starts from.
 
 ---
 
@@ -133,10 +125,6 @@ splabs/
 
 ## Put the gate in front of your agent
 
-The gate decides every action an agent is about to take before it runs: it passes, or it does not pass with a fixed
-reason the model reads. Its engine and its SDK are open source in
-[SiliconPsycheLabs/gate](https://github.com/SiliconPsycheLabs/gate):
-
 ```bash
 pip install "git+https://github.com/SiliconPsycheLabs/gate"
 ```
@@ -155,31 +143,30 @@ else:
 
 Adapters for Python functions, OpenAI-style function calling, LangChain and LangGraph, the OpenAI Agents SDK,
 CrewAI, MCP servers, and hooks for Claude Code, Codex CLI and Cursor: see the
-[gate README](https://github.com/SiliconPsycheLabs/gate#readme).
+[gate README](https://github.com/SiliconPsycheLabs/gate#readme). The table format, and the engine to run the rules
+yourself, are in the same repository.
 
 ---
 
-## Open models and data
+## Open data
 
-- **Models**: the readers that serve PSA and our injection corrections are on
-  [Hugging Face](https://huggingface.co/SiliconPsycheLabs).
-- **Data**: [`datasets/`](datasets/). Each dataset has a card that says what it is, how it was
-  built and what it must not be used for.
+[`datasets/`](datasets/): each dataset has a card that says what it is, how it was built and what it must not be used
+for. Models from our research are on [Hugging Face](https://huggingface.co/SiliconPsycheLabs).
 
 ## What we publish, and what we keep
 
-We publish the aggregate figures of every result, the method, and its limits, so anyone can check
-what we claim. We keep private the test items (a published test is a burned test), the training data
-and the correction recipes. Every article says which public benchmarks it used, so the outside parts
-can be reproduced.
+We publish the aggregate figures of every result, the method and its limits, so anyone can check what we claim. The
+gate's engine and SDK are open source. We keep private the rules we maintain, the test items (a published test is a
+burned test), the training data and the fine-tuning recipes. Every article says which public benchmarks it used, so
+the outside parts can be reproduced.
 
 ## Contact
 
 - Site: [splabs.io](https://splabs.io) · From the lab: [splabs.io/lab](https://splabs.io/lab)
-- To have your model read or corrected: [splabs.io/products](https://splabs.io/products)
+- To put the gate in front of your agents, or to have your model audited or fine-tuned:
+  [splabs.io/products/gate](https://splabs.io/products/gate)
 
 ## License
 
-Any code in this repository is under the [Apache License 2.0](LICENSE). Each dataset carries its own license
-in its folder. Article texts and figures are © Silicon Psyche Labs: quote them with a link to the
-article.
+Any code in this repository is under the [Apache License 2.0](LICENSE). Each dataset carries its own license in its
+folder. Article texts and figures are © Silicon Psyche Labs: quote them with a link to the article.
