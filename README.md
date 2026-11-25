@@ -7,7 +7,7 @@
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
   <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-114-312e81?style=flat-square"></a>
   <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-74-312e81?style=flat-square"></a>
-  <a href="sdk/"><img alt="SDK" src="https://img.shields.io/badge/SDK-Python%20%7C%20TypeScript-0ea5e9?style=flat-square"></a>
+  <a href="https://github.com/SiliconPsycheLabs/gate"><img alt="Gate engine and SDK" src="https://img.shields.io/badge/gate-engine%20%2B%20SDK-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
 </p>
@@ -32,7 +32,8 @@ A reading without a correction is only a meter. A correction without a reading i
 and we check the second with the first.
 
 This repository is where we publish what can be checked from the outside: the numbers behind every
-article we write, the SDK that connects your agents to PSA, and our open data and models.
+article we write, and our open data and models. The gate's engine and the SDK that puts the gate in front of an
+agent are in [SiliconPsycheLabs/gate](https://github.com/SiliconPsycheLabs/gate).
 
 ---
 
@@ -124,36 +125,37 @@ splabs/
 ├── ARTICLES.md        every article we have published, by section, with a one-line summary
 ├── results/           one folder per article that shows numbers
 │   └── <article>/     README.md (the tables, readable) + numbers.json (the same, machine-readable)
-├── sdk/
-│   ├── python/        PSA SDK for Python: LangGraph, CrewAI, AutoGen, MCP, A2A, ElevenLabs, plain HTTP
-│   └── js/            PSA SDK for TypeScript: LangChain.js, Vercel AI
 ├── datasets/          open data, each with its own card and license
 └── assets/            images used by this page
 ```
 
 ---
 
-## Use PSA from your code
+## Put the gate in front of your agent
+
+The gate decides every action an agent is about to take before it runs: it passes, or it does not pass with a fixed
+reason the model reads. Its engine and its SDK are open source in
+[SiliconPsycheLabs/gate](https://github.com/SiliconPsycheLabs/gate):
 
 ```bash
-pip install "git+https://github.com/SiliconPsycheLabs/splabs#subdirectory=sdk/python"
+pip install "git+https://github.com/SiliconPsycheLabs/gate"
 ```
 
 ```python
-import os
-os.environ["PSA_API_KEY"] = "your-key"          # from your account on splabs.io
+from splabs_gate import Gate          # GATE_TOKEN: a gate key from your account on splabs.io
 
-from psa import analyze
-
-reading = analyze(
-    user_text="Where is my order? It was supposed to arrive yesterday.",
-    response_text="I understand your frustration. Let me check the order status right away.",
-)
-print(reading["alert"])                          # the overall reading of this turn
+gate = Gate(table="payments", session="task-1842", agent="billing")
+d = gate.decide("pay_invoice", {"number": "INV-0042"})
+if d.passes:
+    pay_invoice("INV-0042")
+    gate.ran(d)
+else:
+    tell_the_model(d.reason)
 ```
 
-Framework adapters, the agent-trace API and the TypeScript client: [`sdk/`](sdk/). The full API
-reference is at [splabs.io/docs/api](https://splabs.io/docs/api).
+Adapters for Python functions, OpenAI-style function calling, LangChain and LangGraph, the OpenAI Agents SDK,
+CrewAI, MCP servers, and hooks for Claude Code, Codex CLI and Cursor: see the
+[gate README](https://github.com/SiliconPsycheLabs/gate#readme).
 
 ---
 
@@ -178,6 +180,6 @@ can be reproduced.
 
 ## License
 
-The code (the SDKs) is under the [Apache License 2.0](LICENSE). Each dataset carries its own license
+Any code in this repository is under the [Apache License 2.0](LICENSE). Each dataset carries its own license
 in its folder. Article texts and figures are © Silicon Psyche Labs: quote them with a link to the
 article.
