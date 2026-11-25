@@ -1,0 +1,27 @@
+{
+  "article": "https://splabs.io/lab/six-agents-run-a-purchasing-office",
+  "title": "Six agents run a purchasing office: every action they take goes through the gate",
+  "published": "2026-11-25",
+  "charts": [
+    {
+      "title": "Runs out of 30",
+      "unit": "",
+      "series": [
+        "Trap runs ended in a harm",
+        "Ordinary work done"
+      ],
+      "rows": [
+        [
+          "Gate deciding",
+          0,
+          26
+        ],
+        [
+          "Gate only watching",
+          6,
+          26
+        ]
+      ]
+    }
+  ]
+}

@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-118-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-76-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-119-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-77-312e81?style=flat-square"></a>
   <a href="https://github.com/SiliconPsycheLabs/gate"><img alt="Gate engine and SDK" src="https://img.shields.io/badge/gate-engine%20%2B%20SDK-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -81,6 +81,10 @@ reduced, and none could be removed. They are also what the audit of a company's 
 ## Latest from the lab
 
 <!--latest:start-->
+- **[Six agents run a purchasing office: every action they take goes through the gate](https://splabs.io/lab/six-agents-run-a-purchasing-office)**  
+  <sub>2026-11-25 · [numbers](results/six-agents-run-a-purchasing-office/)</sub>  
+  Six AI agents ran a simulated purchasing office: with the gate deciding, none of the traps got through.
+
 - **[661 real agent calls: what rules can stop, and where a decision model helps](https://splabs.io/lab/the-gate-on-661-real-agent-calls)**  
   <sub>2026-11-25 · [numbers](results/the-gate-on-661-real-agent-calls/)</sub>  
   On the calls decision models are compared on, closing what is not listed let no bad call through. Those lessons are now how the whole gate works.
@@ -100,10 +104,6 @@ reduced, and none could be removed. They are also what the audit of a company's 
 - **[Decoys: when the gate stops an attacker, it can answer with a fake](https://splabs.io/lab/decoys-in-the-gate)**  
   <sub>2026-11-24 · [numbers](results/decoys-in-the-gate/)</sub>  
   A rule that stops an action can now answer with a fake result the owner wrote, and a fake key it hands out stops any action that later uses it.
-
-- **[A payment API's rules, read from its own published description and checked against the API itself](https://splabs.io/lab/stripe-rules-from-its-own-document)**  
-  <sub>2026-11-24 · [numbers](results/stripe-rules-from-its-own-document/)</sub>  
-  We turned Stripe's published API description into gate rules with no hand-written rule, then asked Stripe itself about 17,000 requests per round. They agree on about 97 in 100.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).

@@ -1,10 +1,14 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 118 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 119 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (82) · [AI security and psychology](#ai-security-and-psychology) (19) · [Tutorials](#tutorials) (17)
+[From the lab](#from-the-lab) (83) · [AI security and psychology](#ai-security-and-psychology) (19) · [Tutorials](#tutorials) (17)
 
 ## From the lab
+
+- **[Six agents run a purchasing office: every action they take goes through the gate](https://splabs.io/lab/six-agents-run-a-purchasing-office)**  
+  <sub>2026-11-25 · [numbers](results/six-agents-run-a-purchasing-office/)</sub>  
+  Six AI agents ran a simulated purchasing office: with the gate deciding, none of the traps got through.
 
 - **[661 real agent calls: what rules can stop, and where a decision model helps](https://splabs.io/lab/the-gate-on-661-real-agent-calls)**  
   <sub>2026-11-25 · [numbers](results/the-gate-on-661-real-agent-calls/)</sub>  
