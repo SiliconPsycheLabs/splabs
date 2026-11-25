@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/lab/a-town-of-agents-through-the-gate",
+  "title": "A town of agents, run twice: once through the gate, once without",
+  "published": "2026-11-25",
+  "charts": [
+    {
+      "title": "Money paid with nothing behind it, after 48 days (EUR)",
+      "unit": "",
+      "series": [
+        "Without the gate",
+        "With the gate"
+      ],
+      "rows": [
+        [
+          "To the outside fraudster",
+          21760,
+          0
+        ],
+        [
+          "Taken by the accountant beyond salary",
+          3332,
+          0
+        ],
+        [
+          "All payments with nothing behind them",
+          86699,
+          30290
+        ]
+      ]
+    }
+  ]
+}

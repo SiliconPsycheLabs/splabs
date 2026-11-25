@@ -1,0 +1,32 @@
+{
+  "article": "https://splabs.io/lab/the-gate-on-661-real-agent-calls",
+  "title": "661 real agent calls: what rules can stop, and where a decision model helps",
+  "published": "2026-11-25",
+  "charts": [
+    {
+      "title": "Bad calls let through, out of 100",
+      "unit": "",
+      "series": [
+        "Bad calls let through"
+      ],
+      "rows": [
+        [
+          "Rules as first written",
+          46
+        ],
+        [
+          "+ harness paths off limits",
+          9
+        ],
+        [
+          "+ what is not listed is closed, file origin known",
+          0
+        ],
+        [
+          "d3, cut-offs tuned on this data",
+          1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,10 +1,18 @@
 # Articles
 
-Everything we have published on [splabs.io](https://splabs.io/news): 114 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
+Everything we have published on [splabs.io](https://splabs.io/news): 118 articles, newest first in each section. Where an article shows numbers, the same numbers are in [`results/`](results/).
 
-[From the lab](#from-the-lab) (79) · [AI security and psychology](#ai-security-and-psychology) (18) · [Tutorials](#tutorials) (17)
+[From the lab](#from-the-lab) (82) · [AI security and psychology](#ai-security-and-psychology) (19) · [Tutorials](#tutorials) (17)
 
 ## From the lab
+
+- **[661 real agent calls: what rules can stop, and where a decision model helps](https://splabs.io/lab/the-gate-on-661-real-agent-calls)**  
+  <sub>2026-11-25 · [numbers](results/the-gate-on-661-real-agent-calls/)</sub>  
+  On the calls decision models are compared on, closing what is not listed let no bad call through. Those lessons are now how the whole gate works.
+
+- **[A town of agents, run twice: once through the gate, once without](https://splabs.io/lab/a-town-of-agents-through-the-gate)**  
+  <sub>2026-11-25 · [numbers](results/a-town-of-agents-through-the-gate/)</sub>  
+  Ten agents ran a small town's economy for 48 days, twice. Through the gate nothing reached the fraudster, and what still got through showed which facts a rule must read.
 
 - **[The gate's SDK is public: put the gate in front of your agent in a few lines](https://splabs.io/lab/the-gate-sdk-is-public)**  
   <sub>2026-11-24</sub>  
@@ -77,6 +85,10 @@ Everything we have published on [splabs.io](https://splabs.io/news): 114 article
 - **[Machines, buildings and company accounts behind the same gate](https://splabs.io/lab/machines-buildings-and-company-accounts)**  
   <sub>2026-11-19 · [numbers](results/machines-buildings-and-company-accounts/)</sub>  
   The gate now reads what an agent does to a PLC, a CNC machine, a robot, a building or an ERP by the protocol itself, and the owner can declare their machines with a safe range for each value.
+
+- **[The gate's traffic, read the way a network engineer reads packets](https://splabs.io/lab/the-gate-traffic-read-like-packets)**  
+  <sub>2026-11-19</sub>  
+  The gate console shows every action every agent asked for, groups them by shape, and turns a shape into a rule tried on past traffic before it decides anything.
 
 - **[A decision record nobody can rewrite in silence](https://splabs.io/lab/a-decision-record-nobody-can-rewrite)**  
   <sub>2026-11-19</sub>  
@@ -323,6 +335,10 @@ Everything we have published on [splabs.io](https://splabs.io/news): 114 article
   Open models retrained for one job quietly change elsewhere too, and nobody tells their users.
 
 ## AI security and psychology
+
+- **[Above the gate: what a day of agent work looks like, read from the gate's own record](https://splabs.io/news/security/above-the-gate-the-tape-read-across-sessions)**  
+  <sub>2026-11-25</sub>  
+  The gate decides one action at a time. Read across many actions, its record shows which secrets, files and hosts agents use, and each finding becomes a rule.
 
 - **[Two actions at the same instant, kept in order](https://splabs.io/news/security/simultaneous-actions-kept-in-order)**  
   <sub>2026-11-24 · [numbers](results/simultaneous-actions-kept-in-order/)</sub>  

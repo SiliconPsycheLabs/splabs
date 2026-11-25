@@ -1,6 +1,6 @@
 # Results
 
-74 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
+76 articles show numbers. Each has a folder here with the same figures as a readable table (`README.md`) and as `numbers.json`, so they can be checked, quoted or plotted without copying them off a web page. Newest first in each section.
 
 Every figure is an aggregate that the article already shows. The method and its limits are in the article.
 
@@ -8,6 +8,8 @@ Every figure is an aggregate that the article already shows. The method and its 
 
 | Published | Result | |
 |---|---|---|
+| 2026-11-25 | **[661 real agent calls: what rules can stop, and where a decision model helps](the-gate-on-661-real-agent-calls/)**<br><sub>On the calls decision models are compared on, closing what is not listed let no bad call through. Those lessons are now how the whole gate works.</sub> | [article](https://splabs.io/lab/the-gate-on-661-real-agent-calls) |
+| 2026-11-25 | **[A town of agents, run twice: once through the gate, once without](a-town-of-agents-through-the-gate/)**<br><sub>Ten agents ran a small town's economy for 48 days, twice. Through the gate nothing reached the fraudster, and what still got through showed which facts a rule must read.</sub> | [article](https://splabs.io/lab/a-town-of-agents-through-the-gate) |
 | 2026-11-24 | **[Decoys: when the gate stops an attacker, it can answer with a fake](decoys-in-the-gate/)**<br><sub>A rule that stops an action can now answer with a fake result the owner wrote, and a fake key it hands out stops any action that later uses it.</sub> | [article](https://splabs.io/lab/decoys-in-the-gate) |
 | 2026-11-24 | **[A payment API's rules, read from its own published description and checked against the API itself](stripe-rules-from-its-own-document/)**<br><sub>We turned Stripe's published API description into gate rules with no hand-written rule, then asked Stripe itself about 17,000 requests per round. They agree on about 97 in 100.</sub> | [article](https://splabs.io/lab/stripe-rules-from-its-own-document) |
 | 2026-11-19 | **[Our reader finds the training examples that teach a model to give in](reader-finds-bad-training-examples/)**<br><sub>Among replies written to teach firmness, the internal signal flags the ones that teach the opposite: 12 of its top 30, none of its bottom 30.</sub> | [article](https://splabs.io/lab/reader-finds-bad-training-examples) |
