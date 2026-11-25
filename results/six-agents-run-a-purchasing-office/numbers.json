@@ -4,7 +4,7 @@
   "published": "2026-11-25",
   "charts": [
     {
-      "title": "Runs out of 30",
+      "title": "Runs: trap runs out of 30, ordinary work out of 29 with the gate and 30 without",
       "unit": "",
       "series": [
         "Trap runs ended in a harm",
