@@ -83,7 +83,7 @@ reduced, and none could be removed. They are also what the audit of a company's 
 <!--latest:start-->
 - **[Six agents run a purchasing office: every action they take goes through the gate](https://splabs.io/lab/six-agents-run-a-purchasing-office)**  
   <sub>2026-11-25 · [numbers](results/six-agents-run-a-purchasing-office/)</sub>  
-  Six AI agents ran a simulated purchasing office: with the gate deciding, none of the traps got through.
+  Six AI agents ran a simulated purchasing office: with the gate deciding, none of the traps got through, and the ordinary work was done as often as without it.
 
 - **[661 real agent calls: what rules can stop, and where a decision model helps](https://splabs.io/lab/the-gate-on-661-real-agent-calls)**  
   <sub>2026-11-25 · [numbers](results/the-gate-on-661-real-agent-calls/)</sub>  
