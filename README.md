@@ -27,8 +27,8 @@ The rules are drawn from what agents actually try. Where it pays, we also **audi
 inside and **fine-tune** it on its own logged failures, so it runs into the rules less, and the gate's count shows by
 how much.
 
-This repository is where we publish what can be checked from the outside: the numbers behind every article we write,
-and our open data. The gate's engine and its SDK are open source in
+This repository is where we publish what can be checked from the outside: the numbers behind every article we
+write. The gate's engine and its SDK are open source in
 [SiliconPsycheLabs/gate](https://github.com/SiliconPsycheLabs/gate).
 
 ---
@@ -117,7 +117,6 @@ splabs/
 ├── ARTICLES.md        every article we have published, by section, with a one-line summary
 ├── results/           one folder per article that shows numbers
 │   └── <article>/     README.md (the tables, readable) + numbers.json (the same, machine-readable)
-├── datasets/          open data, each with its own card and license
 └── assets/            images used by this page
 ```
 
@@ -148,10 +147,9 @@ yourself, are in the same repository.
 
 ---
 
-## Open data
+## Models
 
-[`datasets/`](datasets/): each dataset has a card that says what it is, how it was built and what it must not be used
-for. Models from our research are on [Hugging Face](https://huggingface.co/SiliconPsycheLabs).
+Models from our research are on [Hugging Face](https://huggingface.co/SiliconPsycheLabs).
 
 ## What we publish, and what we keep
 
@@ -168,5 +166,4 @@ the outside parts can be reproduced.
 
 ## License
 
-Any code in this repository is under the [Apache License 2.0](LICENSE). Each dataset carries its own license in its
-folder. Article texts and figures are © Silicon Psyche Labs: quote them with a link to the article.
+Any code in this repository is under the [Apache License 2.0](LICENSE). Article texts and figures are © Silicon Psyche Labs: quote them with a link to the article.
