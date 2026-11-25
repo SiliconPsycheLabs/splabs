@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://splabs.io"><img alt="Website" src="https://img.shields.io/badge/web-splabs.io-4f46e5?style=flat-square"></a>
   <a href="https://splabs.io/lab"><img alt="From the lab" src="https://img.shields.io/badge/from%20the%20lab-splabs.io%2Flab-6366f1?style=flat-square"></a>
-  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-114-312e81?style=flat-square"></a>
-  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-74-312e81?style=flat-square"></a>
+  <a href="ARTICLES.md"><img alt="Articles" src="https://img.shields.io/badge/articles-118-312e81?style=flat-square"></a>
+  <a href="results/"><img alt="Results" src="https://img.shields.io/badge/results%20with%20numbers-76-312e81?style=flat-square"></a>
   <a href="https://github.com/SiliconPsycheLabs/gate"><img alt="Gate engine and SDK" src="https://img.shields.io/badge/gate-engine%20%2B%20SDK-0ea5e9?style=flat-square"></a>
   <a href="https://huggingface.co/SiliconPsycheLabs"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20models-SiliconPsycheLabs-f59e0b?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-Apache--2.0-64748b?style=flat-square"></a>
@@ -81,6 +81,14 @@ reduced, and none could be removed. They are also what the audit of a company's 
 ## Latest from the lab
 
 <!--latest:start-->
+- **[661 real agent calls: what rules can stop, and where a decision model helps](https://splabs.io/lab/the-gate-on-661-real-agent-calls)**  
+  <sub>2026-11-25 · [numbers](results/the-gate-on-661-real-agent-calls/)</sub>  
+  On the calls decision models are compared on, closing what is not listed let no bad call through. Those lessons are now how the whole gate works.
+
+- **[A town of agents, run twice: once through the gate, once without](https://splabs.io/lab/a-town-of-agents-through-the-gate)**  
+  <sub>2026-11-25 · [numbers](results/a-town-of-agents-through-the-gate/)</sub>  
+  Ten agents ran a small town's economy for 48 days, twice. Through the gate nothing reached the fraudster, and what still got through showed which facts a rule must read.
+
 - **[The gate's SDK is public: put the gate in front of your agent in a few lines](https://splabs.io/lab/the-gate-sdk-is-public)**  
   <sub>2026-11-24</sub>  
   The piece that connects an agent to the gate is now open source, for Python functions, OpenAI-style APIs, LangChain, the OpenAI Agents SDK, CrewAI, MCP servers and coding agents.
@@ -96,14 +104,6 @@ reduced, and none could be removed. They are also what the audit of a company's 
 - **[A payment API's rules, read from its own published description and checked against the API itself](https://splabs.io/lab/stripe-rules-from-its-own-document)**  
   <sub>2026-11-24 · [numbers](results/stripe-rules-from-its-own-document/)</sub>  
   We turned Stripe's published API description into gate rules with no hand-written rule, then asked Stripe itself about 17,000 requests per round. They agree on about 97 in 100.
-
-- **[Models working as agents find what the gate reads wrong](https://splabs.io/lab/agents-find-what-the-gate-misreads)**  
-  <sub>2026-11-24</sub>  
-  Open models now work as agents on all seven of our GPUs, every action checked by the gate and by the real system. Each disagreement points to a rule to fix.
-
-- **[Four models, about 48,000 runs behind the gate, no harm done](https://splabs.io/lab/no-harm-behind-the-gate-in-48000-runs)**  
-  <sub>2026-11-24</sub>  
-  Four open models ran small simulated companies while planted messages pushed them to cause damage. Behind the gate, no run ended in harm. Without it, up to two in three did.
 <!--latest:end-->
 
 All articles with numbers: [`results/`](results/).
